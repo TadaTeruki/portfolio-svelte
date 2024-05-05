@@ -3,7 +3,9 @@
     import Header from "../components/header.svelte";
 </script>
 
-<Header title="Teruki TADA's Webpage" />
+<header>
+    <Header title="Teruki TADA's Webpage" />
+</header>
 
 <main>
     <div class="cardspace">
@@ -28,12 +30,6 @@
     :global(body) {
         font-family: "Zen Kaku Gothic New", sans-serif;
         margin: 0;
-    }
-
-    header {
-        background-color: #333;
-        color: white;
-        padding: 1em;
     }
 
     main {
