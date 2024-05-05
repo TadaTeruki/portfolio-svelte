@@ -47,24 +47,19 @@
             zoom: 3.5,
         });
 
-        createMarker(
-            "Hakodate",
-            "I'm here!",
-            [140.74, 41.77],
-            "high",
-        );
-        createMarker(
-            "Kyoto",
-            "Lived here during<br> my teenage years",
-            [135.7681, 35.0116],
-            "medium",
-        );
-        createMarker(
-            "Fukuyama / Kannabe",
-            "Born here in 2002",
-            [133.3667, 34.4833],
-            "medium",
-        );
+        // create markers from JSON markers.json
+        fetch("markers.json")
+            .then((response) => response.json())
+            .then((data) => {
+                data.markers.forEach((marker: any) => {
+                    createMarker(
+                        marker.name,
+                        marker.description,
+                        marker.coordinates,
+                        marker.priority,
+                    );
+                });
+            });
     });
 </script>
 

@@ -1,0 +1,149 @@
+
+{
+    "markers": [
+        {
+            "name": "Hakodate",
+            "description": "I'm here!",
+            "coordinates": [140.74, 41.77],
+            "priority": "high"
+        },
+        {
+            "name": "Kyoto",
+            "description": "Lived here during<br> my teenage years",
+            "coordinates": [135.7681, 35.0116],
+            "priority": "medium"
+        },
+        {
+            "name": "Fukuyama / Kannabe",
+            "description": "Born here in 2002",
+            "coordinates": [133.3667, 34.4833],
+            "priority": "medium"
+        },
+        {
+            "name": "Mori",
+            "description": "Sometimes visit here<br>for local events",
+            "coordinates": [140.57, 42.10],
+            "priority": "low"
+        },
+        {
+            "name": "Matsumae",
+            "description": "Sometimes visit here<br>for local events",
+            "coordinates": [140.11,41.43],
+            "priority": "low"
+        },
+        {
+            "name": "Esashi",
+            "description": "Visited in Sep 2023",
+            "coordinates": [140.13, 41.87],
+            "priority": "low"
+        },
+        {
+            "name": "Sapporo",
+            "description": "Often visit here<br>to meet nice people",
+            "coordinates": [141.35, 43.05],
+            "priority": "low"
+        },
+        {
+            "name": "Chitose",
+            "description": "Sometimes visit here<br>to meet nice friends",
+            "coordinates": [141.67, 42.82],
+            "priority": "low"
+        },
+        {
+            "name": "Shizunai",
+            "description": "Visited in May 2023",
+            "coordinates": [142.37, 42.34],
+            "priority": "low"
+        },
+        {
+            "name": "Urakawa",
+            "description": "Visited in May 2023",
+            "coordinates": [142.77, 42.17],
+            "priority": "low"
+        },
+        {
+            "name": "Tomakomai",
+            "description": "Visited in May 2023",
+            "coordinates": [141.61, 42.64],
+            "priority": "low"
+        },
+        {
+            "name": "Kushiro",
+            "description": "Visited in Feb 2023<br>to meet nice friends",
+            "coordinates": [144.38, 42.98],
+            "priority": "low"
+        },
+        {
+            "name": "Shari",
+            "description": "Visited in Feb 2023<br>Beautiful scenery of Mt.Shari",
+            "coordinates": [144.67, 43.91],
+            "priority": "low"
+        },
+        {
+            "name": "Abashiri",
+            "description": "Visited in Feb 2023",
+            "coordinates": [144.28, 44.02],
+            "priority": "low"
+        },
+        {
+            "name": "Kitami",
+            "description": "Visited in Feb 2023",
+            "coordinates": [143.89, 43.80],
+            "priority": "low"
+        },
+        {
+            "name": "Asahikawa",
+            "description": "Sometimes visit here<br>to meet nice people",
+            "coordinates": [142.36, 43.77],
+            "priority": "low"
+        },
+        {
+            "name": "Nayoro",
+            "description": "Visited in Sep 2023<br>Remarkable Shopping Mall here",
+            "coordinates": [142.46, 44.35],
+            "priority": "low"
+        },
+        {
+            "name": "Rumoi",
+            "description": "Visited in Sep 2023",
+            "coordinates": [141.64, 43.93],
+            "priority": "low"
+        },
+        {
+            "name": "Takikawa",
+            "description": "Visited in Sep 2023",
+            "coordinates": [141.91, 43.56],
+            "priority": "low"
+        },
+        {
+            "name": "Furano",
+            "description": "Visited in Sep 2023",
+            "coordinates": [142.40, 43.34],
+            "priority": "low"
+        },
+        {
+            "name": "Oma",
+            "description": "Visited in Sep 2023<br>Delicious tuna here",
+            "coordinates": [140.90, 41.52],
+            "priority": "low"
+        },
+        {
+            "name": "Aomori",
+            "description": "Often visit here<br>to take a bus to Tokyo",
+            "coordinates": [140.75, 40.82],
+            "priority": "low"
+        },
+        {
+            "name": "Aizu-Wakamatsu",
+            "description": "Visited in Mar 2023<br>to meet nice friends",
+            "coordinates": [139.93, 37.49],
+            "priority": "low"
+        },
+        {
+            "name": "Tokyo",
+            "description": "Often visit here<br>for various purposes", 
+            "coordinates": [139.76, 35.68],
+            "priority": "low"
+        }
+    ]
+}
