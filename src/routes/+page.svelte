@@ -1,8 +1,9 @@
 <script lang="ts">
     import Card from "../components/namecard.svelte";
+    import Header from "../components/header.svelte";
 </script>
 
-<header>Teruki TADA's Webpage</header>
+<Header title="Teruki TADA's Webpage" />
 
 <main>
     <div class="cardspace">
