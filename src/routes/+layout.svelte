@@ -6,11 +6,7 @@
     <Header />
 </header>
 
-<main>
-    <div class="content">
-        <slot></slot>
-    </div>
-</main>
+<slot />
 
 <footer>Copyright © 2024 Teruki TADA</footer>
 
@@ -32,14 +28,9 @@
     :global(h1, h2, h3, h4, h5, h6) {
         font-weight: normal;
     }
-
-    .content {
-        padding-left: 2em;
-    }
-
     footer {
         color: #888;
-        padding-top: 15vh;
+        padding-top: 10vh;
         padding-bottom: 5vh;
         font-size: 0.8em;
         text-align: center;

@@ -7,6 +7,7 @@
     <div class="contents">
         <a href="https://github.com/TadaTeruki" target="_blank">GitHub</a> |
         <a href="/skills">Skills</a> |
+        <a href="/map">Map</a> |
         <a href="/card">Card</a>
     </div>
 </div>
@@ -15,9 +16,9 @@
     .main {
         background-color: #f8f8f8;
         border-bottom: 1px solid #eee;
-        color: #333;
+        color: #555;
         padding: 0.5em 1em;
-        font-size: 1.1em;
+        font-size: 1em;
         display: flex;
         gap: 2em;
     }
@@ -29,10 +30,10 @@
 
     a {
         text-decoration: none;
-        color: #333;
+        color: #555;
     }
 
     a:hover {
-        color: #555;
+        color: #888;
     }
 </style>

@@ -2,5 +2,7 @@
     import Card from "../../lib/components/namecard.svelte";
 </script>
 
-<h1>Card</h1>
-<Card />
+<main>
+    <h1>Card</h1>
+    <Card />
+</main>

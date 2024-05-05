@@ -2,6 +2,11 @@
     import { onMount } from "svelte";
     import maplibre from "maplibre-gl";
 
+    export let showAllMarkers = false;
+    export let zoom = 3.5;
+    export let center = [138.727, 38.362];
+    export let mapId;
+
     let map: maplibre.Map;
 
     type markerPriority = "low" | "medium" | "high";
@@ -41,10 +46,10 @@
 
     onMount(() => {
         map = new maplibre.Map({
-            container: "map",
+            container: mapId,
             style: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
-            center: [138.727, 38.362],
-            zoom: 3.5,
+            center: [center[0], center[1]],
+            zoom: zoom,
         });
 
         // create markers from JSON markers.json
@@ -52,6 +57,9 @@
             .then((response) => response.json())
             .then((data) => {
                 data.markers.forEach((marker: any) => {
+                    if (!showAllMarkers && marker.priority === "low") {
+                        return;
+                    }
                     createMarker(
                         marker.name,
                         marker.description,
@@ -70,4 +78,4 @@
     />
 </svelte:head>
 
-<div id="map"></div>
+<div id={mapId} />

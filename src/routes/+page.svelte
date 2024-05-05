@@ -3,56 +3,58 @@
     import Titlebox from "../lib/components/titlebox.svelte";
 </script>
 
-<Titlebox />
+<main>
+    <Titlebox />
 
-<div class="title-space"></div>
+    <div class="title-space"></div>
 
-<h2>About Me</h2>
+    <h2>About Me</h2>
 
-<div class="content">
-    I am a hobbyist developer from western Japan, and moved to Hakodate city for
-    university and my interest in new places. I love maps and geography, and
-    most of my work is related to them, such as procedural generation of
-    geographic features. I am also interested in WebGIS and web technologies as
-    tools for expression.
+    <div class="content">
+        I am a hobbyist developer from western Japan, and moved to Hakodate city
+        for university and my interest in new places. I love maps and geography,
+        and most of my work is related to them, such as procedural generation of
+        geographic features. I am also interested in WebGIS and web technologies
+        as tools for expression.
 
-    <Map />
-</div>
+        <Map mapId="map" />
+    </div>
 
-<h2>Educations</h2>
+    <h2>Educations</h2>
 
-<div class="content">
-    <ul>
-        <li>
-            Department of Complex Intelligent Systems, Future University
-            Hakodate<br />
-            <span class="attribution">Apr. 2022 - Present</span><br />
-        </li>
-        <li>
-            Kyoto Prefectural Seimei High School<br />
-            <span class="attribution">Apr. 2018 - Mar. 2022</span><br />
-        </li>
-    </ul>
-</div>
+    <div class="content">
+        <ul>
+            <li>
+                Department of Complex Intelligent Systems, Future University
+                Hakodate<br />
+                <span class="attribution">Apr. 2022 - Present</span><br />
+            </li>
+            <li>
+                Kyoto Prefectural Seimei High School<br />
+                <span class="attribution">Apr. 2018 - Mar. 2022</span><br />
+            </li>
+        </ul>
+    </div>
 
-<h2>Work Experiences</h2>
+    <h2>Work Experiences</h2>
 
-<div class="content">
-    <ul>
-        <li>
-            MIERUNE Inc. as a freelance developer
-            <span class="attribution">Feb. 2024 - Present</span><br />
-        </li>
-        <li>
-            Internship at MIERUNE Inc.
-            <span class="attribution">Sep. 2023</span>
-        </li>
-        <li>
-            Online Spring Internship for Gophers 2022 at Mercari, Inc.
-            <span class="attribution">Mar. 2022</span><br />
-        </li>
-    </ul>
-</div>
+    <div class="content">
+        <ul>
+            <li>
+                MIERUNE Inc. as a freelance developer
+                <span class="attribution">Feb. 2024 - Present</span><br />
+            </li>
+            <li>
+                Internship at MIERUNE Inc.
+                <span class="attribution">Sep. 2023</span>
+            </li>
+            <li>
+                Online Spring Internship for Gophers 2022 at Mercari, Inc.
+                <span class="attribution">Mar. 2022</span><br />
+            </li>
+        </ul>
+    </div>
+</main>
 
 <style>
     .title-space {
