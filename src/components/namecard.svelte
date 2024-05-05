@@ -1,23 +1,12 @@
 <!--card component-->
 
-<script lang="ts">
-    export let name: string;
-    export let subname: string;
-    export let introduction: string[];
-    export let hp: string;
-    export let github: string;
-    export let email: string;
-    export let image: string;
-</script>
-
 <div class="card">
     <div class="text">
-        <div class="name">{name}</div>
-        <div class="subname">{subname}</div>
+        <div class="name">Teruki TADA</div>
+        <div class="subname">多田 瑛貴 / ただ てるき</div>
         <div>
-            {#each introduction as intro}
-                {intro}<br />
-            {/each}
+            - Student at Future University Hakodate<br />
+            - WebGIS / Procedural Generation
         </div>
         <div class="table">
             <div>
@@ -26,13 +15,14 @@
                 Email
             </div>
             <div>
-                <a href={hp}>{hp}</a><br />
-                <a href={"https://github.com/" + github}>{github}</a><br />
-                {email}
+                <a href="https://hello.peruki.dev">https://hello.peruki.dev</a
+                ><br />
+                <a href="https://github.com/TadaTeruki">TadaTeruki</a><br />
+                me@peruki.dev
             </div>
         </div>
     </div>
-    <img src={image} alt={name} />
+    <img src="icon.jpeg" alt="icon" />
 </div>
 
 <style>
