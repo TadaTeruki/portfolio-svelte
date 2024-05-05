@@ -1,17 +1,10 @@
-<div class="titlebox">
-    <div class="titlebox-text">
-        <div class="title">
-            <span class="name">Teruki TADA</span><span class="subname"
-                >多田 瑛貴 / ただ てるき</span
-            >
-        </div>
-        A Hobbyist Developer in Hakodate, Japan<br />
-        WebGIS / Procedural Generation<br />
-    </div>
-    <div class="titlebox-image">
-        <img src="icon.jpeg" alt="icon" />
-    </div>
-</div>
+<script>
+    import Titlebox from "../components/titlebox.svelte";
+</script>
+
+<Titlebox />
+
+<div class="title-space"></div>
 
 <h2>Educations</h2>
 
@@ -22,50 +15,42 @@
             Hakodate<br />
             <span class="attribution">Apr. 2022 - Present</span><br />
         </li>
+        <li>
+            Kyoto Prefectural Seimei High School<br />
+            <span class="attribution">Apr. 2018 - Mar. 2022</span><br />
+        </li>
     </ul>
 </div>
 
+<h2>Work Experiences</h2>
+
+<div class="content">
+    <ul>
+        <li>
+            MIERUNE Inc. as a freelance developer
+            <span class="attribution">Feb. 2024 - Present</span><br />
+        </li>
+        <li>
+            Internship at MIERUNE Inc.
+            <span class="attribution">Sep. 2023</span>
+        </li>
+        <li>
+            Online Spring Internship for Gophers 2022 at Mercari, Inc.
+            <span class="attribution">Mar. 2022</span><br />
+        </li>
+    </ul>
+</div>
+
+
 <style>
-    .titlebox {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .titlebox-text {
-        white-space: nowrap;
-    }
-
-    .titlebox-image {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-    }
-
-    .titlebox-image img {
-        width: 10em;
-    }
-
-    .title {
-        margin-bottom: 0.5em;
-        border-bottom: 1px solid #ccc;
-        width: fit-content;
-    }
-
-    .name {
-        font-size: 2em;
-        margin-right: 0.5em;
-    }
-
-    .subname {
-        font-size: 1em;
-        color: #888;
+    .title-space {
+        height: 1.5em;
     }
 
     .content {
         padding-left: 1em;
         padding-bottom: 2em;
-        line-height: 1.8;
+        line-height: 1.5;
     }
 
     .attribution {

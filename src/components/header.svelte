@@ -12,9 +12,10 @@
 
 <style>
     .main {
-        background-color: #344;
-        color: white;
-        padding: 1em;
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #eee;
+        color: #333;
+        padding: 0.5em 1em;
         font-size: 1.1em;
         display: flex;
         gap: 2em;
@@ -27,10 +28,10 @@
 
     a {
         text-decoration: none;
-        color: white;
+        color: #333;
     }
 
     a:hover {
-        color: #cee;
+        color: #555;
     }
 </style>

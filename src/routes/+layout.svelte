@@ -21,10 +21,14 @@
     }
 
     :global(main) {
-        padding-top: 4em;
+        padding-top: 5em;
         margin: 0 auto;
         max-width: 50em;
         color: #222;
+    }
+
+    :global(h1, h2, h3, h4, h5, h6) {
+        font-weight: normal;
     }
 
     .content {
