@@ -28,7 +28,7 @@
     .titlebox-image {
         flex: 1;
         display: flex;
-        justify-content: center;
+        justify-content: right;
     }
 
     .titlebox-image img {

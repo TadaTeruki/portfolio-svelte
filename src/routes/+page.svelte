@@ -1,5 +1,6 @@
-<script>
-    import Titlebox from "../components/titlebox.svelte";
+<script lang="ts">
+    import Map from "$lib/components/map.svelte";
+import Titlebox from "../lib/components/titlebox.svelte";
 </script>
 
 <Titlebox />
@@ -14,6 +15,8 @@
     I love maps and geography, and most of my work is related to them, 
     such as procedural generation of geographic features. 
     I am also interested in WebGIS and web development as tools for expression. 
+
+    <Map />
 </div>
 
 <h2>Educations</h2>
@@ -68,5 +71,10 @@
 
     .content ul {
         list-style-type: square;
+    }
+
+    :global(#map) {
+        margin-top: 1em;
+        height: 30em;
     }
 </style>

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Card from "../../components/namecard.svelte";
+    import Card from "../../lib/components/namecard.svelte";
 </script>
 
 <h1>Card</h1>
