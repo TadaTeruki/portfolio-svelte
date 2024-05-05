@@ -51,40 +51,6 @@
     </ul>
 </div>
 
-<h2>Skills and Interests</h2>
-<div class="content">
-    Frontend Web Development<br />
-    <ul>
-        <li>JS / TS</li>
-        <li>React / Svelte</li>
-        <li>Mapbox GL JS</li>
-    </ul>
-
-    Backend Web Development<br />
-    <ul>
-        <li>Go - Gin / Echo</li>
-        <li>Hono.js</li>
-    </ul>
-
-    Procedural Generation<br />
-    <ul>
-        <li>Rust</li>
-    </ul>
-
-    Linux GUI Development<br />
-    <ul>
-        <li>Gtk</li>
-        <li>X11 - Xlib / XCB / x11rb</li>
-    </ul>
-
-    Other Skills<br />
-    <ul>
-        <li>Python</li>
-
-    </ul>
-</div>
-
-
 <style>
     .title-space {
         height: 1.5em;

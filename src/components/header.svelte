@@ -6,6 +6,7 @@
     </div>
     <div class="contents">
         <a href="https://github.com/TadaTeruki" target="_blank">GitHub</a> |
+        <a href="/skills">Skills</a> |
         <a href="/card">Card</a>
     </div>
 </div>
