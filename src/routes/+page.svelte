@@ -5,18 +5,20 @@
 <header>Teruki TADA's Webpage</header>
 
 <main>
-    <Card
-        name="Teruki TADA"
-        subname="多田 瑛貴 / ただ てるき"
-        introduction={[
-            "- Student at Future University Hakodate",
-            "- WebGIS / Procedural Generation",
-        ]}
-        image="icon.jpeg"
-        hp="https://hello.peruki.dev"
-        email="contact@peruki.dev"
-        github="TadaTeruki"
-    />
+    <div class="cardspace">
+        <Card
+            name="Teruki TADA"
+            subname="多田 瑛貴 / ただ てるき"
+            introduction={[
+                "- Student at Future University Hakodate",
+                "- WebGIS / Procedural Generation",
+            ]}
+            image="icon.jpeg"
+            hp="https://hello.peruki.dev"
+            email="contact@peruki.dev"
+            github="TadaTeruki"
+        />
+    </div>
 </main>
 
 <style>
@@ -37,5 +39,10 @@
         padding: 5em;
         margin: 0 auto;
         max-width: 80em;
+    }
+
+    .cardspace {
+        display: flex;
+        justify-content: center;
     }
 </style>

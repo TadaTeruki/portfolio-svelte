@@ -22,13 +22,13 @@
         <div class="table">
             <div>
                 HP<br />
-                Email<br />
-                GitHub
+                GitHub<br />
+                Email
             </div>
             <div>
-                {hp}<br />
-                {email}<br />
-                {github}
+                <a href={hp}>{hp}</a><br />
+                <a href={"https://github.com/" + github}>{github}</a><br />
+                {email}
             </div>
         </div>
     </div>
@@ -39,9 +39,9 @@
     .card {
         border-style: solid;
         background-color: #fff;
-        border-width: 1em 0 1em 0;
+        border-width: 1em 0.05em 1em 0.05em;
         border-color: #dee;
-        border-radius: 4px;
+        border-radius: 0.5em;
         box-sizing: border-box;
 
         max-width: 40em;
@@ -69,6 +69,15 @@
         padding: 1em;
         width: 35%;
         border-radius: 4px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #477;
+    }
+
+    a:hover {
+        color: #6aa;
     }
 
     .name {
