@@ -11,10 +11,10 @@
     <h2>About Me</h2>
 
     <div class="content">
-        I am a hobbyist developer from western Japan, and moved to Hakodate city
+        I'm a hobbyist developer from western Japan, and moved to Hakodate city
         for university and my interest in new places. I love maps and geography,
         and most of my work is related to them, such as procedural generation of
-        geographic features. I am also interested in WebGIS and web technologies
+        geographic features. I'm also interested in WebGIS and web technologies
         as tools for expression.
 
         <Map mapId="map" />
@@ -54,6 +54,13 @@
             </li>
         </ul>
     </div>
+
+    <h2>Contact</h2>
+    <div class="content">
+        <ul>
+            <li>Email: me@peruki.dev</li>
+        </ul>
+    </div>
 </main>
 
 <style>
@@ -69,10 +76,6 @@
 
     .attribution {
         color: #888;
-    }
-
-    .content ul {
-        list-style-type: square;
     }
 
     :global(#map) {

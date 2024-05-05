@@ -4,12 +4,7 @@
 
 <h2>My Map</h2>
 
-<Map
-    showAllMarkers={true}
-    zoom={6}
-    center={[141.346, 43.064]}
-    mapId={"fullmap"}
-/>
+<Map showAllMarkers={true} zoom={4.5} mapId={"fullmap"} />
 
 <style>
     :global(#fullmap) {

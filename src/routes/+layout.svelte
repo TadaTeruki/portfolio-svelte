@@ -28,6 +28,11 @@
     :global(h1, h2, h3, h4, h5, h6) {
         font-weight: normal;
     }
+
+    :global(.content ul) {
+        list-style-type: square;
+    }
+
     footer {
         color: #888;
         padding-top: 10vh;

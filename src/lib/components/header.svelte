@@ -5,6 +5,7 @@
         <a href="/">Teruki TADA</a>
     </div>
     <div class="contents">
+        <a href="/">Home</a> |
         <a href="https://github.com/TadaTeruki" target="_blank">GitHub</a> |
         <a href="/skills">Skills</a> |
         <a href="/map">Map</a> |
