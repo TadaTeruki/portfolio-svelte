@@ -1,14 +1,23 @@
+<script lang="ts">
+import Card from "../components/namecard.svelte";
+</script>
 <header>Teruki TADA's Webpage</header>
 
 <main>
-    <h1>Teruki TADA 多田 瑛貴</h1>
-    <p>A Hobbiest Developer in Hakodate, Japan</p>
+    <Card
+        name="Teruki TADA"
+        subname="多田 瑛貴 / ただ てるき"
+        introduction={["Student at Future University Hakodate"]}
+        image="icon.jpeg"
+        hp="https://hello.peruki.dev"
+        email="contact@peruki.dev"
+        github="TadaTeruki"
+    />
 </main>
-
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 
     :global(body) {
         font-family: 'Zen Kaku Gothic New', sans-serif;
