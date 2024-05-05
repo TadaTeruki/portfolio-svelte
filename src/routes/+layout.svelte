@@ -12,9 +12,7 @@
     </div>
 </main>
 
-<footer>
-    Copyright © 2024 Teruki TADA
-</footer>
+<footer>Copyright © 2024 Teruki TADA</footer>
 
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap");

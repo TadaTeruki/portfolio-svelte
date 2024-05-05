@@ -1,11 +1,10 @@
-
 <h1>Skills and Interests</h1>
 <div class="content">
     Frontend Web Development<br />
     <ul>
         <li>JS / TS</li>
         <li>React / Svelte</li>
-        <li>Mapbox GL JS</li>
+        <li>Maplibre GL JS</li>
     </ul>
 
     Backend Web Development<br />
@@ -14,9 +13,9 @@
         <li>Hono.js</li>
     </ul>
 
-    Procedural Generation<br />
+    Simulator Development<br />
     <ul>
-        <li>Rust</li>
+        <li>Rust with WebAssembly</li>
     </ul>
 
     Linux GUI Development<br />

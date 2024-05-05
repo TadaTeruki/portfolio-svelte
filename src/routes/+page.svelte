@@ -1,6 +1,6 @@
 <script lang="ts">
     import Map from "$lib/components/map.svelte";
-import Titlebox from "../lib/components/titlebox.svelte";
+    import Titlebox from "../lib/components/titlebox.svelte";
 </script>
 
 <Titlebox />
@@ -10,11 +10,11 @@ import Titlebox from "../lib/components/titlebox.svelte";
 <h2>About Me</h2>
 
 <div class="content">
-    I am a hobbyist developer from western Japan, 
-    and moved to Hakodate for university and my interest in other places.
-    I love maps and geography, and most of my work is related to them, 
-    such as procedural generation of geographic features. 
-    I am also interested in WebGIS and web development as tools for expression. 
+    I am a hobbyist developer from western Japan, and moved to Hakodate city for
+    university and my interest in new places. I love maps and geography, and
+    most of my work is related to them, such as procedural generation of
+    geographic features. I am also interested in WebGIS and web technologies as
+    tools for expression.
 
     <Map />
 </div>
