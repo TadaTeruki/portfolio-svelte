@@ -15,14 +15,16 @@
                 Email
             </div>
             <div>
-                <a href="https://hello.peruki.dev">https://hello.peruki.dev</a
-                ><br />
+                <a href="https://hello.peruki.dev">hello.peruki.dev</a><br />
                 <a href="https://github.com/TadaTeruki">TadaTeruki</a><br />
                 me@peruki.dev
             </div>
+            <img src="QR.png" alt="qrcode" />
         </div>
     </div>
-    <img src="icon.jpeg" alt="icon" />
+    <div class="image">
+        <img src="icon.jpeg" alt="icon" />
+    </div>
 </div>
 
 <style>
@@ -54,10 +56,14 @@
         gap: 1em;
         margin-top: 1em;
     }
+    .table img {
+        width: 5em;
+        margin: auto;
+    }
 
-    img {
+    .image img {
         padding: 1em;
-        width: 35%;
+        width: 80%;
         border-radius: 4px;
     }
 

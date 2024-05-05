@@ -2,7 +2,7 @@
     import Map from "$lib/components/map.svelte";
 </script>
 
-<h2>My Map</h2>
+<h2>My Journey</h2>
 
 <Map showAllMarkers={true} zoom={4.5} mapId={"fullmap"} />
 

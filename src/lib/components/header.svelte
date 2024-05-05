@@ -6,10 +6,11 @@
     </div>
     <div class="contents">
         <a href="/">Home</a> |
-        <a href="https://github.com/TadaTeruki" target="_blank">GitHub</a> |
+        <a href="/works">Works</a> |
         <a href="/skills">Skills</a> |
         <a href="/map">Map</a> |
-        <a href="/card">Card</a>
+        <a href="/card">Card</a> |
+        <a href="https://github.com/TadaTeruki" target="_blank">GitHub</a>
     </div>
 </div>
 
