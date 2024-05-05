@@ -12,6 +12,10 @@
     </div>
 </main>
 
+<footer>
+    Copyright © 2024 Teruki TADA
+</footer>
+
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap");
 
@@ -33,5 +37,13 @@
 
     .content {
         padding-left: 2em;
+    }
+
+    footer {
+        color: #888;
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        font-size: 0.8em;
+        text-align: center;
     }
 </style>
