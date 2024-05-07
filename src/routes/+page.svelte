@@ -17,34 +17,6 @@
         them. I'm also interested in WebGIS and web technologies as tools for
         visual expression.
 
-        <br /><br />
-
-        One of my goals is to create a detailed and realistic world map
-        generator, and visualise its result in a web browser as WebGIS. For this
-        purpose, I'm studying Computer Science at university, and developing
-        procedural generation tools for geographic features as Rust libraries
-        such as
-        <a
-            class="globallink"
-            href="https://github.com/TadaTeruki/fastlem"
-            target="_blank">terrain</a
-        >,
-        <a
-            class="globallink"
-            href="https://github.com/TadaTeruki/street-engine"
-            target="_blank"
-        >
-            transportation networks
-        </a>
-        and
-        <a
-            class="globallink"
-            href="https://github.com/TadaTeruki/name-engine"
-            target="_blank"
-        >
-            place names</a
-        >.
-
         <Map mapId="map" />
     </div>
 
