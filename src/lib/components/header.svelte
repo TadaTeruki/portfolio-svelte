@@ -19,6 +19,7 @@
         font-size: 1em;
         display: flex;
         gap: 2em;
+        white-space: nowrap;
     }
 
     a {

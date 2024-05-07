@@ -38,12 +38,12 @@
     }
 
     :global(.content) {
-        padding-left: 1em;
-        padding-bottom: 2em;
+        padding: 1em;
         line-height: 1.5;
     }
 
     :global(h1, h2, h3, h4, h5, h6) {
+        padding-left: 0.5em;
         font-weight: normal;
     }
 

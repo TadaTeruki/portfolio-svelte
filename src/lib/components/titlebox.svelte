@@ -17,6 +17,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 10%;
+        flex-wrap: wrap;
     }
 
     .titlebox-text {
@@ -26,7 +27,7 @@
     .titlebox-image {
         flex: 1;
         display: flex;
-        justify-content: right;
+        justify-content: center;
     }
 
     .titlebox-image img {

@@ -14,6 +14,13 @@
 <style>
     .content {
         display: flex;
+        justify-content: left;
         flex-wrap: wrap;
+    }
+
+    @media (max-width: 50em) {
+        .content {
+            justify-content: center;
+        }
     }
 </style>
