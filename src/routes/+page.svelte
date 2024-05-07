@@ -24,11 +24,15 @@
     <div class="content">
         <a class="globallink" href="/">Home</a> - About me and this site<br />
         <a class="globallink" href="/profile">Profile</a> - My profile<br />
-        <a class="globallink" href="/works">Works</a> - My technical works I've created<br />
-        <a class="globallink" href="/skills">Skills</a> - My technical skills<br />
-        <a class="globallink" href="/map">Map</a> - Places I've been<br />
+        <a class="globallink" href="/works">Works</a> - My technical works I've
+        created<br />
+        <a class="globallink" href="/skills">Skills</a> - My technical skills<br
+        />
+        <a class="globallink" href="/map">Map</a> - Visualisation of places I've
+        been<br />
         <a class="globallink" href="/card">Card</a> - My business card<br />
-        <a class="globallink" href="/contact">Contact</a> - Contact me<br />
+        <a class="globallink" href="/contact">Contact</a> - How to contact me<br
+        />
     </div>
 </main>
 
@@ -47,5 +51,4 @@
         margin-top: 1em;
         height: 30em;
     }
-    
 </style>

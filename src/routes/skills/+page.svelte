@@ -14,9 +14,9 @@
             <li>Hono.js</li>
         </ul>
 
-        Simulator Development<br />
+        Simulation<br />
         <ul>
-            <li>Rust with WebAssembly</li>
+            <li>Rust</li>
         </ul>
 
         Linux GUI Development<br />

@@ -28,7 +28,9 @@
         <p>{work.description}</p>
         <div class="links">
             {#each work.urls as url}
-                <a class="globallink" href={url.url} target="_blank">{url.tag}</a>
+                <a class="globallink" href={url.url} target="_blank"
+                    >{url.tag}</a
+                >
                 {#if url !== work.urls[work.urls.length - 1]}
                     |
                 {/if}

@@ -15,8 +15,12 @@
                 Email
             </div>
             <div>
-                <a class="globallink" href="https://hello.peruki.dev">hello.peruki.dev</a><br />
-                <a class="globallink" href="https://github.com/TadaTeruki">TadaTeruki</a><br />
+                <a class="globallink" href="https://hello.peruki.dev"
+                    >hello.peruki.dev</a
+                ><br />
+                <a class="globallink" href="https://github.com/TadaTeruki"
+                    >TadaTeruki</a
+                ><br />
                 me@peruki.dev
             </div>
             <img src="QR.png" alt="qrcode" />
