@@ -13,7 +13,7 @@
                     "url": "https://github.com/TadaTeruki/HokkaidoGenerator"
                 }
             ],
-            "category": "Web Application",
+            "category": "Web Applications",
             "technologies": [
                 "Typescript",
                 "Svelte",
@@ -35,7 +35,7 @@
                     "url": "https://github.com/TadaTeruki/roadside-explorer"
                 }
             ],
-            "category": "Web Application",
+            "category": "Web Applications",
             "technologies": [
                 "Typescript",
                 "React",
@@ -57,7 +57,7 @@
                     "url": "https://github.com/TadaTeruki/fastlem"
                 }
             ],
-            "category": "Library",
+            "category": "Libraries",
             "technologies": [
                 "Rust",
                 "Landscape Evolution Model"
@@ -74,7 +74,7 @@
                     "url": "https://github.com/TadaTeruki/name-engine"
                 }
             ],
-            "category": "Library",
+            "category": "Libraries",
             "technologies": [
                 "Rust",
                 "Markov Chain"
@@ -91,7 +91,7 @@
                     "url": "https://github.com/TadaTeruki/naturalneighbor"
                 }
             ],
-            "category": "Library",
+            "category": "Libraries",
             "technologies": [
                 "Rust"
             ],

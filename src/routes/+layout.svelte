@@ -19,7 +19,7 @@
     }
 
     :global(main) {
-        padding-top: 5em;
+        padding-top: 3em;
         margin: 0 auto;
         max-width: 50em;
         color: #222;
