@@ -2,7 +2,7 @@
     "works": [
         {
             "name": "Hokkaido Generator",
-            "description": "Generate fictional cities in Hokkaido",
+            "description": "Generate fictional city in Hokkaido",
             "urls": [
                 {
                     "tag": "Site",
@@ -24,7 +24,7 @@
         },
         {
             "name": "Roadside Explorer",
-            "description": "Visualize areas where roadside stores gather in Japan",
+            "description": "Estimate and Visualize areas where roadside stores gather in Japan",
             "urls": [
                 {
                     "tag": "Site",
@@ -39,7 +39,9 @@
             "technologies": [
                 "Typescript",
                 "React",
-                "Maplibre GL JS"
+                "Maplibre GL JS",
+                "OpenStreetMap",
+                "QGIS"
             ],
             "thumbnail": "RoadsideExplorer.jpg",
             "personal": true
