@@ -17,7 +17,7 @@
                     target="_blank">@PerukiFUN</a
                 ><br />
                 I'm active on X. Please feel free to send me direct messages instead
-                of emails if you want to contact me casually. The responce can be
+                of emails if you want to contact me casually. The response can be
                 faster than email.<br />
 
                 Note that my posts are mostly in Japanese and not related to my
