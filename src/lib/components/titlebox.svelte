@@ -21,7 +21,6 @@
     }
 
     .titlebox-text {
-        white-space: nowrap;
     }
 
     .titlebox-image {
@@ -37,10 +36,12 @@
     .name {
         font-size: 2em;
         margin-right: 0.5em;
+        white-space: nowrap;
     }
 
     .subname {
         font-size: 1em;
         color: #888;
+        white-space: nowrap;
     }
 </style>
