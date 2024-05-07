@@ -19,7 +19,7 @@
 
         <br /><br />
 
-        My goal is to create a detailed and realistic world map generator, and
+        One of my goals is to create a detailed and realistic world map generator, and
         visualise its result in a web browser as WebGIS. For this purpose, I'm
         studying Computer Science at university, and developing procedural
         generation tools for geographic features as Rust libraries such as
