@@ -11,11 +11,12 @@
     <h2>About Me</h2>
 
     <div class="content">
-        I'm a hobbyist developer from western Japan, and moved to Hakodate city
-        in Hokkaido for university and my interest in new places. I love maps
-        and geography, and most of my work is related to them, such as
-        procedural generation of geographic features. I'm also interested in
-        WebGIS and web technologies as tools for visual expression.
+        My name is Teruki TADA. I'm a hobbyist developer from western Japan, and
+        moved to Hakodate city in Hokkaido for university and my interest in new
+        places. I love maps and geography, and most of my work is related to
+        them, such as procedural generation of geographic features. I'm also
+        interested in WebGIS and web technologies as tools for visual
+        expression.
 
         <Map mapId="map" />
     </div>

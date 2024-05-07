@@ -15,7 +15,7 @@
             <li>Hono.js</li>
         </ul>
 
-        Simulation<br />
+        Simulator Programming<br />
         <ul>
             <li>Rust</li>
         </ul>
@@ -24,11 +24,13 @@
         <ul>
             <li>GTK3/4</li>
             <li>X11 - Xlib / XCB / x11rb</li>
+            <li>Wayland - wlroots (still learning)</li>
         </ul>
 
         Other Skills<br />
         <ul>
             <li>C / C++ / Python</li>
+            <li>Java / Processing (for university)</li>
         </ul>
     </div>
 

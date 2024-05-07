@@ -47,10 +47,6 @@
 </main>
 
 <style>
-    .title-space {
-        height: 1.5em;
-    }
-
     .attribution {
         color: #888;
     }
