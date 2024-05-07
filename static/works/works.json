@@ -17,7 +17,7 @@
             "technologies": [
                 "Typescript",
                 "Svelte",
-                "Mapbox GL JS"
+                "Maplibre GL JS"
             ],
             "thumbnail": "HokkaidoGenerator.png",
             "personal": true
@@ -39,7 +39,7 @@
             "technologies": [
                 "Typescript",
                 "React",
-                "Mapbox GL JS"
+                "Maplibre GL JS"
             ],
             "thumbnail": "RoadsideExplorer.jpg",
             "personal": true

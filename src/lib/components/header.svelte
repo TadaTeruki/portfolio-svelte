@@ -1,17 +1,13 @@
-<!--header component-->
+<script>
+    import Navigation from "./navigation.svelte";
+</script>
 
 <div class="main">
     <div class="title">
         <a href="/">Teruki TADA</a>
     </div>
-    <div class="contents">
-        <a href="/">Home</a> |
-        <a href="/works">Works</a> |
-        <a href="/skills">Skills</a> |
-        <a href="/map">Map</a> |
-        <a href="/card">Card</a> |
-        <a href="https://github.com/TadaTeruki" target="_blank">GitHub</a>
-    </div>
+
+    <Navigation />
 </div>
 
 <style>
@@ -23,11 +19,6 @@
         font-size: 1em;
         display: flex;
         gap: 2em;
-    }
-
-    .contents {
-        display: flex;
-        gap: 0.5em;
     }
 
     a {

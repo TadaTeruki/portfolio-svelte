@@ -1,5 +1,6 @@
 <script lang="ts">
-    import Header from "../lib/components/header.svelte";
+    import Navigation from "$lib/components/navigation.svelte";
+import Header from "../lib/components/header.svelte";
 </script>
 
 <header>
@@ -8,7 +9,12 @@
 
 <slot />
 
-<footer>Copyright © 2024 Teruki TADA</footer>
+<footer>
+    <div class="footerElements">
+        <Navigation />
+        Copyright © 2024 Teruki TADA
+    </div>
+</footer>
 
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap");
@@ -38,6 +44,15 @@
         padding-top: 10vh;
         padding-bottom: 5vh;
         font-size: 0.8em;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerElements {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
     }
 </style>
