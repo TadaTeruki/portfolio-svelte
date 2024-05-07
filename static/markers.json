@@ -45,7 +45,7 @@
         },
         {
             "name": "Chitose",
-            "description": "Sometimes visit here<br>to meet nice friends",
+            "description": "Sometimes visit here<br>to meet friends",
             "coordinates": [141.67, 42.82],
             "priority": "low"
         },
@@ -69,13 +69,13 @@
         },
         {
             "name": "Kushiro",
-            "description": "Visited in Feb 2023<br>to meet nice friends",
+            "description": "Visited in Feb 2023<br>to meet friends",
             "coordinates": [144.38, 42.98],
             "priority": "low"
         },
         {
             "name": "Shari",
-            "description": "Visited in Feb 2023<br>Beautiful scenery of Mt.Shari",
+            "description": "Visited in Feb 2023<br>Beautiful scenery of Mt.Shari here",
             "coordinates": [144.67, 43.91],
             "priority": "low"
         },
@@ -99,7 +99,7 @@
         },
         {
             "name": "Nayoro",
-            "description": "Visited in Sep 2023<br>Remarkable Shopping Mall here",
+            "description": "Visited in Sep 2023<br>Nice shopping mall here",
             "coordinates": [142.46, 44.35],
             "priority": "low"
         },
@@ -123,7 +123,7 @@
         },
         {
             "name": "Oma",
-            "description": "Visited in Sep 2023<br>Delicious tuna here",
+            "description": "Visited in Sep 2023<br>to eat raw tuna",
             "coordinates": [140.90, 41.52],
             "priority": "low"
         },
@@ -135,7 +135,7 @@
         },
         {
             "name": "Aizu-Wakamatsu",
-            "description": "Visited in Mar 2023<br>to meet nice friends",
+            "description": "Visited in Mar 2023<br>to meet friends",
             "coordinates": [139.93, 37.49],
             "priority": "low"
         },
