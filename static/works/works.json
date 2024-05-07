@@ -15,7 +15,7 @@
             ],
             "category": "Web Applications",
             "technologies": [
-                "Typescript",
+                "TypeScript",
                 "Svelte",
                 "Maplibre GL JS"
             ],
@@ -37,7 +37,7 @@
             ],
             "category": "Web Applications",
             "technologies": [
-                "Typescript",
+                "TypeScript",
                 "React",
                 "Maplibre GL JS",
                 "OpenStreetMap",
@@ -69,7 +69,7 @@
         },
         {
             "name": "name-engine",
-            "description": "Rust library for generating names, particularly for fictional place names",
+            "description": "Rust library for generating names, particularly for place names",
             "urls": [
                 {
                     "tag": "GitHub",

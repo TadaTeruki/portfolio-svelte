@@ -6,7 +6,6 @@
         <ul>
             <li>JS / TS</li>
             <li>React / Svelte</li>
-            <li>Maplibre GL JS</li>
         </ul>
 
         Backend Web Development<br />
@@ -30,7 +29,7 @@
         Other Skills<br />
         <ul>
             <li>C / C++ / Python</li>
-            <li>Java / Processing (for university)</li>
+            <li>Java / Processing (in university)</li>
         </ul>
     </div>
 
