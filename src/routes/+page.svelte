@@ -12,10 +12,10 @@
 
     <div class="content">
         I'm a hobbyist developer from western Japan, and moved to Hakodate city
-        in Hokkaido for university and my interest in new places. I love maps and geography,
-        and most of my work is related to them, such as procedural generation of
-        geographic features. I'm also interested in WebGIS and web technologies
-        as tools for visual expression.
+        in Hokkaido for university and my interest in new places. I love maps
+        and geography, and most of my work is related to them, such as
+        procedural generation of geographic features. I'm also interested in
+        WebGIS and web technologies as tools for visual expression.
 
         <Map mapId="map" />
     </div>
@@ -26,8 +26,7 @@
         <a class="globallink" href="/profile">Profile</a> - My profile<br />
         <a class="globallink" href="/works">Works</a> - My technical works I've
         created<br />
-        <a class="globallink" href="/skills">Skills</a> - My skills<br
-        />
+        <a class="globallink" href="/skills">Skills</a> - My skills<br />
         <a class="globallink" href="/map">Map</a> - Visualisation of places I've
         been<br />
         <a class="globallink" href="/card">Card</a> - My business card<br />
@@ -39,12 +38,6 @@
 <style>
     .title-space {
         height: 1.5em;
-    }
-
-    .content {
-        padding-left: 1em;
-        padding-bottom: 2em;
-        line-height: 1.5;
     }
 
     :global(#map) {

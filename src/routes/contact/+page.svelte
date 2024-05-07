@@ -1,5 +1,5 @@
 <main>
-    <h2>Contact</h2>
+    <h1>Contact</h1>
     <div class="content">
         <ul>
             <li>

@@ -40,7 +40,7 @@
         border-radius: 0.5em;
         box-sizing: border-box;
 
-        max-width: 40em;
+        width: 40em;
         aspect-ratio: 91/55;
         display: flex;
         align-items: center;

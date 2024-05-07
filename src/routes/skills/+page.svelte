@@ -32,15 +32,17 @@
         </ul>
     </div>
 
-    <br>
+    <br />
     <h2>Languages</h2>
     <div class="content">
         <ul>
             <li>Japanese: Native</li>
             <br />
-            <li>English: Only reading and writing<br />
+            <li>
+                English: Only reading and writing<br />
                 I'm not good at speaking and listening in English now.<br />
-                I also can frequently use AI assistance tools for understanding and writing English.
+                I also can frequently use AI assistance tools for understanding and
+                writing English.
             </li>
         </ul>
     </div>
