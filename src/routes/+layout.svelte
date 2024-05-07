@@ -1,7 +1,13 @@
 <script lang="ts">
     import Navigation from "$lib/components/navigation.svelte";
-import Header from "../lib/components/header.svelte";
+    import Header from "../lib/components/header.svelte";
 </script>
+
+<svelte:head>
+    <title>Teruki TADA</title>
+    <meta name="description" content="Teruki TADA's personal website" />
+    <link rel="icon" href="/icon.jpeg" />
+</svelte:head>
 
 <header>
     <Header />
