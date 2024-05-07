@@ -12,10 +12,10 @@
 
     <div class="content">
         I'm a hobbyist developer from western Japan, and moved to Hakodate city
-        for university and my interest in new places. I love maps and geography,
+        in Hokkaido for university and my interest in new places. I love maps and geography,
         and most of my work is related to them, such as procedural generation of
         geographic features. I'm also interested in WebGIS and web technologies
-        as tools for expression.
+        as tools for visual expression.
 
         <Map mapId="map" />
     </div>

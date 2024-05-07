@@ -30,4 +30,16 @@
             <li>C / C++ / Python</li>
         </ul>
     </div>
+
+    <br>
+    <h2>Language Skills</h2>
+    <div class="content">
+        <ul>
+            <li>Japanese: Native</li>
+            <li>English: Only reading and writing<br />
+                I'm not good at speaking and listening in English now.<br />
+                I also can frequently use AI translation tools to understand and write English.
+            </li>
+        </ul>
+    </div>
 </main>
