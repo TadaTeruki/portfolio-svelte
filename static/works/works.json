@@ -1,0 +1,97 @@
+{
+    "works": [
+        {
+            "name": "Hokkaido Generator",
+            "description": "Generate fictional cities in Hokkaido",
+            "urls": [
+                {
+                    "tag": "Site",
+                    "url": "https://hokkaidogenerator.peruki.dev"
+                },
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/HokkaidoGenerator"
+                }
+            ],
+            "category": "Web Application",
+            "technologies": [
+                "Typescript",
+                "Svelte",
+                "Mapbox GL JS"
+            ],
+            "thumbnail": "HokkaidoGenerator.png"
+        },
+        {
+            "name": "Roadside Explorer",
+            "description": "Visualize areas where roadside stores gather in Japan",
+            "urls": [
+                {
+                    "tag": "Site",
+                    "url": "https://roadside-explorer.pages.dev"
+                },
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/roadside-explorer"
+                }
+            ],
+            "category": "Web Application",
+            "technologies": [
+                "Typescript",
+                "React",
+                "Mapbox GL JS"
+            ],
+            "thumbnail": "RoadsideExplorer.jpg"
+        },
+        {
+            "name": "fastlem",
+            "description": "Rust library for generating terrain",
+            "urls": [
+                {
+                    "tag": "Demo",
+                    "url": "https://fastlem.peruki.dev"
+                },
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/fastlem"
+                }
+            ],
+            "category": "Library",
+            "technologies": [
+                "Rust",
+                "Landscape Evolution Model"
+            ],
+            "thumbnail": "fastlem.png"
+        },
+        {
+            "name": "name-engine",
+            "description": "Rust library for generating names, particularly for fictional place names",
+            "urls": [
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/name-engine"
+                }
+            ],
+            "category": "Library",
+            "technologies": [
+                "Rust",
+                "Markov Chain"
+            ],
+            "thumbnail": "name-engine.png"
+        },
+        {
+            "name": "naturalneighbor",
+            "description": "Rust library for natural neighbor interpolation",
+            "urls": [
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/naturalneighbor"
+                }
+            ],
+            "category": "Library",
+            "technologies": [
+                "Rust"
+            ],
+            "thumbnail": "naturalneighbor.png"
+        }
+    ]
+}
