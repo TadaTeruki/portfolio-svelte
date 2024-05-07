@@ -19,7 +19,8 @@
                 "Svelte",
                 "Mapbox GL JS"
             ],
-            "thumbnail": "HokkaidoGenerator.png"
+            "thumbnail": "HokkaidoGenerator.png",
+            "personal": true
         },
         {
             "name": "Roadside Explorer",
@@ -40,7 +41,8 @@
                 "React",
                 "Mapbox GL JS"
             ],
-            "thumbnail": "RoadsideExplorer.jpg"
+            "thumbnail": "RoadsideExplorer.jpg",
+            "personal": true
         },
         {
             "name": "fastlem",
@@ -60,7 +62,8 @@
                 "Rust",
                 "Landscape Evolution Model"
             ],
-            "thumbnail": "fastlem.png"
+            "thumbnail": "fastlem.png",
+            "personal": true
         },
         {
             "name": "name-engine",
@@ -76,7 +79,8 @@
                 "Rust",
                 "Markov Chain"
             ],
-            "thumbnail": "name-engine.png"
+            "thumbnail": "name-engine.png",
+            "personal": true
         },
         {
             "name": "naturalneighbor",
@@ -91,7 +95,8 @@
             "technologies": [
                 "Rust"
             ],
-            "thumbnail": "naturalneighbor.png"
+            "thumbnail": "naturalneighbor.png",
+            "personal": true
         }
     ]
 }
