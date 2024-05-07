@@ -15,8 +15,8 @@
                 Email
             </div>
             <div>
-                <a href="https://hello.peruki.dev">hello.peruki.dev</a><br />
-                <a href="https://github.com/TadaTeruki">TadaTeruki</a><br />
+                <a class="globallink" href="https://hello.peruki.dev">hello.peruki.dev</a><br />
+                <a class="globallink" href="https://github.com/TadaTeruki">TadaTeruki</a><br />
                 me@peruki.dev
             </div>
             <img src="QR.png" alt="qrcode" />
@@ -65,15 +65,6 @@
         padding: 1em;
         width: 80%;
         border-radius: 4px;
-    }
-
-    a {
-        text-decoration: none;
-        color: #477;
-    }
-
-    a:hover {
-        color: #6aa;
     }
 
     .name {

@@ -8,7 +8,7 @@
 
 <style>
     :global(#fullmap) {
-        height: 75vh;
+        height: 70vh;
     }
 
     h2 {

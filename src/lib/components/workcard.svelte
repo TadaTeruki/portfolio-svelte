@@ -16,7 +16,7 @@
     export let work: Work;
 </script>
 
-<a href={work.urls[0].url} target="_blank">
+<a href={work.urls[0].url} target="_blank" class="cardlink">
     <div class="card">
         <img src={`/works/images/${work.thumbnail}`} alt={work.name} />
         <h2>{work.name}</h2>
@@ -28,7 +28,7 @@
         <p>{work.description}</p>
         <div class="links">
             {#each work.urls as url}
-                <a href={url.url} target="_blank">{url.tag}</a>
+                <a class="globallink" href={url.url} target="_blank">{url.tag}</a>
                 {#if url !== work.urls[work.urls.length - 1]}
                     |
                 {/if}
@@ -89,16 +89,8 @@
         margin: auto;
     }
 
-    a {
-        text-decoration: none;
+    a.cardlink {
         color: inherit;
-    }
-
-    .links a {
-        color: #477;
-    }
-
-    .links a:hover {
-        color: #6aa;
+        text-decoration: none;
     }
 </style>

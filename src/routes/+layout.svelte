@@ -61,4 +61,13 @@
         flex-direction: column;
         gap: 0.5em;
     }
+
+    :global(a.globallink) {
+        text-decoration: none;
+        color: #477;
+    }
+
+    :global(a.globallink:hover) {
+        color: #6aa;
+    }
 </style>

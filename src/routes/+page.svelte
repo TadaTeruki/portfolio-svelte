@@ -20,46 +20,15 @@
         <Map mapId="map" />
     </div>
 
-    <h2>Educations</h2>
-
+    <h2>Links</h2>
     <div class="content">
-        <ul>
-            <li>
-                Department of Complex Intelligent Systems, Future University
-                Hakodate<br />
-                <span class="attribution">Apr. 2022 - Present</span><br />
-            </li>
-            <li>
-                Kyoto Prefectural Seimei High School<br />
-                <span class="attribution">Apr. 2018 - Mar. 2022</span><br />
-            </li>
-        </ul>
-    </div>
-
-    <h2>Work Experiences</h2>
-
-    <div class="content">
-        <ul>
-            <li>
-                MIERUNE Inc. as a freelance developer
-                <span class="attribution">Feb. 2024 - Present</span><br />
-            </li>
-            <li>
-                Internship at MIERUNE Inc.
-                <span class="attribution">Sep. 2023</span>
-            </li>
-            <li>
-                Online Spring Internship for Gophers 2022 at Mercari, Inc.
-                <span class="attribution">Mar. 2022</span><br />
-            </li>
-        </ul>
-    </div>
-
-    <h2>Contact</h2>
-    <div class="content">
-        <ul>
-            <li>Email: me@peruki.dev</li>
-        </ul>
+        <a class="globallink" href="/">Home</a> - About me and this site<br />
+        <a class="globallink" href="/profile">Profile</a> - My profile<br />
+        <a class="globallink" href="/works">Works</a> - My technical works I've created<br />
+        <a class="globallink" href="/skills">Skills</a> - My technical skills<br />
+        <a class="globallink" href="/map">Map</a> - Places I've been<br />
+        <a class="globallink" href="/card">Card</a> - My business card<br />
+        <a class="globallink" href="/contact">Contact</a> - Contact me<br />
     </div>
 </main>
 
@@ -74,12 +43,9 @@
         line-height: 1.5;
     }
 
-    .attribution {
-        color: #888;
-    }
-
     :global(#map) {
         margin-top: 1em;
         height: 30em;
     }
+    
 </style>
