@@ -20,9 +20,6 @@
         flex-wrap: wrap;
     }
 
-    .titlebox-text {
-    }
-
     .titlebox-image {
         flex: 1;
         display: flex;
