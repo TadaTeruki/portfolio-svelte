@@ -26,7 +26,7 @@
         <a class="globallink" href="/profile">Profile</a> - My profile<br />
         <a class="globallink" href="/works">Works</a> - My technical works I've
         created<br />
-        <a class="globallink" href="/skills">Skills</a> - My technical skills<br
+        <a class="globallink" href="/skills">Skills</a> - My skills<br
         />
         <a class="globallink" href="/map">Map</a> - Visualisation of places I've
         been<br />

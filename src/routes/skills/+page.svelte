@@ -1,5 +1,6 @@
 <main>
     <h1>Skills and Interests</h1>
+    <h2>Technical Skills</h2>
     <div class="content">
         Frontend Web Development<br />
         <ul>
@@ -32,13 +33,14 @@
     </div>
 
     <br>
-    <h2>Language Skills</h2>
+    <h2>Languages</h2>
     <div class="content">
         <ul>
             <li>Japanese: Native</li>
+            <br />
             <li>English: Only reading and writing<br />
                 I'm not good at speaking and listening in English now.<br />
-                I also can frequently use AI translation tools to understand and write English.
+                I also can frequently use AI assistance tools for understanding and writing English.
             </li>
         </ul>
     </div>
