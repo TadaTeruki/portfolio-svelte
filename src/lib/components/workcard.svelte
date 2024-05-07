@@ -47,7 +47,7 @@
         padding: 1em;
         margin: 0.5em;
         max-width: 16em;
-        height: 25em;
+        height: 27.5em;
         display: flex;
         flex-direction: column;
     }
