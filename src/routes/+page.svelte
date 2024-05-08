@@ -28,7 +28,7 @@
         projects<br />
         <a class="globallink" href="/skills">Skills</a> - My skills<br />
         <a class="globallink" href="/map">Map</a> - Visualisation of places I've
-        visited<br />
+        ever visited<br />
         <a class="globallink" href="/card">Card</a> - My business card<br />
         <a class="globallink" href="/contact">Contact</a> - How to contact me<br
         />

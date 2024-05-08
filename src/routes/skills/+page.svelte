@@ -41,9 +41,7 @@
             <br />
             <li>
                 English: Only reading and writing<br />
-                I'm not good at speaking and listening in English now.<br />
-                I also can use AI assistance tools for understanding and writing
-                English.
+                I'm not good at speaking and listening in English now.
             </li>
         </ul>
     </div>
