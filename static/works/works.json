@@ -6,7 +6,7 @@
             "urls": [
                 {
                     "tag": "Site",
-                    "url": "https://hokkaidogenerator.peruki.dev"
+                    "url": "https://v2hokkaidogenerator.peruki.dev"
                 },
                 {
                     "tag": "GitHub",
@@ -17,7 +17,9 @@
             "technologies": [
                 "TypeScript",
                 "Svelte",
-                "Maplibre GL JS"
+                "Maplibre GL JS",
+                "Rust",
+                "WebAssembly"
             ],
             "thumbnail": "HokkaidoGenerator.png",
             "personal": true
