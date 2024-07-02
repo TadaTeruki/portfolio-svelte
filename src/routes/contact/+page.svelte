@@ -7,6 +7,7 @@
                 If you want to contact me, please send me an email.<br />
                 Sometimes I may miss your message by mistake, so don't hesitate to
                 send it again if I don't reply within a week.<br />
+                (tadateruki.public@gmail.com is also available. )
             </li>
 
             <br /><br />

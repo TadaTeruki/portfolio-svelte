@@ -4,7 +4,6 @@
             >多田 瑛貴 / ただ てるき</span
         ><br />
         A Hobbyist Developer in Hakodate, Japan<br />
-        WebGIS / Procedural Generation<br />
     </div>
     <div class="titlebox-image">
         <img src="icon.jpeg" alt="icon" />

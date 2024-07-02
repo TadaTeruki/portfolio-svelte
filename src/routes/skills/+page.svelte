@@ -1,5 +1,6 @@
 <main>
-    <h1>Skills and Interests</h1>
+    <h1>Skills</h1>
+
     <h2>Technical Skills</h2>
     <div class="content">
         Frontend Web Development<br />
@@ -11,6 +12,7 @@
         Backend Web Development<br />
         <ul>
             <li>Go - Gin / Echo</li>
+            <li>Rust - Axum</li>
             <li>Hono.js</li>
         </ul>
 
@@ -23,7 +25,6 @@
         <ul>
             <li>GTK3/4</li>
             <li>X11 - Xlib / XCB / x11rb</li>
-            <li>Wayland - wlroots (still learning)</li>
         </ul>
 
         Other Skills<br />
@@ -40,8 +41,8 @@
             <li>Japanese: Native</li>
             <br />
             <li>
-                English: Only reading and writing<br />
-                I'm not good at speaking and listening in English now.
+                English: Reading and writing. I'm still learning speaking and
+                listening.
             </li>
         </ul>
     </div>

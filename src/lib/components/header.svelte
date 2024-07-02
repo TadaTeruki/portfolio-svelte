@@ -20,6 +20,7 @@
         display: flex;
         gap: 2em;
         white-space: nowrap;
+        box-shadow: 0 0 3em #f0f0f0;
     }
 
     a {

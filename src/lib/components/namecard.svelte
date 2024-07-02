@@ -5,8 +5,7 @@
         <div class="name">Teruki TADA</div>
         <div class="subname">多田 瑛貴 / ただ てるき</div>
         <div>
-            - Student at Future University Hakodate<br />
-            - WebGIS / Procedural Generation
+            Student at Future University Hakodate<br />
         </div>
         <div class="table">
             <div>

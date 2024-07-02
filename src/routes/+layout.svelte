@@ -46,7 +46,7 @@
     :global(main) {
         padding-top: 3em;
         margin: 0 auto;
-        max-width: 50em;
+        max-width: 52em;
         color: #222;
     }
 
@@ -56,12 +56,13 @@
     }
 
     :global(h1) {
-        padding-left: 0.25em;
+        padding: 0.25em;
         font-weight: normal;
+        line-height: 0.9;
     }
 
     :global(h2, h3, h4, h5, h6) {
-        padding-left: 0.5em;
+        padding: 0.5em;
         font-weight: normal;
     }
 

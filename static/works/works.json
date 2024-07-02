@@ -101,6 +101,40 @@
             ],
             "thumbnail": "naturalneighbor.png",
             "personal": true
+        },
+        {
+            "name": "pdock",
+            "description": "Dock application for Linux GUI environment",
+            "urls": [
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/pdock"
+                }
+            ],
+            "category": "Desktop Applications",
+            "technologies": [
+                "Rust",
+                "GTK4"
+            ],
+            "thumbnail": "pdock.jpg",
+            "personal": true
+        },
+        {
+            "name": "clear-wm",
+            "description": "Window manager for X11",
+            "urls": [
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/clear_wm"
+                }
+            ],
+            "category": "Desktop Applications",
+            "technologies": [
+                "Rust",
+                "x11rb"
+            ],
+            "thumbnail": "wm.png",
+            "personal": true
         }
     ]
 }
