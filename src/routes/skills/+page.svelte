@@ -1,49 +1,191 @@
 <main>
     <h1>Skills</h1>
-
-    <h2>Technical Skills</h2>
+    <h2>Overview</h2>
     <div class="content">
-        Frontend Web Development<br />
+        <h4>Development Environment</h4>
         <ul>
-            <li>JS / TS</li>
-            <li>React / Svelte</li>
+            <li>Linux - Debian / Linux / NixOS / Ubuntu</li>
+            <li>Xfce</li>
         </ul>
 
-        Backend Web Development<br />
+        <h4>Major Programming Languages</h4>
+        <ul>
+            <li>Rust</li>
+            <li>TypeScript</li>
+            <li>Go</li>
+        </ul>
+    </div>
+
+    <h2>Technical Skills / Interests</h2>
+    <div class="content">
+        <h4>Procedural Modeling</h4>
+        <ul>
+            <li>
+                Terrain Generation with Landscape Evolution Model<br />
+                -
+                <a
+                    href="
+                https://fastlem.peruki.dev"
+                    target="_blank"
+                    class="globallink">fastlem</a
+                >
+            </li>
+
+            <li>
+                Place Names with Markov Chain<br />
+                -
+                <a
+                    href="
+                https://github.com/TadaTeruki/name-engine"
+                    target="_blank"
+                    class="globallink">name-engine</a
+                >
+            </li>
+            <li>
+                Cities (transport networks) with L-System<br />
+                -
+                <a
+                    href="
+                https://github.com/TadaTeruki/street-engine"
+                    target="_blank"
+                    class="globallink">street-engine (wip)</a
+                >
+            </li>
+        </ul>
+
+        <h4>Desktop GUI Development</h4>
+        <ul>
+            <li>
+                GTK3/4<br />
+                -
+                <a
+                    href="https://github.con/TadaTeruki/pdock"
+                    target="_blank"
+                    class="globallink">pdock</a
+                >
+            </li>
+            <li>
+                X11 - Xlib / XCB / x11rb<br />
+                -
+                <a
+                    href="https://github.con/TadaTeruki/clear_wm"
+                    target="_blank"
+                    class="globallink">clear_wm</a
+                >
+            </li>
+            <li>Wayland - wlroots</li>
+        </ul>
+
+        <h4>Algorithm / Data Structure</h4>
+        <ul>
+            <li>
+                Computational Geometry<br />
+                - Natural Neighbor Interpolation for Rust (<a
+                    href="
+                https://github.com/TadaTeruki/naturalneighbor
+            "
+                    target="_blank"
+                    class="globallink">GitHub</a
+                >)<br />
+                - DBSCAN for turf.js (<a
+                    href="
+                https://github.com/Turfjs/turf/commit/407619baaedad0f426ae7ed37e33051ddf14a830
+            "
+                    target="_blank"
+                    class="globallink">Commit History</a
+                >)
+            </li>
+            <li>
+                Noise Algorithms<br />
+                - Perlin Noise for Go (<a
+                    href="
+                https://github.com/TadaTeruki/NoiseGo"
+                    target="_blank"
+                    class="globallink">GitHub</a
+                >)
+            </li>
+        </ul>
+
+        <h4>Frontend Web Development</h4>
+        <ul>
+            <li>React / Svelte</li>
+            <li>Next.js / Sveltekit</li>
+            <li>Tailwind CSS / UnoCSS</li>
+            <li>WebGIS (Mapbox GL JS)</li>
+            <li>WebAssembly (Rust / Go)</li>
+        </ul>
+
+        <h4>Backend Web Development</h4>
         <ul>
             <li>Go - Gin / Echo</li>
             <li>Rust - Axum</li>
             <li>Hono.js</li>
         </ul>
 
-        Simulator Programming<br />
+        <h4>Sortware itecture</h4>
         <ul>
-            <li>Rust</li>
-        </ul>
-
-        Linux GUI Development<br />
-        <ul>
-            <li>GTK3/4</li>
-            <li>X11 - Xlib / XCB / x11rb</li>
-        </ul>
-
-        Other Skills<br />
-        <ul>
-            <li>C / C++ / Python</li>
-            <li>Java / Processing (in university)</li>
-        </ul>
-    </div>
-
-    <br />
-    <h2>Languages</h2>
-    <div class="content">
-        <ul>
-            <li>Japanese: Native</li>
-            <br />
             <li>
-                English: Reading and writing. I'm still learning speaking and
-                listening.
+                <a
+                    href="
+                https://github.com/TadaTeruki/clear_wm
+            "
+                    target="_blank"
+                    class="globallink">clear_wm</a
+                >: Linux Window Manager Development with better component design
+                (<a
+                    href="
+                    https://slides.peruki.dev/slides/2024/%E3%83%A9%E3%83%9C%E3%83%A6%E3%83%BC%E3%82%B9/%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8%E4%BC%9A
+                "
+                    target="_blank"
+                    class="globallink">Slide</a
+                >)
             </li>
+        </ul>
+
+        <h4>Development Process</h4>
+        <ul>
+            <li>
+                CI/CD with GitHub Actions<br />
+                - Auto-deployment system of presentation slides using GitHub Actions
+                and Marp (<a
+                    href="
+                    https://slides.peruki.dev
+                "
+                    target="_blank"
+                    class="globallink">Link</a
+                >
+                |
+                <a
+                    href="
+                    https://github.com/TadaTeruki/slides
+                "
+                    target="_blank"
+                    class="globallink">GitHub</a
+                >)
+            </li>
+            <li>AI-assisted Tools - GitHub Copilot / auto-commit</li>
+        </ul>
+
+        <h4>Bots</h4>
+        <ul>
+            <li>Line Bot</li>
+            <li>
+                Misskey bot<br />
+                - Fake tweeter bot (like my tweets) for Misskey, with fine-tuned
+                models OpenAI API (<a
+                    href="
+                    https://misskey.peruki.dev/@bot
+                "
+                    target="_blank"
+                    class="globallink">Link</a
+                >)
+            </li>
+        </ul>
+
+        <h4>Others</h4>
+        <ul>
+            <li>Open Source Culture</li>
+            <li>QGIS</li>
         </ul>
     </div>
 </main>

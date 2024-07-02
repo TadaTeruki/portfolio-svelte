@@ -41,6 +41,7 @@
     :global(body) {
         font-family: "Zen Kaku Gothic New", sans-serif;
         margin: 0;
+        scroll-behavior: smooth;
     }
 
     :global(main) {
@@ -51,18 +52,18 @@
     }
 
     :global(.content) {
-        padding: 1em;
+        padding-left: 1em;
         line-height: 1.5;
     }
 
     :global(h1) {
-        padding: 0.25em;
+        margin: 2em 0 0.5em 0;
         font-weight: normal;
         line-height: 0.9;
     }
 
     :global(h2, h3, h4, h5, h6) {
-        padding: 0.5em;
+        margin: 1.5em 0 0.5em 0.1em;
         font-weight: normal;
     }
 

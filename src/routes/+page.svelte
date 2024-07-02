@@ -11,14 +11,26 @@
     <h2>About Me</h2>
 
     <div class="content">
-        I'm a hobbyist developer from western Japan, and moved to Hakodate city
-        in Hokkaido for university and my interest in new places. I love maps
-        and geography, and most of my work is related to them. I'm also
-        interested in computer graphics and web technologies as tools for visual
-        expression.
-    </div>
+        I'm a student at Future University Hakodate majoring in complex systems
+        science. And I'm also a hobbiest/freelance developer mainly for
+        procedural modeling, geospatial data processing and web development.
+        <br />
+        <br />
+        I have a strong interest in programming and geography and most of my works
+        are related to these fields. My main focus is on procedural modeling for
+        geographical factors such as terrain, place names, and transportation networks.
+        Approaching to reproduce complex natural landscapes from simple patterns
+        is wonderful for me.
+        <br />
+        <br />
+        I'm also interested in web technologies, computational geometry and desktop
+        application development. I have many things to learn, but I'm enjoying the
+        process of creating things.
+        <br />
+        <br />
 
-    <Map mapId="map" />
+        <Map mapId="map" />
+    </div>
 
     <h2>Site Map</h2>
     <div class="content">
@@ -42,6 +54,11 @@
         ><br />
         <a class="globallink" href="https://zenn.dev/peruki" target="_blank"
             >Zenn</a
+        ><br />
+        <a
+            class="globallink"
+            href="https://www.reddit.com/user/perukifn/"
+            target="_blank">Reddit</a
         >
     </div>
 </main>

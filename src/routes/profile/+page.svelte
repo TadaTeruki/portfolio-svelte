@@ -52,7 +52,7 @@
                 <a
                     href="https://shinsetsu.hokkaido.jp/local"
                     target="_blank"
-                    class="globallink">Shinsetsu program/新雪プログラム</a
+                    class="globallink">Shinsetsu/新雪プログラム</a
                 ><br />
                 「ゲーム・映像表現の可能性を広げる 地形生成ライブラリの開発」<br
                 />
@@ -62,12 +62,7 @@
                     target="_blank"
                     class="globallink">Slide</a
                 >
-                |
-                <a
-                    href="https://github.com/TadaTeruki/fastlem"
-                    target="_blank"
-                    class="globallink">Source Code</a
-                ><br />
+                <br />
                 <span class="attribution">Jun. 2023 - Jun. 2024</span>
             </li>
             <br />
@@ -76,12 +71,12 @@
                     href="https://labs.cybozu.co.jp/youth.html"
                     target="_blank"
                     class="globallink"
-                    >Cybozu Labs Youth program/サイボウズ・ラボユース</a
+                    >Cybozu Labs Youth/サイボウズ・ラボユース</a
                 ><br />
                 「Rust製Linuxウインドウマネージャ開発を通じた良い設計へのアプローチ」<br
                 />
-                (Approach to better software design through window manager development
-                for Linux)<br />
+                (Approach to better software architecture through window manager
+                development for Linux)<br />
                 <a
                     href="https://slides.peruki.dev/slides/2024/%E3%83%A9%E3%83%9C%E3%83%A6%E3%83%BC%E3%82%B9/%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8%E4%BC%9A"
                     target="_blank"
@@ -94,6 +89,28 @@
                     class="globallink">Source Code</a
                 ><br />
                 <span class="attribution">Jun. 2023 - Jun. 2024</span>
+            </li>
+            <br />
+            <li>
+                <a
+                    href="https://scrapbox.io/mariconf/Mariners'_Conference%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D"
+                    target="_blank"
+                    class="globallink">Mariners' Conference</a
+                >
+                - Founder and the First Leader<br />
+                Tech Circle in Future University Hakodate<br />
+                <a
+                    href="https://scrapbox.io/mariconf/Mariners'_Conference%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D"
+                    target="_blank"
+                    class="globallink"
+                >
+                    <a
+                        href="https://mariconf.connpass.com/"
+                        target="_blank"
+                        class="globallink">connpass</a
+                    ><br />
+                    <span class="attribution">Feb. 2022 - Aug. 2024</span>
+                </a>
             </li>
         </ul>
     </div>
