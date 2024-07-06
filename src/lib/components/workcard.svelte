@@ -26,7 +26,7 @@
                     <span>{tech}</span>
                 {/each}
             </div>
-            <p>{work.description}</p>
+            <div class="description">{work.description}</div>
             <div class="links">
                 {#each work.urls as url}
                     <a class="globallink" href={url.url} target="_blank"
@@ -48,8 +48,8 @@
         border-radius: 1em;
         padding: 0.6em;
         margin: 0.5em;
-        max-width: 16em;
-        height: 25em;
+        max-width: 13em;
+        height: 18em;
         display: flex;
         flex-direction: column;
         transition:
@@ -65,9 +65,14 @@
     .text {
         flex: 1;
         padding: 0.5em;
+        font-size: 0.8em;
 
         display: flex;
         flex-direction: column;
+    }
+
+    .description {
+        margin-top: 0.5em;
     }
 
     img {
@@ -93,7 +98,7 @@
         background-color: #f0f0f0;
         color: #333;
         border-radius: 0.5em;
-        padding: 0.2em 0.5em;
+        padding: 0.1em 0.5em;
     }
 
     .links {

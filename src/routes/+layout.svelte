@@ -47,7 +47,7 @@
     }
 
     .mainbox {
-        margin: 0 2em;
+        margin: 0 1em;
     }
 
     :global(main) {

@@ -12,7 +12,7 @@
 
 <style>
     .main {
-        background-color: #f8f8f8;
+        background-color: #f3f8f8;
         border-bottom: 1px solid #eee;
         color: #555;
         padding: 0.5em 1em;
@@ -20,7 +20,7 @@
         display: flex;
         gap: 2em;
         white-space: nowrap;
-        box-shadow: 0 0 3em #c0eeee;
+        box-shadow: 0 0 3em #eff;
     }
 
     a {
