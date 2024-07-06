@@ -95,16 +95,19 @@
     .top-images {
         display: flex;
         justify-content: center;
+
         max-width: 100%;
         width: fit-content;
         height: 15em;
         margin: auto;
-        border-radius: 0.5em;
+        padding: 1em;
+
         overflow: hidden;
     }
 
     .top-image {
-        width: 9em;
+        max-width: 9em;
+        width: 100%;
         height: 100%;
         object-fit: cover;
     }

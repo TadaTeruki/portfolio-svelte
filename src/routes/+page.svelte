@@ -14,6 +14,10 @@
 
     <div class="title-space"></div>
 
+    <h2>Main Works</h2>
+
+    <Topimages />
+
     <h2>About Me</h2>
 
     <div class="content">
@@ -26,8 +30,6 @@
         factors such as terrain, place names and transport networks. I am fascinated
         by reproducing complex natural landscapes from simple patterns.
         <br />
-        <br />
-        <Topimages />
         <br />
         I'm also interested in web technologies, computational geometry and desktop
         application development. I still have a lot to learn, but I'm enjoying the

@@ -1,8 +1,9 @@
 <div class="titlebox">
     <div class="titlebox-text">
-        <span class="name">Teruki TADA</span><span class="subname"
-            >多田 瑛貴 / ただ てるき</span
-        ><br />
+        <div class="namebox">
+            <div class="name">Teruki TADA</div>
+            <div class="subname">多田 瑛貴 / ただ てるき</div>
+        </div>
         A Hobbyist Developer in Hakodate, Japan<br />
     </div>
     <div class="titlebox-image">
@@ -23,6 +24,19 @@
         flex: 1;
         display: flex;
         justify-content: center;
+    }
+
+    .titlebox-text {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .namebox {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
     }
 
     .titlebox-image img {
