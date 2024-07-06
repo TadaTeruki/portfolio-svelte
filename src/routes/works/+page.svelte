@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Header from "$lib/components/header.svelte";
     import type { Work } from "$lib/components/workcard.svelte";
     import Worktable from "$lib/components/worktable.svelte";
     import { onMount } from "svelte";
@@ -12,6 +13,8 @@
         categories = Array.from(new Set(works.map((work) => work.category)));
     });
 </script>
+
+<Header color="#fff6e5" />
 
 <main id="worksMain">
     <h1>Works</h1>

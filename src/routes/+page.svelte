@@ -1,8 +1,11 @@
 <script lang="ts">
+    import Header from "$lib/components/header.svelte";
     import Map from "$lib/components/map.svelte";
     import Topimages from "$lib/components/topimages.svelte";
     import Titlebox from "../lib/components/titlebox.svelte";
 </script>
+
+<Header color="#d9ffff" />
 
 <main>
     <div class="title-space"></div>

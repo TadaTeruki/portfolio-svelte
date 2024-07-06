@@ -10,6 +10,7 @@
         terrain: "fastlem (2024)",
         name: "name-engine (2024)",
         wm: "clear-wm (2024)",
+        undefined: "",
     };
 
     const imageElements = () =>
@@ -24,7 +25,7 @@
             });
 
             image.addEventListener("mouseout", () => {
-                hovered = undefined;
+                hovered = "undefined";
             });
         });
     });

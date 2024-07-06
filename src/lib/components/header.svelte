@@ -1,8 +1,17 @@
-<script>
+<script lang="ts">
+    import { onMount } from "svelte";
     import Navigation from "./navigation.svelte";
+    export let color: string;
+
+    onMount(() => {
+        const container = document.getElementById("container");
+        if (container !== null) {
+            container.style.boxShadow = `0 0 2em ${color}`;
+        }
+    });
 </script>
 
-<div class="main">
+<div class="container" id="container">
     <div class="title">
         <a href="/">Teruki TADA</a>
     </div>
@@ -11,7 +20,7 @@
 </div>
 
 <style>
-    .main {
+    .container {
         background-color: #f3f8f8;
         border-bottom: 1px solid #eee;
         color: #555;
@@ -20,7 +29,6 @@
         display: flex;
         gap: 2em;
         white-space: nowrap;
-        box-shadow: 0 0 3em #eff;
     }
 
     a {

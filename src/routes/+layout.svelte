@@ -1,6 +1,5 @@
 <script lang="ts">
     import Navigation from "$lib/components/navigation.svelte";
-    import Header from "../lib/components/header.svelte";
 </script>
 
 <svelte:head>
@@ -22,10 +21,6 @@
     <meta name="twitter:domain" content="hello.peruki.dev" />
 </svelte:head>
 
-<header>
-    <Header />
-</header>
-
 <div class="mainbox">
     <slot />
 </div>
@@ -46,13 +41,10 @@
         scroll-behavior: smooth;
     }
 
-    .mainbox {
-        margin: 0 1em;
-    }
-
     :global(main) {
-        padding-top: 3em;
         margin: 0 auto;
+        padding: 2em 1em;
+
         max-width: 52em;
         color: #222;
         animation: fadeIn 0.3s;

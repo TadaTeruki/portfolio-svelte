@@ -1,3 +1,9 @@
+<script>
+    import Header from "$lib/components/header.svelte";
+</script>
+
+<Header color="#ffe8f4" />
+
 <main>
     <h1>Skills</h1>
     <h2>Overview</h2>

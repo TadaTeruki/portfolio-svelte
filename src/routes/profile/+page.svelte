@@ -1,3 +1,9 @@
+<script>
+    import Header from "$lib/components/header.svelte";
+</script>
+
+<Header color="#e8ffe3" />
+
 <main>
     <h1>Profile</h1>
 
@@ -104,7 +110,7 @@
                     target="_blank"
                     class="globallink">connpass</a
                 ><br />
-                <span class="attribution">Feb. 2022 - Aug. 2024</span>
+                <span class="attribution">Feb. 2022 - Jul. 2024</span>
             </li>
         </ul>
     </div>

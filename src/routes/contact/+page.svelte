@@ -1,6 +1,13 @@
+<script>
+    import Header from "$lib/components/header.svelte";
+</script>
+
+<Header color="#ececec" />
+
 <main>
     <h1>Contact</h1>
     <div class="content">
+        <br />
         <ul>
             <li>
                 Email: me@peruki.dev<br />
