@@ -2,21 +2,22 @@
     <h1>Skills</h1>
     <h2>Overview</h2>
     <div class="content">
-        <h4>Development Environment</h4>
-        <ul>
-            <li>Linux - Debian / Linux / NixOS / Ubuntu</li>
-            <li>Xfce</li>
-        </ul>
-
         <h4>Major Programming Languages</h4>
         <ul>
             <li>Rust</li>
             <li>TypeScript</li>
             <li>Go</li>
         </ul>
+
+        <h4>Development Environment</h4>
+        <ul>
+            <li>Linux - Debian / Linux / NixOS / Ubuntu</li>
+            <li>Xfce</li>
+        </ul>
     </div>
 
     <h2>Technical Skills / Interests</h2>
+    <h3>As Hobby</h3>
     <div class="content">
         <h4>Procedural Modeling</h4>
         <ul>
@@ -105,7 +106,9 @@
                 >)
             </li>
         </ul>
-
+    </div>
+    <h3>Both Work and Hobby</h3>
+    <div class="content">
         <h4>Frontend Web Development</h4>
         <ul>
             <li>React / Svelte</li>
@@ -122,7 +125,7 @@
             <li>Hono.js</li>
         </ul>
 
-        <h4>Sortware itecture</h4>
+        <h4>Sortware Architect</h4>
         <ul>
             <li>
                 <a

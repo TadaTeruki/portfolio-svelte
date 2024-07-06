@@ -26,7 +26,9 @@
     <Header />
 </header>
 
-<slot />
+<div class="mainbox">
+    <slot />
+</div>
 
 <footer>
     <div class="footerElements">
@@ -42,6 +44,10 @@
         font-family: "Zen Kaku Gothic New", sans-serif;
         margin: 0;
         scroll-behavior: smooth;
+    }
+
+    .mainbox {
+        margin: 0 2em;
     }
 
     :global(main) {

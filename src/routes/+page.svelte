@@ -12,20 +12,18 @@
 
     <div class="content">
         I'm a student at Future University Hakodate, majoring in complex systems
-        science. And I'm also a hobbyist/freelance developer mainly for
-        procedural modeling, geospatial processing, and web development.
+        science.
         <br />
         <br />
         I have a strong interest in programming and geography, and most of my work
-        is related to these fields. My main focus is on procedural modeling of geographic
-        factors such as terrain, place names, and transportation networks. The approach
-        of reproducing complex natural landscapes from simple patterns is wonderful
-        to me.
+        is related to these areas. My main focus is on procedural modelling of geographic
+        factors such as terrain, place names and transport networks. I am fascinated
+        by reproducing complex natural landscapes from simple patterns.
         <br />
         <br />
-        I'm also interested in web technologies, computational geometry, and desktop
-        application development. I have a lot to learn, but I'm enjoying the process
-        of creating things.
+        I'm also interested in web technologies, computational geometry and desktop
+        application development. I still have a lot to learn, but I'm enjoying the
+        process of creating things.
         <br />
         <Map mapId="map" />
     </div>
