@@ -68,6 +68,12 @@
             "priority": "low"
         },
         {
+            "name": "Muroran",
+            "description": "Visited in Jun 2024",
+            "coordinates": [140.98, 42.32],
+            "priority": "low"
+        },
+        {
             "name": "Kushiro",
             "description": "Visited in Feb 2023<br>to meet friends",
             "coordinates": [144.38, 42.98],
@@ -123,7 +129,7 @@
         },
         {
             "name": "Oma",
-            "description": "Visited in Sep 2023<br>for eating delicious tuna",
+            "description": "Visited in Sep 2023<br>to eat delicious tuna",
             "coordinates": [140.90, 41.52],
             "priority": "low"
         },

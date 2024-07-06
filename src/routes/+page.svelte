@@ -1,9 +1,12 @@
 <script lang="ts">
     import Map from "$lib/components/map.svelte";
+    import Topimages from "$lib/components/topimages.svelte";
     import Titlebox from "../lib/components/titlebox.svelte";
 </script>
 
 <main>
+    <div class="title-space"></div>
+
     <Titlebox />
 
     <div class="title-space"></div>
@@ -21,12 +24,16 @@
         by reproducing complex natural landscapes from simple patterns.
         <br />
         <br />
+        <Topimages />
+        <br />
         I'm also interested in web technologies, computational geometry and desktop
         application development. I still have a lot to learn, but I'm enjoying the
         process of creating things.
         <br />
-        <Map mapId="map" />
+        <br />
     </div>
+
+    <Map mapId="map" />
 
     <h2>Site Map</h2>
     <div class="content">
@@ -37,8 +44,8 @@
         <a class="globallink" href="/skills">Skills</a> - My skills<br />
         <a class="globallink" href="/map">Map</a> - Visualisation of places I've
         ever visited<br />
-        <a class="globallink" href="/contact">Contact</a> - How to contact me<br
-        />
+        <a class="globallink" href="/contact">Contact</a> - My contact
+        information<br />
     </div>
 
     <h2>External Links</h2>
@@ -55,6 +62,9 @@
             class="globallink"
             href="https://www.reddit.com/user/perukifn/"
             target="_blank">Reddit</a
+        ><br />
+        <a class="globallink" href="https://slides.peruki.dev/" target="_blank"
+            >Slides</a
         >
     </div>
 </main>

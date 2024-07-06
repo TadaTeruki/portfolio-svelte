@@ -55,6 +55,16 @@
         transition:
             background-color 0.2s,
             border-color 0.2s;
+        animation: fadeIn 0.5s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     .card:hover {

@@ -63,7 +63,7 @@
                     class="globallink">Slide</a
                 >
                 <br />
-                <span class="attribution">Jun. 2023 - Jun. 2024</span>
+                <span class="attribution">Sep. 2023 - Feb. 2024</span>
             </li>
             <br />
             <li>
@@ -93,24 +93,18 @@
             <br />
             <li>
                 <a
-                    href="https://scrapbox.io/mariconf/Mariners'_Conference%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D"
+                    href="https://flicker-quesadilla-913.notion.site/Mariners-Conference-6eb52dcd8cf142db9e6f184ad5f04f69D"
                     target="_blank"
                     class="globallink">Mariners' Conference</a
                 >
                 - Founder and the First Leader<br />
                 Tech Circle in Future University Hakodate<br />
                 <a
-                    href="https://scrapbox.io/mariconf/Mariners'_Conference%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D"
+                    href="https://mariconf.connpass.com/"
                     target="_blank"
-                    class="globallink"
-                >
-                    <a
-                        href="https://mariconf.connpass.com/"
-                        target="_blank"
-                        class="globallink">connpass</a
-                    ><br />
-                    <span class="attribution">Feb. 2022 - Aug. 2024</span>
-                </a>
+                    class="globallink">connpass</a
+                ><br />
+                <span class="attribution">Feb. 2022 - Aug. 2024</span>
             </li>
         </ul>
     </div>

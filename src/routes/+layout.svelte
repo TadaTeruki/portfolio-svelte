@@ -55,6 +55,16 @@
         margin: 0 auto;
         max-width: 52em;
         color: #222;
+        animation: fadeIn 0.3s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0.3;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     :global(.content) {

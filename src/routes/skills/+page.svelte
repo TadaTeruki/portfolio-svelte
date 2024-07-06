@@ -11,8 +11,8 @@
 
         <h4>Development Environment</h4>
         <ul>
-            <li>Linux - Debian / Linux / NixOS / Ubuntu</li>
-            <li>Xfce</li>
+            <li>Linux - Debian (Previous: Arch Linux, Ubuntu, WSL2)</li>
+            <li>DE - Xfce (Previous: GNOME, sway)</li>
         </ul>
     </div>
 
@@ -114,7 +114,7 @@
             <li>React / Svelte</li>
             <li>Next.js / Sveltekit</li>
             <li>Tailwind CSS / UnoCSS</li>
-            <li>WebGIS (Mapbox GL JS)</li>
+            <li>Maplibre GL JS</li>
             <li>WebAssembly (Rust / Go)</li>
         </ul>
 
