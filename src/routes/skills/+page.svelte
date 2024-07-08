@@ -80,7 +80,6 @@
                     class="globallink">clear_wm</a
                 >
             </li>
-            <li>Wayland - wlroots</li>
         </ul>
 
         <h4>Algorithm / Data Structure</h4>
@@ -131,50 +130,6 @@
             <li>Hono.js</li>
         </ul>
 
-        <h4>Sortware Architect</h4>
-        <ul>
-            <li>
-                <a
-                    href="
-                https://github.com/TadaTeruki/clear_wm
-            "
-                    target="_blank"
-                    class="globallink">clear_wm</a
-                >: Linux Window Manager Development with better component design
-                (<a
-                    href="
-                    https://slides.peruki.dev/slides/2024/%E3%83%A9%E3%83%9C%E3%83%A6%E3%83%BC%E3%82%B9/%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8%E4%BC%9A
-                "
-                    target="_blank"
-                    class="globallink">Slide</a
-                >)
-            </li>
-        </ul>
-
-        <h4>Development Process</h4>
-        <ul>
-            <li>
-                CI/CD with GitHub Actions<br />
-                - Auto-deployment system of presentation slides using GitHub Actions
-                and Marp (<a
-                    href="
-                    https://slides.peruki.dev
-                "
-                    target="_blank"
-                    class="globallink">Link</a
-                >
-                |
-                <a
-                    href="
-                    https://github.com/TadaTeruki/slides
-                "
-                    target="_blank"
-                    class="globallink">GitHub</a
-                >)
-            </li>
-            <li>AI-assisted Tools - GitHub Copilot / auto-commit</li>
-        </ul>
-
         <h4>Bots</h4>
         <ul>
             <li>Line Bot</li>
@@ -193,8 +148,8 @@
 
         <h4>Others</h4>
         <ul>
-            <li>Open Source Culture</li>
             <li>QGIS</li>
+            <li>Open Source Culture</li>
         </ul>
     </div>
 </main>
