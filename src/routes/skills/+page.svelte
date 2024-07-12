@@ -126,11 +126,12 @@
         <ul>
             <li>Go - Gin / Echo</li>
             <li>Rust - Axum</li>
-            <li>Hono.js</li>
         </ul>
 
-        <h4>Bots</h4>
+        <h4>Others</h4>
         <ul>
+            <li>QGIS</li>
+            <li>Open Source Culture</li>
             <li>Line Bot</li>
             <li>
                 Misskey bot<br />
@@ -143,12 +144,6 @@
                     class="globallink">Link</a
                 >)
             </li>
-        </ul>
-
-        <h4>Others</h4>
-        <ul>
-            <li>QGIS</li>
-            <li>Open Source Culture</li>
         </ul>
     </div>
 </main>
