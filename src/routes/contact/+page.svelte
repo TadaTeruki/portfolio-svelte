@@ -1,8 +1,7 @@
 <script>
-    import Header from "$lib/components/header.svelte";
+    import { headerColor } from "../store";
+    headerColor.set("#ececec");
 </script>
-
-<Header color="#ececec" />
 
 <main>
     <h1>Contact</h1>

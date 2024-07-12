@@ -1,9 +1,8 @@
 <script lang="ts">
-    import Header from "$lib/components/header.svelte";
     import Map from "$lib/components/map.svelte";
+    import { headerColor } from "../store";
+    headerColor.set("#f8e8ff");
 </script>
-
-<Header color="#f8e8ff" />
 
 <h2>My Map</h2>
 

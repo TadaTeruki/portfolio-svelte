@@ -18,7 +18,7 @@
 
 <a href={work.urls[0].url} target="_blank" class="cardlink">
     <div class="card">
-        <img src={`/works/images/${work.thumbnail}`} alt={work.name} />
+        <img src={`/images/works/${work.thumbnail}`} alt={work.name} />
         <div class="text">
             <h2>{work.name}</h2>
             <div class="technologies">

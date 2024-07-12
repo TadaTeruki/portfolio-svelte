@@ -1,14 +1,17 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import Navigation from "./navigation.svelte";
-    export let color: string;
+    import { headerColor } from "../../routes/store";
 
+    import Navigation from "./navigation.svelte";
+
+    let container: HTMLElement | null = null;
     onMount(() => {
-        const container = document.getElementById("container");
-        if (container !== null) {
-            container.style.boxShadow = `0 0 2em ${color}`;
-        }
+        container = document.getElementById("container");
     });
+
+    $: if (container !== null) {
+        container.style.boxShadow = `0 0 2em ${$headerColor}`;
+    }
 </script>
 
 <div class="container" id="container">
@@ -29,6 +32,7 @@
         display: flex;
         gap: 2em;
         white-space: nowrap;
+        transition: box-shadow 0.5s;
     }
 
     a {

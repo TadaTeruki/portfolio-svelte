@@ -1,5 +1,7 @@
 <script lang="ts">
+    import Header from "$lib/components/header.svelte";
     import Navigation from "$lib/components/navigation.svelte";
+    import { headerColor } from "./store";
 </script>
 
 <svelte:head>
@@ -20,6 +22,8 @@
     <meta name="twitter:url" content="https://hello.peruki.dev" />
     <meta name="twitter:domain" content="hello.peruki.dev" />
 </svelte:head>
+
+<Header />
 
 <div class="mainbox">
     <slot />
@@ -47,16 +51,6 @@
 
         max-width: 52em;
         color: #222;
-        animation: fadeIn 0.3s;
-    }
-
-    @keyframes fadeIn {
-        0% {
-            opacity: 0.3;
-        }
-        100% {
-            opacity: 1;
-        }
     }
 
     :global(.content) {

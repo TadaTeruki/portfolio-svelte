@@ -1,0 +1,140 @@
+{
+    "works": [
+        {
+            "name": "Hokkaido Generator",
+            "description": "Generate fictional city in Hokkaido",
+            "urls": [
+                {
+                    "tag": "Site",
+                    "url": "https://v2hokkaidogenerator.peruki.dev"
+                },
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/HokkaidoGenerator"
+                }
+            ],
+            "category": "Web Applications",
+            "technologies": [
+                "TypeScript",
+                "Svelte",
+                "Maplibre GL JS",
+                "Rust",
+                "WebAssembly"
+            ],
+            "thumbnail": "HokkaidoGenerator.webp",
+            "personal": true
+        },
+        {
+            "name": "Roadside Explorer",
+            "description": "Estimate and Visualize areas where roadside stores gather",
+            "urls": [
+                {
+                    "tag": "Site",
+                    "url": "https://roadside-explorer.pages.dev"
+                },
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/roadside-explorer"
+                }
+            ],
+            "category": "Web Applications",
+            "technologies": [
+                "TypeScript",
+                "React",
+                "Maplibre GL JS",
+                "OpenStreetMap",
+                "QGIS"
+            ],
+            "thumbnail": "RoadsideExplorer.webp",
+            "personal": true
+        },
+        {
+            "name": "fastlem",
+            "description": "Rust library for generating terrain",
+            "urls": [
+                {
+                    "tag": "Demo",
+                    "url": "https://fastlem.peruki.dev"
+                },
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/fastlem"
+                }
+            ],
+            "category": "Libraries",
+            "technologies": [
+                "Rust",
+                "Landscape Evolution Model"
+            ],
+            "thumbnail": "fastlem.webp",
+            "personal": true
+        },
+        {
+            "name": "name-engine",
+            "description": "Rust library for generating names, particularly for place names",
+            "urls": [
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/name-engine"
+                }
+            ],
+            "category": "Libraries",
+            "technologies": [
+                "Rust",
+                "Markov Chain"
+            ],
+            "thumbnail": "name-engine.webp",
+            "personal": true
+        },
+        {
+            "name": "naturalneighbor",
+            "description": "Rust library for natural neighbor interpolation",
+            "urls": [
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/naturalneighbor"
+                }
+            ],
+            "category": "Libraries",
+            "technologies": [
+                "Rust"
+            ],
+            "thumbnail": "naturalneighbor.webp",
+            "personal": true
+        },
+        {
+            "name": "pdock",
+            "description": "Dock application for Linux GUI environment",
+            "urls": [
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/pdock"
+                }
+            ],
+            "category": "Desktop Applications",
+            "technologies": [
+                "Rust",
+                "GTK4"
+            ],
+            "thumbnail": "pdock.webp",
+            "personal": true
+        },
+        {
+            "name": "clear-wm",
+            "description": "Window manager for X11",
+            "urls": [
+                {
+                    "tag": "GitHub",
+                    "url": "https://github.com/TadaTeruki/clear_wm"
+                }
+            ],
+            "category": "Desktop Applications",
+            "technologies": [
+                "Rust",
+                "x11rb"
+            ],
+            "thumbnail": "wm.webp",
+            "personal": true
+        }
+    ]
+}

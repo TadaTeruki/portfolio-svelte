@@ -1,11 +1,10 @@
 <script lang="ts">
-    import Header from "$lib/components/header.svelte";
     import Map from "$lib/components/map.svelte";
     import Topimages from "$lib/components/topimages.svelte";
     import Titlebox from "../lib/components/titlebox.svelte";
+    import { headerColor } from "./store";
+    headerColor.set("#d9ffff");
 </script>
-
-<Header color="#d9ffff" />
 
 <main>
     <div class="title-space"></div>
