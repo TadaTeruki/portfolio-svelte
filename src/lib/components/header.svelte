@@ -24,7 +24,7 @@
 
 <style>
     .container {
-        background-color: #f3f8f8;
+        background-color: #f8f8f8;
         border-bottom: 1px solid #eee;
         color: #555;
         padding: 0.5em 1em;
