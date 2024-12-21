@@ -11,6 +11,7 @@
         <ul>
             <li>Rust</li>
             <li>TypeScript</li>
+            <li>Python</li>
             <li>Go</li>
         </ul>
 

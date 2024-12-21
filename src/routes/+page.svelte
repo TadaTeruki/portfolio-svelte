@@ -19,24 +19,6 @@
 
     <h2>About Me</h2>
 
-    <div class="content">
-        I'm a student at Future University Hakodate, majoring in complex systems
-        science.
-        <br />
-        <br />
-        I have a strong interest in programming and geography, and most of my work
-        is related to these areas. My main focus is on procedural modelling of geographic
-        factors such as terrain, place names and transport networks. I am fascinated
-        by reproducing complex natural landscapes from simple patterns.
-        <br />
-        <br />
-        I'm also interested in web technologies, computational geometry and desktop
-        application development. I still have a lot to learn, but I'm enjoying the
-        process of creating things.
-        <br />
-        <br />
-    </div>
-
     <Map mapId="map" />
 
     <h2>Site Map</h2>
