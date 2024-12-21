@@ -8,15 +8,15 @@
         <img
             src="logos/x.svg"
             alt="x logo"
-            class={`w-${size} h-${size} object-cover brightness-0`}
+            class="w-5 h-5 object-cover brightness-0"
         />
     {:else if template === "github"}
         <img
             src="logos/github.svg"
             alt="github logo"
-            class={`w-${size} h-${size} object-cover`}
+            class="w-5 h-5 object-cover"
         />
     {:else if template === "slide"}
-        <div class={`w-${size} h-${size} object-cover i-mdi-presentation`} />
+        <div class="w-5 h-5 object-cover i-mdi-presentation" />
     {/if}
 </div>

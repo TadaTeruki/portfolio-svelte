@@ -17,17 +17,17 @@
                 target="_blank"
                 href="https://github.com/TadaTeruki"
             >
-                <Logo template="github" size="5" />
+                <Logo template="github" />
             </a>
             <a class="linkBox" target="_blank" href="https://x.com/perukifun">
-                <Logo template="x" size="5" />
+                <Logo template="x" />
             </a>
             <a
                 class="linkBox"
                 target="_blank"
                 href="https://slides2.peruki.dev"
             >
-                <Logo template="slide" size="5" />
+                <Logo template="slide" />
             </a>
         </div>
     </div>
