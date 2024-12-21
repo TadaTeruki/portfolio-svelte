@@ -2,50 +2,26 @@
     import Footer from "$lib/components/footer.svelte";
     import Header from "$lib/components/header.svelte";
     import Titlebox from "../lib/components/titlebox.svelte";
-    import { headerColor } from "./store";
-    headerColor.set("#d9ffff");
 </script>
 
-<Header backMotif="hakodate">
-    <Titlebox />
-</Header>
+<div class="absolute top-0 left-0 w-screen h-screen overflow-hidden">
+    <Header backMotif="esan" fullscreen={true}></Header>
+</div>
 
-<main>
-    <h2>Contents</h2>
-    <div class="content">
-        <a class="globallink" href="/">Home</a> - About me and this site<br />
-        <a class="globallink" href="/profile">Profile</a> - My profile<br />
-        <a class="globallink" href="/works">Works</a> - My technical works and
-        projects<br />
-        <a class="globallink" href="/skills">Skills</a> - My skills<br />
-        <a class="globallink" href="/map">Map</a> - Visualisation of places I've
-        ever visited<br />
-        <a class="globallink" href="/contact">Contact</a> - My contact
-        information<br />
+<div
+    class="absolute bottom-0 left-0 w-screen h-screen overflow-hidden pointer-events-none"
+>
+    <div class="flex flex-col justify-center items-center w-full h-full">
+        <div class="h-fit">
+            <div
+                class="bg-white bg-opacity-50 backdrop-blur-md shadow-sm rounded-lg px-8 py-2 m-2 w-fit h-max z-20 pointer-events-auto"
+            >
+                <Titlebox />
+                <Footer hasFootMargin={false} />
+            </div>
+        </div>
     </div>
-
-    <h2>External Links</h2>
-    <div class="content">
-        <a
-            class="globallink"
-            href="https://github.com/TadaTeruki"
-            target="_blank">GitHub</a
-        ><br />
-        <a class="globallink" href="https://zenn.dev/peruki" target="_blank"
-            >Zenn</a
-        ><br />
-        <a
-            class="globallink"
-            href="https://www.reddit.com/user/perukifn/"
-            target="_blank">Reddit</a
-        ><br />
-        <a class="globallink" href="https://slides.peruki.dev/" target="_blank"
-            >Slides</a
-        >
-    </div>
-</main>
-
-<Footer />
+</div>
 
 <style>
     .title-space {

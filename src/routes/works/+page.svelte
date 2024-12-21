@@ -3,8 +3,6 @@
     import Header from "$lib/components/header.svelte";
     import type { Work } from "$lib/components/workcard.svelte";
     import Worktable from "$lib/components/worktable.svelte";
-    import { headerColor } from "../store";
-
     export let data;
     $: works = data.works as Work[];
     $: categories = data.categories as string[];
@@ -12,8 +10,6 @@
     function worksInCategory(category: string) {
         return works.filter((work: any) => work.category === category);
     }
-
-    headerColor.set("#fff6e5");
 </script>
 
 <Header backMotif="kyoto">

@@ -2,8 +2,6 @@
     import Footer from "$lib/components/footer.svelte";
     import Map from "$lib/components/map.svelte";
     import Topnavigator from "$lib/components/topnavigator.svelte";
-    import { headerColor } from "../store";
-    headerColor.set("#f8e8ff");
 </script>
 
 <div class="absolute top-0 z-10 w-screen">

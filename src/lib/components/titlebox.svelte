@@ -1,35 +1,52 @@
-<div class="titlebox">
-    <div class="titlebox-text">
-        <div class="name">Teruki TADA</div>
-        <div class="subname">多田 瑛貴 / ただ てるき</div>
+<script>
+    import Logo from "./logo.svelte";
+</script>
+
+<div class="flex justify-between p-4 w-fit m-auto md:flex-row flex-col">
+    <div class="flex flex-col justify-center">
+        <div class="text-4xl mr-2 whitespace-nowrap text-center">
+            Teruki TADA
+        </div>
+        <div class="text-lg text-gray-500 whitespace-nowrap text-center">
+            多田 瑛貴 / ただ てるき
+        </div>
+        <div class="h-3"></div>
+        <div class="flex justify-center gap-2">
+            <a
+                class="linkBox"
+                target="_blank"
+                href="https://github.com/TadaTeruki"
+            >
+                <Logo template="github" size="5" />
+            </a>
+            <a class="linkBox" target="_blank" href="https://x.com/perukifun">
+                <Logo template="x" size="5" />
+            </a>
+            <a
+                class="linkBox"
+                target="_blank"
+                href="https://slides2.peruki.dev"
+            >
+                <Logo template="slide" size="5" />
+            </a>
+        </div>
     </div>
-    <div class="titlebox-image">
-        <img src="icon.jpeg" alt="icon" />
+    <div class="w-4"></div>
+    <div class="flex justify-center m-4">
+        <img
+            src="icon.jpeg"
+            alt="icon"
+            class="w-30 h-30 rounded-full min-w-40 min-h-40"
+        />
     </div>
 </div>
 
 <style>
-    .titlebox {
-        @apply flex justify-between p-4 w-fit m-auto;
+    .linkBox {
+        @apply flex justify-center items-center gap-2 bg-white p-2 rounded-lg bg-opacity-50 transition-colors duration-300 ease-in-out;
     }
 
-    .titlebox-image {
-        @apply flex justify-center;
-    }
-
-    .titlebox-text {
-        @apply flex flex-col justify-center;
-    }
-
-    .titlebox-image img {
-        @apply w-24 h-24 rounded-full;
-    }
-
-    .name {
-        @apply text-4xl mr-2 whitespace-nowrap text-center;
-    }
-
-    .subname {
-        @apply text-lg text-gray-500 whitespace-nowrap text-center;
+    .linkBox:hover {
+        @apply bg-opacity-100;
     }
 </style>

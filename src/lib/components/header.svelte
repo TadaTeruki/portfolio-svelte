@@ -9,14 +9,16 @@
         | "fun"
         | "otaru";
     let backImage: string;
-    let backPrevImage: string;
     $: {
         backImage = `/images-large/${backMotif}.webp`;
     }
+
+    export let fullscreen: boolean = false;
 </script>
 
 <div
-    class="boxbg shadow-sm text-center relative overflow-hidden bg-white bg-opacity-70 shadow-inner"
+    class={"boxbg shadow-sm text-center relative overflow-hidden bg-white bg-opacity-70 shadow-inner" +
+        (fullscreen ? " h-screen" : "")}
 >
     <img
         src={backImage}
@@ -46,7 +48,7 @@
 
     @keyframes fade-in {
         0% {
-            opacity: 0.5;
+            opacity: 0.7;
         }
         100% {
             opacity: 1;
@@ -54,6 +56,6 @@
     }
 
     .animate-fade-in {
-        animation: fade-in 0.25s ease-in-out;
+        animation: fade-in 0.25s ease-out;
     }
 </style>

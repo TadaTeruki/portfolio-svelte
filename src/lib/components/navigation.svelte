@@ -4,16 +4,16 @@
 
 <div class="container">
     {#if hasHome}
-        <a href="/">Home</a> |
+        <a href="/">Home</a>
     {/if}
-    <a href="/profile">Profile</a> |
-    <a href="/works">Works</a> |
-    <a href="/skills">Skills</a> |
-    <a href="/map">Map</a> |
-    <a href="/contact">Contact</a> |
-    <a href="https://github.com/TadaTeruki" target="_blank" class="underline"
-        >GitHub</a
-    >
+    <a href="/profile">Profile</a>
+    <a href="/works">Works</a>
+    <a href="/skills">Skills</a>
+    <a href="/map">Map</a>
+    <a href="/contact">Contact</a>
+    <a href="https://github.com/TadaTeruki" target="_blank">
+        <div class="i-github"></div>
+    </a>
 </div>
 
 <style>
