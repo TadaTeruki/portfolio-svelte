@@ -1,5 +1,4 @@
 <script lang="ts">
-    import Header from "$lib/components/header.svelte";
     import Navigation from "$lib/components/navigation.svelte";
     import "virtual:uno.css";
     import "@unocss/reset/tailwind-compat.css";
@@ -28,18 +27,13 @@
 
 <slot />
 
-<footer class="p-4 text-gray-500 text-sm text-center m-auto w-fit">
-    <Navigation hasHome={true} />
-    Copyright © 2024 Teruki TADA
-</footer>
-
 <style>
     :global(body) {
         @apply font-sans;
     }
 
     :global(main) {
-        @apply p-4 m-auto max-w-3xl text-gray-700;
+        @apply px-4 py-12 m-auto max-w-3xl text-gray-700;
     }
 
     :global(.content) {

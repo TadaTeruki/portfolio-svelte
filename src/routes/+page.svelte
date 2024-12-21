@@ -1,7 +1,6 @@
 <script lang="ts">
+    import Footer from "$lib/components/footer.svelte";
     import Header from "$lib/components/header.svelte";
-    import Map from "$lib/components/map.svelte";
-    import Topimages from "$lib/components/topimages.svelte";
     import Titlebox from "../lib/components/titlebox.svelte";
     import { headerColor } from "./store";
     headerColor.set("#d9ffff");
@@ -12,7 +11,6 @@
 </Header>
 
 <main>
-
     <h2>Contents</h2>
     <div class="content">
         <a class="globallink" href="/">Home</a> - About me and this site<br />
@@ -46,6 +44,8 @@
         >
     </div>
 </main>
+
+<Footer />
 
 <style>
     .title-space {

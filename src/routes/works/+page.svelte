@@ -1,11 +1,13 @@
 <script lang="ts">
+    import Footer from "$lib/components/footer.svelte";
     import Header from "$lib/components/header.svelte";
+    import type { Work } from "$lib/components/workcard.svelte";
     import Worktable from "$lib/components/worktable.svelte";
     import { headerColor } from "../store";
 
     export let data;
-    $: works = data.works;
-    $: categories = data.categories;
+    $: works = data.works as Work[];
+    $: categories = data.categories as string[];
 
     function worksInCategory(category: string) {
         return works.filter((work: any) => work.category === category);
@@ -24,6 +26,8 @@
         <Worktable works={worksInCategory(category)} />
     {/each}
 </main>
+
+<Footer />
 
 <style>
     #worksMain {

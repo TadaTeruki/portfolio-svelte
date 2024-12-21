@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Header from "$lib/components/header.svelte";
+    import Footer from "$lib/components/footer.svelte";
     import Map from "$lib/components/map.svelte";
     import Topnavigator from "$lib/components/topnavigator.svelte";
     import { headerColor } from "../store";
@@ -10,9 +10,13 @@
     <Topnavigator />
     <div class="py-5 text-center">
         <h1>My Map</h1>
-        <div class="text-xs"> Places I've visited </div>
+        <div class="text-xs">Places I've visited</div>
     </div>
+</div>
 
+<div class="absolute bottom-0 z-10 w-screen">
+    <Footer />
+    aa
 </div>
 
 <Map showAllMarkers={true} zoom={4.5} mapId={"fullmap"} />

@@ -1,4 +1,5 @@
 <script>
+    import Footer from "$lib/components/footer.svelte";
     import Header from "$lib/components/header.svelte";
     import { headerColor } from "../store";
     headerColor.set("#ffe8f4");
@@ -154,3 +155,5 @@
         </ul>
     </div>
 </main>
+
+<Footer />
