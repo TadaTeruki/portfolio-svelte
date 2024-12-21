@@ -8,7 +8,7 @@
     <Topnavigator />
     <div class="py-5 text-center">
         <h1>My Map</h1>
-        <div class="text-xs">Places I've visited</div>
+        <div class="text-xs">Select a marker for more information</div>
     </div>
 </div>
 

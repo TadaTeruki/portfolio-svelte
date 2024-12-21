@@ -11,7 +11,7 @@ mkdir -p $output_path
 echo "[" >> "$output_file.json"
 
 first=true
-find static/articles -name '*.md' -print | while read -r file; do
+find static/articles-src -name '*.md' -print | while read -r file; do
   path=$(dirname $file)
   echo "Processing $file"
   target_entries=("id" "title" "description" "created_at" "updated_at" "tags" "thumbnail")
@@ -34,6 +34,8 @@ find static/articles -name '*.md' -print | while read -r file; do
     entries+=("\"$tag\":$value")
 
   done
+
+  entries+=("\"path\":\"$path\"")
  
   entries_str=$(IFS=,; echo "${entries[*]}")
 

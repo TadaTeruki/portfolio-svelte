@@ -1,23 +1,30 @@
 <script lang="ts">
     import Topnavigator from "./topnavigator.svelte";
 
-    export let backMotif:
-        | "hakodate"
-        | "kyoto"
-        | "asahikawa"
-        | "esan"
-        | "fun"
-        | "otaru";
+    const presetMotifs = [
+        "hakodate",
+        "kyoto",
+        "asahikawa",
+        "esan",
+        "fun",
+        "otaru",
+    ];
+
+    export let backMotif: string;
     let backImage: string;
     $: {
-        backImage = `/images-large/${backMotif}.webp`;
+        if (presetMotifs.includes(backMotif)) {
+            backImage = `/images-large/${backMotif}.webp`;
+        } else {
+            backImage = backMotif;
+        }
     }
 
     export let fullscreen: boolean = false;
 </script>
 
 <div
-    class={"boxbg shadow-sm text-center relative overflow-hidden bg-white bg-opacity-70 shadow-inner" +
+    class={"boxbg shadow-sm text-center relative overflow-hidden bg-white bg-opacity-60 shadow-inner" +
         (fullscreen ? " h-screen" : "")}
 >
     <img

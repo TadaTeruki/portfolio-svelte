@@ -4,10 +4,10 @@
 
 <div class="flex justify-between p-4 w-fit m-auto md:flex-row flex-col">
     <div class="flex flex-col justify-center">
-        <div class="text-4xl mr-2 whitespace-nowrap text-center">
+        <div class="text-xl mr-2 whitespace-nowrap text-center">
             Teruki TADA
         </div>
-        <div class="text-lg text-gray-500 whitespace-nowrap text-center">
+        <div class="text-sm text-gray-500 whitespace-nowrap text-center">
             多田 瑛貴 / ただ てるき
         </div>
         <div class="h-3"></div>
@@ -36,7 +36,7 @@
         <img
             src="icon.jpeg"
             alt="icon"
-            class="w-30 h-30 rounded-full min-w-40 min-h-40"
+            class="w-30 h-30 rounded-full min-w-30 min-h-30"
         />
     </div>
 </div>

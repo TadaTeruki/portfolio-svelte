@@ -4,11 +4,17 @@
     import Header from "$lib/components/header.svelte";
     import type { Article } from "$lib/model.js";
     export let data;
-    let oldArticles: Article[] = [];
+    let articles: Article[] = [];
     $: if (data) {
-        oldArticles = data.oldArticles.sort((a: Article, b: Article) => {
-            return new Date(b.created_at) < new Date(a.created_at) ? -1 : 1;
-        });
+        articles = data.articles
+            .sort((a: Article, b: Article) => {
+                return new Date(b.created_at) < new Date(a.created_at) ? -1 : 1;
+            })
+            .map((article: Article) => {
+                return {
+                    ...article,
+                };
+            });
     }
 </script>
 
@@ -17,7 +23,7 @@
 </Header>
 
 <main id="worksMain">
-    {#each oldArticles as article}
+    {#each articles as article}
         <Articlecard {article} />
     {/each}
 </main>

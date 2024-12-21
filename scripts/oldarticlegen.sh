@@ -2,7 +2,7 @@
 
 # 設定
 JSON_FILE="archive/article-old.json"
-OUTPUT_DIR="static/articles/old"
+OUTPUT_DIR="static/articles-src/old"
 
 # jqがインストールされているか確認
 if ! command -v jq &> /dev/null
@@ -16,6 +16,8 @@ if [ ! -f "$JSON_FILE" ]; then
     echo "エラー: JSONファイルが見つかりません。パスを確認してください: $JSON_FILE"
     exit 1
 fi
+
+rm -rf "$OUTPUT_DIR"
 
 # 各記事エントリを処理
 jq -c 'to_entries[]' "$JSON_FILE" | while read -r entry; do

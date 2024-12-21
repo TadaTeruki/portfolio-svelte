@@ -3,7 +3,7 @@ import type { PageLoad } from "./$types";
 
 export const load: PageLoad = async ({ fetch }) => {
     const res = await fetch("/routes-article.json");
-    const oldArticles = await res.json().then((data) =>
+    const articles = await res.json().then((data) =>
         data.map((art: any) => {
             return {
                 id: art.id,
@@ -15,8 +15,9 @@ export const load: PageLoad = async ({ fetch }) => {
                 body: art.body,
                 created_at: art.created_at,
                 updated_at: art.updated_at,
+                path: art.path,
             } as Article;
         }),
     );
-    return { oldArticles };
+    return { articles };
 };
