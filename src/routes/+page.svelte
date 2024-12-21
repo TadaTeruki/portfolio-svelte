@@ -17,7 +17,7 @@
                 class="bg-white bg-opacity-50 backdrop-blur-md shadow-sm rounded-lg px-8 py-2 m-2 w-fit h-max z-20 pointer-events-auto"
             >
                 <Titlebox />
-                <Footer hasFootMargin={false} />
+                <Footer hasFootMargin={false} hasHome={false} />
             </div>
         </div>
     </div>

@@ -13,8 +13,7 @@
 </div>
 
 <div class="absolute bottom-0 z-10 w-screen">
-    <Footer />
-    aa
+    <Footer hasFootMargin={false} />
 </div>
 
 <Map showAllMarkers={true} zoom={4.5} mapId={"fullmap"} />
