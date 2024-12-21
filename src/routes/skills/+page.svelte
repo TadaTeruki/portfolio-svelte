@@ -7,7 +7,7 @@
     <h1>Skills</h1>
     <h2>Overview</h2>
     <div class="content">
-        <h4>Major Programming Languages</h4>
+        <div>Major Programming Languages</div>
         <ul>
             <li>Rust</li>
             <li>TypeScript</li>
@@ -15,7 +15,7 @@
             <li>Go</li>
         </ul>
 
-        <h4>Development Environment</h4>
+        <div>Development Environment</div>
         <ul>
             <li>Linux - Debian (Previous: Arch Linux, Ubuntu, WSL2)</li>
             <li>DE - Xfce (Previous: GNOME, sway)</li>
@@ -23,9 +23,10 @@
     </div>
 
     <h2>Technical Skills / Interests</h2>
-    <h3>As Hobby</h3>
+
     <div class="content">
-        <h4>Procedural Modeling</h4>
+        <h3>As Hobby</h3>
+        <div>Procedural Modeling</div>
         <ul>
             <li>
                 Terrain Generation with Landscape Evolution Model<br />
@@ -60,7 +61,7 @@
             </li>
         </ul>
 
-        <h4>Desktop GUI Development</h4>
+        <div>Desktop GUI Development</div>
         <ul>
             <li>
                 GTK3/4<br />
@@ -82,7 +83,7 @@
             </li>
         </ul>
 
-        <h4>Algorithm / Data Structure</h4>
+        <div>Algorithm / Data Structure</div>
         <ul>
             <li>
                 Computational Geometry<br />
@@ -112,9 +113,10 @@
             </li>
         </ul>
     </div>
-    <h3>Both Work and Hobby</h3>
+
     <div class="content">
-        <h4>Frontend Web Development</h4>
+        <h3>Both Work and Hobby</h3>
+        <div>Frontend Web Development</div>
         <ul>
             <li>React / Svelte</li>
             <li>Next.js / Sveltekit</li>
@@ -123,13 +125,13 @@
             <li>WebAssembly (Rust / Go)</li>
         </ul>
 
-        <h4>Backend Web Development</h4>
+        <div>Backend Web Development</div>
         <ul>
             <li>Go - Gin / Echo</li>
             <li>Rust - Axum</li>
         </ul>
 
-        <h4>Others</h4>
+        <div>Others</div>
         <ul>
             <li>QGIS</li>
             <li>Open Source Culture</li>

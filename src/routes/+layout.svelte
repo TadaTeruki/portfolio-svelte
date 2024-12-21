@@ -3,6 +3,8 @@
     import Navigation from "$lib/components/navigation.svelte";
     import "virtual:uno.css";
     import "@unocss/reset/tailwind-compat.css";
+
+    export const prerender = true;
 </script>
 
 <svelte:head>
@@ -26,15 +28,11 @@
 
 <Header />
 
-<div class="mainbox">
-    <slot />
-</div>
+<slot />
 
-<footer>
-    <div class="footerElements">
-        <Navigation hasHome={true} />
-        Copyright © 2024 Teruki TADA
-    </div>
+<footer class="p-4 text-gray-500 text-sm text-center m-auto w-fit">
+    <Navigation hasHome={true} />
+    Copyright © 2024 Teruki TADA
 </footer>
 
 <style>
@@ -54,30 +52,15 @@
         @apply text-2xl font-normal my-12;
     }
 
-    :global(h2, h3, h4, h5, h6) {
+    :global(h2) {
         @apply text-xl font-normal my-2;
     }
 
+    :global(h3) {
+        @apply text-lg font-normal my-2;
+    }
+
     :global(.content ul) {
-        @apply list-disc;
-    }
-
-    footer {
-        @apply p-4 text-gray-500 text-sm text-center;
-    }
-
-    .footerElements {
-        @apply flex flex-col gap-2;
-    }
-
-    :global(a.globallink) {
-        /* text-decoration: none;
-        color: #477; */
-        @apply text-linkColor no-underline;
-    }
-
-    :global(a.globallink:hover) {
-        /* color: #6aa; */
-        @apply text-linkColorHover;
+        @apply list-disc pl-8;
     }
 </style>

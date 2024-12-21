@@ -16,52 +16,25 @@
     export let work: Work;
 </script>
 
-<a href={work.urls[0].url} target="_blank" class="cardlink">
-    <div class="card">
-        <img src={`/images/works/${work.thumbnail}`} alt={work.name} />
-        <div class="text">
-            <div class="title">{work.name}</div>
-            <div class="description">{work.description}</div>
-            <div class="links">
-                {#each work.urls as url}
-                    <a class="globallink" href={url.url} target="_blank"
-                        >{url.tag}</a
-                    >
-                    {#if url !== work.urls[work.urls.length - 1]}
-                        |
-                    {/if}
-                {/each}
-            </div>
+<div
+    class="flex bg-transparent border-b border-gray-200 p-4 hover:bg-gray-100 transition-colors duration-300 ease-in-out"
+>
+    <img
+        src={`/images/works/${work.thumbnail}`}
+        alt={work.name}
+        class="w-30 h-30 object-cover"
+    />
+    <div class="flex flex-col justify-center ml-4">
+        <div class="text-2xl">{work.name}</div>
+        <div class="text-lg text-gray-500">{work.description}</div>
+        <div class="flex gap-2">
+            {#each work.urls as url}
+                <a
+                    class="text-linkColor hover:text-linkColorHover"
+                    href={url.url}
+                    target="_blank">{url.tag}</a
+                >
+            {/each}
         </div>
     </div>
-</a>
-
-<style>
-    .card {
-        @apply border border-gray-300 bg-white rounded-lg p-2 m-2 w-60 h-80 flex flex-col transition-colors duration-200;
-    }
-
-    .card:hover {
-        @apply bg-gray-100 border-gray-400;
-    }
-
-    .text {
-        @apply flex-1 p-2 text-sm flex flex-col;
-    }
-
-    img {
-        @apply w-full h-80 overflow-hidden aspect-w-8 aspect-h-5 rounded-md object-cover;
-    }
-
-    .links {
-        @apply flex gap-2;
-    }
-
-    .title {
-        @apply text-xl;
-    }
-
-    a.cardlink {
-        @apply no-underline;
-    }
-</style>
+</div>

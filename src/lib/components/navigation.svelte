@@ -2,7 +2,7 @@
     export let hasHome: boolean = true;
 </script>
 
-<div class="contents">
+<div class="container">
     {#if hasHome}
         <a href="/">Home</a> |
     {/if}
@@ -17,8 +17,8 @@
 </div>
 
 <style>
-    .contents {
-        @apply flex gap-2 justify-center;
+    .container {
+        @apply flex gap-2 justify-center items-center w-fit;
     }
 
     a {

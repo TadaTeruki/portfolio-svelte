@@ -26,10 +26,10 @@
     }
 
     .name {
-        @apply text-3xl mr-2 whitespace-nowrap;
+        @apply text-4xl mr-2 whitespace-nowrap text-center;
     }
 
     .subname {
-        @apply text-md text-gray-500 whitespace-nowrap;
+        @apply text-lg text-gray-500 whitespace-nowrap text-center;
     }
 </style>

@@ -13,13 +13,13 @@
 
     <div class="title-space"></div>
 
-    <h2>Main Works</h2>
+    <!-- <h2>Main Works</h2>
 
     <Topimages />
 
     <h2>My Map</h2>
 
-    <Map mapId="map" />
+    <Map mapId="map" /> -->
 
     <h2>Contents</h2>
     <div class="content">
@@ -61,5 +61,13 @@
     }
     :global(#map) {
         @apply mt-4 h-96;
+    }
+
+    a.globallink {
+        @apply text-linkColor no-underline;
+    }
+
+    a.globallink:hover {
+        @apply text-linkColorHover;
     }
 </style>
