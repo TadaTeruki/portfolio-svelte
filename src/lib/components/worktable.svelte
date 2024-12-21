@@ -1,6 +1,6 @@
 <script lang="ts">
-    import type { Work } from "$lib/components/workcard.svelte";
     import Workcard from "$lib/components/workcard.svelte";
+    import type { Work } from "$lib/model";
 
     export let works: Work[] = [];
 </script>

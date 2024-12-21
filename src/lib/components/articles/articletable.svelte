@@ -1,6 +1,6 @@
 <script lang="ts">
+    import type { Article } from "$lib/model";
     import Articlecard from "./articlecard.svelte";
-    import type { Article } from "./articlecard.svelte";
 
     export let articles: Article[] = [];
 </script>

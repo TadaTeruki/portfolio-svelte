@@ -1,18 +1,6 @@
-<!--card component-->
-
-<script lang="ts" context="module">
-    export class Work {
-        name: string = "";
-        description: string = "";
-        urls: { tag: string; url: string }[] = [];
-        category: string = "";
-        technologies: string[] = [];
-        thumbnail: string = "";
-        personal: boolean = false;
-    }
-</script>
-
 <script lang="ts">
+    import type { Work } from "$lib/model";
+
     export let work: Work;
 </script>
 
