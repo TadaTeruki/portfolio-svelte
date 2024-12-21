@@ -4,8 +4,17 @@
     import type { Work } from "$lib/components/workcard.svelte";
     import Worktable from "$lib/components/worktable.svelte";
     export let data;
-    $: works = data.works as Work[];
-    $: categories = data.categories as string[];
+    let works: Work[] = [];
+    let categories: string[] = [];
+    $: if (data && data.works) {
+        works = data.works;
+        categories = Array.from(
+            new Set(works.map((work: any) => work.category)),
+        );
+    } else {
+        works = [];
+        categories = [];
+    }
 
     function worksInCategory(category: string) {
         return works.filter((work: any) => work.category === category);

@@ -15,8 +15,4 @@
     .content {
         @apply flex flex-col gap-2;
     }
-
-    .divider {
-        @apply border-t border-gray-200;
-    }
 </style>

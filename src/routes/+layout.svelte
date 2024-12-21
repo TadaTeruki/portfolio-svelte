@@ -1,5 +1,4 @@
 <script lang="ts">
-    import Navigation from "$lib/components/navigation.svelte";
     import "virtual:uno.css";
     import "@unocss/reset/tailwind-compat.css";
 

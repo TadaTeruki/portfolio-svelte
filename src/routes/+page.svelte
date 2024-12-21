@@ -22,20 +22,3 @@
         </div>
     </div>
 </div>
-
-<style>
-    .title-space {
-        @apply h-6;
-    }
-    :global(#map) {
-        @apply mt-4 h-96;
-    }
-
-    a.globallink {
-        @apply text-linkColor no-underline;
-    }
-
-    a.globallink:hover {
-        @apply text-linkColorHover;
-    }
-</style>
