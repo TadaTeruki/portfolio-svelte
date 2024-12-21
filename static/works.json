@@ -5,7 +5,7 @@
             "description": "Generate fictional city in Hokkaido",
             "urls": [
                 {
-                    "tag": "Site",
+                    "tag": "Visit",
                     "url": "https://v2hokkaidogenerator.peruki.dev"
                 },
                 {
@@ -29,7 +29,7 @@
             "description": "Estimate and Visualize areas where roadside stores gather",
             "urls": [
                 {
-                    "tag": "Site",
+                    "tag": "Visit",
                     "url": "https://roadside-explorer.pages.dev"
                 },
                 {
