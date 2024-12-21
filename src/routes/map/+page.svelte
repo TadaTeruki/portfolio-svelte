@@ -1,8 +1,19 @@
 <script lang="ts">
+    import Header from "$lib/components/header.svelte";
     import Map from "$lib/components/map.svelte";
+    import Topnavigator from "$lib/components/topnavigator.svelte";
     import { headerColor } from "../store";
     headerColor.set("#f8e8ff");
 </script>
+
+<div class="absolute top-0 z-10 w-screen">
+    <Topnavigator />
+    <div class="py-5 text-center">
+        <h1>My Map</h1>
+        <div class="text-xs"> Places I've visited </div>
+    </div>
+
+</div>
 
 <Map showAllMarkers={true} zoom={4.5} mapId={"fullmap"} />
 

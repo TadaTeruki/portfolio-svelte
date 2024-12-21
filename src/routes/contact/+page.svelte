@@ -1,10 +1,14 @@
 <script>
+    import Header from "$lib/components/header.svelte";
     import { headerColor } from "../store";
     headerColor.set("#ececec");
 </script>
 
-<main>
+<Header backMotif="otaru">
     <h1>Contact</h1>
+</Header>
+
+<main>
     <div class="content">
         <br />
         <ul>

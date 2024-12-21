@@ -18,7 +18,7 @@
 
 <style>
     .container {
-        @apply flex gap-2 justify-center items-center w-fit;
+        @apply flex gap-2 justify-center items-center w-fit flex-wrap;
     }
 
     a {

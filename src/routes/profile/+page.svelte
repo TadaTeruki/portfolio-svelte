@@ -1,11 +1,14 @@
 <script>
+    import Header from "$lib/components/header.svelte";
     import { headerColor } from "../store";
     headerColor.set("#e8ffe3");
 </script>
 
-<main>
+<Header backMotif="fun">
     <h1>Profile</h1>
+</Header>
 
+<main>
     <h2>Name</h2>
 
     <div class="content">Teruki TADA / 多田 瑛貴 / ただ てるき</div>

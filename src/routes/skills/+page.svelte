@@ -1,10 +1,14 @@
 <script>
+    import Header from "$lib/components/header.svelte";
     import { headerColor } from "../store";
     headerColor.set("#ffe8f4");
 </script>
 
-<main>
+<Header backMotif="asahikawa">
     <h1>Skills</h1>
+</Header>
+
+<main>
     <h2>Overview</h2>
     <div class="content">
         <div>Major Programming Languages</div>

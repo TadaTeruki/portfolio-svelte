@@ -1,11 +1,48 @@
 <script lang="ts">
-    import Navigation from "./navigation.svelte";
+    import Topnavigator from "./topnavigator.svelte";
+
+    export let backMotif: 'hakodate' | 'kyoto' | 'asahikawa' | 'esan' | 'fun' | 'otaru'; 
+    let backImage: string;
+    let backPrevImage: string;
+    $: {
+        backImage = `/images-large/${backMotif}.webp`;
+    }
+
 </script>
 
-<div
-    class="flex gap-2 justify-center items-center w-fit bg-gray-100 px-4 py-2 rounded-full mx-auto my-4"
->
-    <a href="/">Teruki TADA</a> |
+<div class="boxbg shadow-sm text-center relative overflow-hidden bg-white bg-opacity-70 shadow-inner">
+    <img src={backImage} alt="back" class="absolute top-0 left-0 -z-10 object-cover w-full h-full animate-fade-in" />
 
-    <Navigation hasHome={false} />
+    <Topnavigator />
+
+    <div class="py-15">
+        <slot />
+    </div>
 </div>
+
+<style>
+
+    .boxbg {
+        --color-grid: rgba(0, 55, 55, 0.05);
+        
+        background-image: 
+            linear-gradient(var(--color-grid) 1px, transparent 0px),
+            linear-gradient(to right, var(--color-grid) 1px, transparent 0px);
+        background-size: 1.2em 1.55em;
+        background-position: center;
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .animate-fade-in {
+        animation: fade-in 0.25s ease-in-out;
+    }
+
+</style>

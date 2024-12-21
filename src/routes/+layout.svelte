@@ -26,8 +26,6 @@
     <meta name="twitter:domain" content="hello.peruki.dev" />
 </svelte:head>
 
-<Header />
-
 <slot />
 
 <footer class="p-4 text-gray-500 text-sm text-center m-auto w-fit">
@@ -41,7 +39,7 @@
     }
 
     :global(main) {
-        @apply p-4 m-auto max-w-4xl text-gray-700;
+        @apply p-4 m-auto max-w-3xl text-gray-700;
     }
 
     :global(.content) {
@@ -49,7 +47,7 @@
     }
 
     :global(h1) {
-        @apply text-2xl font-normal my-12;
+        @apply text-2xl font-normal;
     }
 
     :global(h2) {

@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Header from "$lib/components/header.svelte";
     import Map from "$lib/components/map.svelte";
     import Topimages from "$lib/components/topimages.svelte";
     import Titlebox from "../lib/components/titlebox.svelte";
@@ -6,20 +7,11 @@
     headerColor.set("#d9ffff");
 </script>
 
-<main>
-    <div class="title-space"></div>
-
+<Header backMotif="hakodate">
     <Titlebox />
+</Header>
 
-    <div class="title-space"></div>
-
-    <!-- <h2>Main Works</h2>
-
-    <Topimages />
-
-    <h2>My Map</h2>
-
-    <Map mapId="map" /> -->
+<main>
 
     <h2>Contents</h2>
     <div class="content">

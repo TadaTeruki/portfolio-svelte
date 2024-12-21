@@ -22,6 +22,6 @@ export default defineConfig({
         colors: {
             linkColor: '#477',
             linkColorHover: '#6aa',
-        }
+        },
     }
 })

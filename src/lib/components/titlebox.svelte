@@ -22,7 +22,7 @@
     }
 
     .titlebox-image img {
-        @apply w-24;
+        @apply w-24 h-24 rounded-full;
     }
 
     .name {
