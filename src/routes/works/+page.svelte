@@ -26,6 +26,6 @@
 
 <style>
     #worksMain {
-        max-width: 60em;
+        @apply max-w-4xl;
     }
 </style>

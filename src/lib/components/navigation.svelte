@@ -1,27 +1,31 @@
+<script lang="ts">
+    export let hasHome: boolean = true;
+</script>
+
 <div class="contents">
-    <a href="/">Home</a> |
+    {#if hasHome}
+        <a href="/">Home</a> |
+    {/if}
     <a href="/profile">Profile</a> |
     <a href="/works">Works</a> |
     <a href="/skills">Skills</a> |
     <a href="/map">Map</a> |
     <a href="/contact">Contact</a> |
-    <a href="https://github.com/TadaTeruki" target="_blank">GitHub</a>
+    <a href="https://github.com/TadaTeruki" target="_blank" class="underline"
+        >GitHub</a
+    >
 </div>
 
 <style>
     .contents {
-        display: flex;
-        gap: 0.5em;
-        flex-wrap: wrap;
-        justify-content: center;
+        @apply flex gap-2 justify-center;
     }
 
     a {
-        text-decoration: none;
-        color: #555;
+        @apply text-gray-700;
     }
 
     a:hover {
-        color: #888;
+        @apply text-gray-500;
     }
 </style>

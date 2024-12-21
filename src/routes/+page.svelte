@@ -17,11 +17,11 @@
 
     <Topimages />
 
-    <h2>About Me</h2>
+    <h2>My Map</h2>
 
     <Map mapId="map" />
 
-    <h2>Site Map</h2>
+    <h2>Contents</h2>
     <div class="content">
         <a class="globallink" href="/">Home</a> - About me and this site<br />
         <a class="globallink" href="/profile">Profile</a> - My profile<br />
@@ -57,11 +57,9 @@
 
 <style>
     .title-space {
-        height: 1.5em;
+        @apply h-6;
     }
-
     :global(#map) {
-        margin-top: 1em;
-        height: 30em;
+        @apply mt-4 h-96;
     }
 </style>

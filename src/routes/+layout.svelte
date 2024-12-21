@@ -1,7 +1,8 @@
 <script lang="ts">
     import Header from "$lib/components/header.svelte";
     import Navigation from "$lib/components/navigation.svelte";
-    import { headerColor } from "./store";
+    import "virtual:uno.css";
+    import "@unocss/reset/tailwind-compat.css";
 </script>
 
 <svelte:head>
@@ -31,71 +32,52 @@
 
 <footer>
     <div class="footerElements">
-        <Navigation />
+        <Navigation hasHome={true} />
         Copyright © 2024 Teruki TADA
     </div>
 </footer>
 
 <style>
-    @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap");
-
     :global(body) {
-        font-family: "Zen Kaku Gothic New", sans-serif;
-        margin: 0;
-        scroll-behavior: smooth;
+        @apply font-sans;
     }
 
     :global(main) {
-        margin: 0 auto;
-        padding: 2em 1em;
-
-        max-width: 52em;
-        color: #222;
+        @apply p-4 m-auto max-w-4xl text-gray-700;
     }
 
     :global(.content) {
-        padding-left: 1em;
-        line-height: 1.5;
+        @apply p-4;
     }
 
     :global(h1) {
-        margin: 2em 0 0.5em 0;
-        font-weight: normal;
-        line-height: 0.9;
+        @apply text-2xl font-normal my-12;
     }
 
     :global(h2, h3, h4, h5, h6) {
-        margin: 1.5em 0 0.5em 0.1em;
-        font-weight: normal;
+        @apply text-xl font-normal my-2;
     }
 
     :global(.content ul) {
-        list-style-type: square;
+        @apply list-disc;
     }
 
     footer {
-        color: #888;
-        padding-top: 10vh;
-        padding-bottom: 5vh;
-        font-size: 0.8em;
-
-        display: flex;
-        justify-content: center;
+        @apply p-4 text-gray-500 text-sm text-center;
     }
 
     .footerElements {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        gap: 0.5em;
+        @apply flex flex-col gap-2;
     }
 
     :global(a.globallink) {
-        text-decoration: none;
-        color: #477;
+        /* text-decoration: none;
+        color: #477; */
+        @apply text-linkColor no-underline;
     }
 
     :global(a.globallink:hover) {
-        color: #6aa;
+        /* color: #6aa; */
+        @apply text-linkColorHover;
     }
 </style>

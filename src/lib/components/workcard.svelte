@@ -20,12 +20,7 @@
     <div class="card">
         <img src={`/images/works/${work.thumbnail}`} alt={work.name} />
         <div class="text">
-            <h2>{work.name}</h2>
-            <div class="technologies">
-                {#each work.technologies as tech}
-                    <span>{tech}</span>
-                {/each}
-            </div>
+            <div class="title">{work.name}</div>
             <div class="description">{work.description}</div>
             <div class="links">
                 {#each work.urls as url}
@@ -43,86 +38,30 @@
 
 <style>
     .card {
-        border: 1px solid #ddd;
-        background-color: inherit;
-        border-radius: 1em;
-        padding: 0.6em;
-        margin: 0.5em;
-        max-width: 13em;
-        height: 18em;
-        display: flex;
-        flex-direction: column;
-        transition:
-            background-color 0.2s,
-            border-color 0.2s;
-        animation: fadeIn 0.5s;
-    }
-
-    @keyframes fadeIn {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
+        @apply border border-gray-300 bg-white rounded-lg p-2 m-2 w-60 h-80 flex flex-col transition-colors duration-200;
     }
 
     .card:hover {
-        background-color: #f8f8f8;
-        border-color: #8cc;
+        @apply bg-gray-100 border-gray-400;
     }
 
     .text {
-        flex: 1;
-        padding: 0.5em;
-        font-size: 0.8em;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    .description {
-        margin-top: 0.5em;
+        @apply flex-1 p-2 text-sm flex flex-col;
     }
 
     img {
-        width: 100%;
-        aspect-ratio: 8/5;
-        border-radius: 0.5em;
-        object-fit: cover;
-        line-height: 0.5;
-    }
-
-    h2 {
-        margin: 0.1em 0;
-    }
-
-    .technologies {
-        display: flex;
-        gap: 0.5em;
-        flex-wrap: wrap;
-        font-size: 0.7em;
-    }
-
-    .technologies span {
-        background-color: #f0f0f0;
-        color: #333;
-        border-radius: 0.5em;
-        padding: 0.1em 0.5em;
+        @apply w-full h-80 overflow-hidden aspect-w-8 aspect-h-5 rounded-md object-cover;
     }
 
     .links {
-        flex: 1;
-        align-items: end;
+        @apply flex gap-2;
+    }
 
-        display: flex;
-        gap: 0.5em;
-
-        margin: auto;
+    .title {
+        @apply text-xl;
     }
 
     a.cardlink {
-        color: inherit;
-        text-decoration: none;
+        @apply no-underline;
     }
 </style>

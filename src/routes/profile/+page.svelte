@@ -117,6 +117,6 @@
 
 <style>
     .attribution {
-        color: #888;
+        @apply text-gray-500;
     }
 </style>

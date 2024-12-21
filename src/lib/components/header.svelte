@@ -15,32 +15,13 @@
 </script>
 
 <div class="container" id="container">
-    <div class="title">
-        <a href="/">Teruki TADA</a>
-    </div>
+    <a href="/">Teruki TADA</a>
 
-    <Navigation />
+    <Navigation hasHome={false} />
 </div>
 
 <style>
     .container {
-        background-color: #f8f8f8;
-        border-bottom: 1px solid #eee;
-        color: #555;
-        padding: 0.5em 1em;
-        font-size: 1em;
-        display: flex;
-        gap: 2em;
-        white-space: nowrap;
-        transition: box-shadow 0.5s;
-    }
-
-    a {
-        text-decoration: none;
-        color: #555;
-    }
-
-    a:hover {
-        color: #888;
+        @apply q-screen bg-white border-b border-gray-200 text-gray-700 px-4 py-2 text-lg flex gap-8 whitespace-nowrap transition-shadow duration-500 ease-in-out;
     }
 </style>

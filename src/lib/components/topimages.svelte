@@ -29,24 +29,6 @@
             });
         });
     });
-
-    $: if (hovered !== undefined) {
-        imageElements()
-            .filter((image) => image !== null && image.id !== hovered)
-            .forEach((image) => {
-                image.style.transform = "scale(1)";
-                image.style.boxShadow = "0 0 0 0 rgba(0, 0, 0, 0)";
-                image.style.opacity = "0.8";
-                image.style.transition = "0.2s";
-            });
-        const image = document.getElementById(hovered);
-        if (image !== null) {
-            image.style.transform = "scale(1.025)";
-            image.style.boxShadow = "0 0 0.2em 0.2em rgba(0, 0, 0, 0.05)";
-            image.style.opacity = "1";
-            image.style.transition = "0.2s";
-        }
-    }
 </script>
 
 <div class="top-images">
@@ -103,36 +85,18 @@
 
 <style>
     .top-images {
-        display: flex;
-        justify-content: center;
-
-        max-width: 100%;
-        width: fit-content;
-        height: 15em;
-        margin: auto;
-        padding: 1em;
-
-        overflow: hidden;
-    }
-
-    .top-image {
-        max-width: 9em;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        @apply flex justify-center w-full h-full m-auto p-4 overflow-hidden shadow-none transition-transform duration-500 transition-shadow duration-500;
     }
 
     .top-image:hover {
-        transform: scale(1.025);
-        transition: transform 0.2s;
+        @apply transform scale-105 shadow-lg;
+    }
+
+    .top-image {
+        @apply w-30 h-60 object-cover;
     }
 
     .title-space {
-        display: flex;
-        justify-content: center;
-        margin-top: 0.2em;
-        height: 1.5em;
-        font-size: 0.8em;
-        color: #aaa;
+        @apply flex justify-center mt-1.5 text-sm text-gray-500;
     }
 </style>

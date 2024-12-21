@@ -1,10 +1,7 @@
 <div class="titlebox">
     <div class="titlebox-text">
-        <div class="namebox">
-            <div class="name">Teruki TADA</div>
-            <div class="subname">多田 瑛貴 / ただ てるき</div>
-        </div>
-        A Hobbyist Developer in Hakodate, Japan<br />
+        <div class="name">Teruki TADA</div>
+        <div class="subname">多田 瑛貴 / ただ てるき</div>
     </div>
     <div class="titlebox-image">
         <img src="icon.jpeg" alt="icon" />
@@ -13,45 +10,26 @@
 
 <style>
     .titlebox {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 10%;
-        flex-wrap: wrap;
+        @apply flex justify-between p-4 w-fit m-auto;
     }
 
     .titlebox-image {
-        flex: 1;
-        display: flex;
-        justify-content: center;
+        @apply flex justify-center;
     }
 
     .titlebox-text {
-        flex: 2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .namebox {
-        display: flex;
-        align-items: baseline;
-        flex-wrap: wrap;
+        @apply flex flex-col justify-center;
     }
 
     .titlebox-image img {
-        width: 10em;
+        @apply w-24;
     }
 
     .name {
-        font-size: 2em;
-        margin-right: 0.5em;
-        white-space: nowrap;
+        @apply text-3xl mr-2 whitespace-nowrap;
     }
 
     .subname {
-        font-size: 1em;
-        color: #888;
-        white-space: nowrap;
+        @apply text-md text-gray-500 whitespace-nowrap;
     }
 </style>
