@@ -20,6 +20,20 @@
 
 <svelte:head>
     <title>Peruki's Blog</title>
+    <meta name="description" content="Peruki's Blog" />
+    <meta property="og:title" content="Peruki's Blog" />
+    <meta property="og:description" content="技術と生活" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://peruki.dev/blogs" />
+    <meta property="og:image" content="/icon.jpeg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@PerukiFUN" />
+    <meta name="twitter:creator" content="@PerukiFUN" />
+    <meta name="twitter:image" content="/icon.jpeg" />
+    <meta name="twitter:title" content="Peruki's Blog" />
+    <meta name="twitter:description" content="技術と生活" />
+    <meta name="twitter:url" content="https://peruki.dev/blogs" />
+    <meta name="twitter:domain" content="peruki.dev" />
 </svelte:head>
 
 <Header backMotif="hakodate">

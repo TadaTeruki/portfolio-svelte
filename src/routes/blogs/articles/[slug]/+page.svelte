@@ -36,13 +36,27 @@
 </script>
 
 <svelte:head>
-    <title>Peruki's Blog - {article.title}</title>
+    <title>{article.title} - Peruki's Blog</title>
     <meta name="description" content={article.description} />
     <meta property="og:title" content={article.title} />
-
-    {#if article.thumbnail}
-        <meta property="og:image" content={article.thumbnail} />
-    {/if}
+    <meta property="og:description" content={article.description} />
+    <meta property="og:type" content="website" />
+    <meta
+        property="og:url"
+        content={`https://peruki.dev/blogs/articles/${article.id}`}
+    />
+    <meta property="og:image" content={article.thumbnail} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@PerukiFUN" />
+    <meta name="twitter:creator" content="@PerukiFUN" />
+    <meta name="twitter:image" content={article.thumbnail} />
+    <meta name="twitter:title" content={article.title} />
+    <meta name="twitter:description" content={article.description} />
+    <meta
+        name="twitter:url"
+        content={`https://peruki.dev/blogs/articles/${article.id}`}
+    />
+    <meta name="twitter:domain" content="peruki.dev" />
 </svelte:head>
 
 <Header backMotif={article.thumbnail}>
