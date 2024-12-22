@@ -1,5 +1,4 @@
 ---
-id: "b7f2d099-5054-4645-a1d9-f4f531fe75f3"
 title: "「はこだて観光ハッカソン」に参加しました"
 description: "チームfuNGとして参加、LINE Bot「さくっと探訪 はこだてクイズ」を開発"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2Fb7f2d099-5054-4645-a1d9-f4f531fe75f3%2Fpanel.jpeg?alt=media&token=015b728d-9f75-4668-9ab6-d535209223f9"
@@ -27,19 +26,19 @@ LINE Bot「さくっと探訪 はこだてクイズ」です。
 
 北海道で最初に立ち寄るまちだった「はこだて」が、交通網の発達により目的地でなく通過地点に変わりつつある今、他の目的地（特に札幌）に行く人にもふらっと函館に訪れてもらいたい、というコンセプトで制作したものです。クイズラリーを通して、「さくっと」立ち寄れるスポットを巡ってもらいます。
 
-
+<br>
 
 <img style="max-height:500px" src="https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2Fb7f2d099-5054-4645-a1d9-f4f531fe75f3%2Funnamed.jpg?alt=media&token=9a2587bf-f46e-44ff-964d-1e90a914c00a"></img>
 
 開発したLINE Bot
 
-
+<br>
 
 <iframe style="max-width:600px" src="https://docs.google.com/presentation/d/e/2PACX-1vSnP-PGCsvMUSWakwCAuuNu3gr_FbWBc_37iJyCxHOlg9zrBCBCc67n0gQagIZQXUFwRtsXfXbXxlBY/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 [発表スライド](https://docs.google.com/presentation/d/1p_jZEMsO7Dh-vuvNkdgS5eOWdrL1YaEvr2ilG24KSFk/edit?usp=sharing)
 
-
+<br>
 
 # 余談
 

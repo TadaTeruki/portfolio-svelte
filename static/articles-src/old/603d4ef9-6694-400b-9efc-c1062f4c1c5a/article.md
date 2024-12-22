@@ -1,5 +1,4 @@
 ---
-id: "603d4ef9-6694-400b-9efc-c1062f4c1c5a"
 title: "Xに限界を感じたので、Misskeyのおひとりさまインスタンスを運用することにした"
 description: "動機と経緯をまとめます"
 thumbnail: "https://storage.googleapis.com/misskey-tadateruki-main/misskey-tadateruki-main/e55ccf93-d4f2-422b-aca3-704c107a680d.webp"

@@ -18,6 +18,10 @@
     }
 </script>
 
+<svelte:head>
+    <title>Peruki's Blog</title>
+</svelte:head>
+
 <Header backMotif="hakodate">
     <h1>Peruki's Blog</h1>
     <div class="text-sm text-gray-500">技術と生活</div>
@@ -30,9 +34,3 @@
 </main>
 
 <Footer />
-
-<style>
-    #worksMain {
-        @apply max-w-4xl;
-    }
-</style>

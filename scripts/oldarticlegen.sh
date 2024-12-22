@@ -24,7 +24,7 @@ jq -c 'to_entries[]' "$JSON_FILE" | while read -r entry; do
     # 各フィールドを抽出
     id=$(echo "$entry" | jq -r '.key')
     title=$(echo "$entry" | jq -r '.value.title')
-    description=$(echo "$entry" | jq -r '.value.description')
+    description=$(echo "$entry" | jq -r '.value.subtitle')
     thumbnail=$(echo "$entry" | jq -r '.value.thumbnail')
     created_at=$(echo "$entry" | jq -r '.value.created_at')
     updated_at=$(echo "$entry" | jq -r '.value.updated_at')
@@ -41,7 +41,6 @@ jq -c 'to_entries[]' "$JSON_FILE" | while read -r entry; do
     # article.mdの内容を作成
     cat > "$OUTPUT_DIR/$id/article.md" <<EOF
 ---
-id: "$id"
 title: "$title"
 description: "$description"
 thumbnail: "$thumbnail"

@@ -1,5 +1,4 @@
 ---
-id: "36fead8f-536d-49d6-9a25-cd08e659fddf"
 title: "ポートフォリオ開発 ほぼ知らん技術だけで30日間Web開発 "
 description: "FUN Advent Calendar 2022 の記事です。当サイトの開発について"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F36fead8f-536d-49d6-9a25-cd08e659fddf%2Fhenshu.webp?alt=media&token=2ba52091-6440-41c5-b8c8-01455e19772f&_gl=1*1ughnl8*_ga*NDUwOTM1NzM2LjE2Njk3Njk4NzE.*_ga_CW55HF8NVT*MTY4NTg5MDU0Ni4zNC4xLjE2ODU4OTE1NTcuMC4wLjA."
@@ -15,32 +14,32 @@ tags: 技術 FUN-Advent-Calendar Web開発 attr-old
 
 ## 昨日の記事
 
- - [Compose for Webで始めるWebアプリ開発](https://qiita.com/kotambourine/items/f9c581c50ee7f241c2f3) by こた先輩
+ - [Compose for Webで始めるWebアプリ開発](https://qiita.com/kotambourine/items/f9c581c50ee7f241c2f3) by こた先輩<br>
 Compose for Webを用いて戦争x美少女x音ゲーを制作したお話でした。僕の最高スコアは63です。ちなみに、以前この方に車でおいしいシロノワールやさんに連れていただきました。
 
- - [一般情報系学生向け就活体験録](https://mochi-mks.hatenablog.com/entry/2022/12/09/090340?_ga=2.34635749.571247334.1670474787-885289335.1667545595) by mochiさん
+ - [一般情報系学生向け就活体験録](https://mochi-mks.hatenablog.com/entry/2022/12/09/090340?_ga=2.34635749.571247334.1670474787-885289335.1667545595) by mochiさん<br>
 未来大生が近く直面するであろうor既にしている、就活に関するお話でした。企業の関わりの持ち方やFUNキャリの活用、準備の仕方(面接練習がない！)など、貴重な情報ばかりでとてもよい知見を得られました。
 
- - [入学前は美少女になろう](https://yourein.github.io/2022-12-09-ilgen/) by Yourein
+ - [入学前は美少女になろう](https://yourein.github.io/2022-12-09-ilgen/) by Yourein<br>
 近頃流行りのstable diffusionを用いた、美少女アイコン制作についてのお話でした。新入生の方、この記事を読んでぜひともstable美少女になりましょう。
 
 # なにをしたか
 
 **デスマーチ**です。
 
-具体的には、**30日**でゼロからWeb開発をしました。
+具体的には、**30日**でゼロからWeb開発をしました。<br>
 **今あなたが見ているサイト**(Peruki's Portfolio) がその成果物です。
 
 
 使った技術は:
 
-**バックエンド** : Rust + tokio + axum + serde
-**フロントエンド** : TypeScript + Next.js + React + axios
-**ホスティング** : render.com, Cloudflare Pages
-**データベース** : Cloud Firestore
+**バックエンド** : Rust + tokio + axum + serde<br>
+**フロントエンド** : TypeScript + Next.js + React + axios<br>
+**ホスティング** : render.com, Cloudflare Pages<br>
+**データベース** : Cloud Firestore<br>
 その他 : Jwt
 
-
+<br>
 
 この中で、ひと月前まで使えていた技術はひとつもありません。デスマーチたる所以です。せめて言うなら、データベースとして使ったCloud Firestoreについては、ハッカソンで使用した経験がありました。ただそれも、Go製のSDKでしか使っていませんでした。またRustも若干使った経験がありますが、2年前のほんのわずかな期間の話であり、もはや言語仕様を覚えていませんでした。つまるところ、なに一つ知らなかったわけです。
 
@@ -113,17 +112,17 @@ React+TypeScript修行を始めました。Reactを採用した理由は特に�
 
 これについて、某有識者に相談したところ
 
+<br>
 
+> 某「今のコードを使ってなんとかするのは難しそう」<br>
 
-> 某「今のコードを使ってなんとかするのは難しそう」
+> P「え…どうにかならんのか」<br>
 
-> P「え…どうにかならんのか」
+> 某「表示内容をフロント側にあらかじめレンダリングして常駐させておくといいかもね」<br>
 
-> 某「表示内容をフロント側にあらかじめレンダリングして常駐させておくといいかもね」
+> P「お、そんなことができるのか、、やります、どうすればいい？」<br>
 
-> P「お、そんなことができるのか、、やります、どうすればいい？」
-
-> 某「**Next.jsを使うといいですよ**」
+> 某「**Next.jsを使うといいですよ**」<br>
 
 > …
 
@@ -148,7 +147,7 @@ React+TypeScript修行を始めました。Reactを採用した理由は特に�
 
 [![portfolio-front-next](https://github-readme-stats.vercel.app/api/pin/?username=TadaTeruki&repo=portfolio-front-next)](https://github.com/TadaTeruki/portfolio-front-next)
 
-**動いた！動いたぞ！**
+**動いた！動いたぞ！**<br>
 偉すぎです。あとはデプロイするだけです。
 
 ## 12月9日
@@ -210,6 +209,6 @@ React+TypeScript修行を始めました。Reactを採用した理由は特に�
 
 [**compass**](https://nitkc-kpc.connpass.com/event/264673/)
 
-きたるこの日、釧路高専の方々とLTをすることになりました。僕も行きます。
+きたるこの日、釧路高専の方々とLTをすることになりました。僕も行きます。<br>
 みなさんも行きましょう。今こそ距離感覚をバグらせる時！
 

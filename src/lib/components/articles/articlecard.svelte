@@ -12,11 +12,13 @@
     class="flex bg-transparent border-b border-gray-200 p-2 hover:bg-gray-100 transition-colors duration-300 ease-in-out"
     href={`/blogs/articles/${article.id}`}
 >
-    <img
-        src={article.thumbnail}
-        alt={article.title}
-        class="w-30 h-30 object-cover"
-    />
+    {#if article.thumbnail.endsWith(".webp") || article.thumbnail.startsWith("http")}
+        <img
+            src={article.thumbnail}
+            alt={article.title}
+            class="w-30 h-25 object-cover"
+        />
+    {/if}
     <div class="flex flex-col justify-center ml-4">
         <div class="text-md">{article.title}</div>
         <div class="text-sm text-gray-500">{article.description}</div>

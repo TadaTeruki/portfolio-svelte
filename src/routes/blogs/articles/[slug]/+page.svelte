@@ -1,10 +1,15 @@
 <script lang="ts">
     import Footer from "$lib/components/footer.svelte";
     import Header from "$lib/components/header.svelte";
+    import A from "$lib/markdown-renderers/A.svelte";
     import H1 from "$lib/markdown-renderers/H1.svelte";
     import H2 from "$lib/markdown-renderers/H2.svelte";
     import H3 from "$lib/markdown-renderers/H3.svelte";
+    import Img from "$lib/markdown-renderers/IMG.svelte";
+    import Imgold from "$lib/markdown-renderers/IMGOLD.svelte";
+    import P from "$lib/markdown-renderers/P.svelte";
     import type { Article } from "$lib/model";
+    import rehypeRaw from "rehype-raw";
     import Markdown, { type Plugin } from "svelte-exmarkdown";
     import { gfmPlugin } from "svelte-exmarkdown/gfm";
 
@@ -14,17 +19,31 @@
         article = data.article;
     }
 
-    const plugins: Plugin[] = [
+    $: plugins = [
         gfmPlugin(),
+        { rehypePlugin: rehypeRaw },
         {
             renderer: {
                 h1: H1,
                 h2: H2,
                 h3: H3,
+                img: article.attributions.includes("old") ? Imgold : Img,
+                a: A,
+                p: P,
             },
         },
-    ];
+    ] as Plugin[];
 </script>
+
+<svelte:head>
+    <title>Peruki's Blog - {article.title}</title>
+    <meta name="description" content={article.description} />
+    <meta property="og:title" content={article.title} />
+
+    {#if article.thumbnail}
+        <meta property="og:image" content={article.thumbnail} />
+    {/if}
+</svelte:head>
 
 <Header backMotif={article.thumbnail}>
     <div
@@ -62,17 +81,15 @@
     {/if}
 
     <Markdown md={article.body} {plugins} />
+    <div class="w-full flex justify-center mt-10">
+        <a
+            href="/blogs"
+            class="bg-gray-200 px-4 py-2 m-auto rounded-md hover:bg-gray-300 duration-500"
+        >
+            リストへ戻る
+        </a>
+    </div>
 </main>
 <div class="h-20"></div>
 
 <Footer />
-
-<style>
-    :global(p img) {
-        @apply max-w-3xl rounded-md mt-4;
-    }
-
-    :global(p a) {
-        @apply underline text-cyan-800;
-    }
-</style>

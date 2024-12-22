@@ -14,7 +14,7 @@ first=true
 find static/articles-src -name '*.md' -print | while read -r file; do
   path=$(dirname $file)
   echo "Processing $file"
-  target_entries=("id" "title" "description" "created_at" "updated_at" "tags" "thumbnail")
+  target_entries=("title" "description" "created_at" "updated_at" "tags" "thumbnail")
   entries=()
 
   for tag in "${target_entries[@]}"; do
@@ -34,6 +34,9 @@ find static/articles-src -name '*.md' -print | while read -r file; do
     entries+=("\"$tag\":$value")
 
   done
+
+  id=$(basename $path)
+  entries+=("\"id\":\"$id\"")
 
   entries+=("\"path\":\"$path\"")
  

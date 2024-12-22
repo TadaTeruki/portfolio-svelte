@@ -1,5 +1,4 @@
 ---
-id: "3b162ca8-bbcf-4d2b-a847-fa245c1e8b49"
 title: "進捗の波"
 description: "というのを進捗がない言い訳に書いてみました"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F3b162ca8-bbcf-4d2b-a847-fa245c1e8b49%2Fgitgraph.png?alt=media&token=66f000fa-aa62-4eae-9b56-e4bff00eec35"

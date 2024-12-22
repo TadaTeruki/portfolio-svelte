@@ -1,5 +1,4 @@
 ---
-id: "84f080b0-e53f-4e31-8a2b-4ccf5fcf3417"
 title: "函館市電LTのあらまし -完全版-"
 description: "#函館市電LTの企画から開催まで、運営視点で振り返る"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden1.webp?alt=media&token=92883e60-b0e6-4414-ae64-0cd8bdd67058"
@@ -56,7 +55,7 @@ ___
 なにかいい案がないか、と考えていたのですが、そこでJugesuke君が「函館市電でのLT」と「特急北斗でのLT」の2案を出してきました。実際この2つは、まとまった金額を出せば車両を貸し切りすることができ、LTするにも十分なスペースがありました。
 
 
-![payment](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden_payment.webp?alt=media&token=0e37ea94-7e8d-4ab2-bbcc-7ce76c763a8f)▲市電の貸し切り費用 (参照: https://www.city.hakodate.hokkaido.jp/docs/2014012101004/)
+![payment](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden_payment.webp?alt=media&token=0e37ea94-7e8d-4ab2-bbcc-7ce76c763a8f)<br>▲市電の貸し切り費用 (参照: https://www.city.hakodate.hokkaido.jp/docs/2014012101004/)
 
 特急北斗については、貸切費用の高さもあり、LTの開催は現実的ではありませんでした。一方で、函館市電はなんと**20,000円**で1運行ごと借りることができ、他の案と比べると相当現実的でした。最終的にこの案を採用し、開催に向けた工程を進めていくこととなります。
 
@@ -70,7 +69,7 @@ ___
 
 
 
-![yakiniku](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fyakiniku.webp?alt=media&token=6b6ad0fd-5b8c-42ba-8706-fd97e3f5972e)▲tomio先生と焼肉や中華を食べたこともあるよ
+![yakiniku](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fyakiniku.webp?alt=media&token=6b6ad0fd-5b8c-42ba-8706-fd97e3f5972e)<br>▲tomio先生と焼肉や中華を食べたこともあるよ
 
 
 とにかく、そういった経緯を経て、函館市電LTの計画が始まります。
@@ -86,7 +85,7 @@ ___
 
 [イベント企画「市電LT」 - Scrapbox](https://scrapbox.io/mariconf/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%81%E7%94%BB%E3%80%8C%E5%B8%82%E9%9B%BBLT%E3%80%8D)
 
-
+<br>
 
 ___
 > **夏だ！市電だ！LTだ！**
@@ -95,7 +94,7 @@ ___
 ___
 
 
-
+<br>
 
 こんな企画書をチラつかせてはXを中心に大々告知を行い、運営メンバーの希望者を募りました。
 
@@ -129,7 +128,7 @@ ___
 
 その次、ジャンボさんの交渉により、なんと市電の車両を見学させてもらえることとなりました。自分はじめ多くの運営メンバーにとって、駒場車庫への初潜入となりました。本当に面白かったです。
 
-![shiden](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden1.webp?alt=media&token=92883e60-b0e6-4414-ae64-0cd8bdd67058)▲見学した市電の車両
+![shiden](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden1.webp?alt=media&token=92883e60-b0e6-4414-ae64-0cd8bdd67058)<br>▲見学した市電の車両
 
 
 函館市電でLTするとなると、懸念事項はいくらでも浮かび上がります。人がどれだけ入るのか、電源はどう供給するのか、騒音対策は必要なのか、そしてそもそも酔わないかどうか、先に検証する必要がありました。場合によっては、企画自体を白紙に戻す可能性もありました。そこで、事前に市電の車両を見学しに行き、車掌さんから話を伺うことにしました。
@@ -161,9 +160,9 @@ ___
 
 # イベント当日
 
-![shiden1](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden_shako.webp?alt=media&token=0ddf0311-4e81-48e4-a9c5-8f3c4a83b303)▲搬出される市電
+![shiden1](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden_shako.webp?alt=media&token=0ddf0311-4e81-48e4-a9c5-8f3c4a83b303)<br>▲搬出される市電
 
-![shiden2](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden.webp?alt=media&token=a1385ba6-79ac-4fbd-b7dd-185214ac694e)▲市電LTの最中の雰囲気
+![shiden2](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden.webp?alt=media&token=a1385ba6-79ac-4fbd-b7dd-185214ac694e)<br>▲市電LTの最中の雰囲気
 
 そしてついに、イベント当日となります。わずか2時間のために、ここまで準備を重ねてきました。
 
@@ -183,7 +182,7 @@ ___
  - 心拍数のzoom配信アプリ開発 リベンジ
 
 
-![slide](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fslide.jpg?alt=media&token=d99a0632-5e1d-4608-8c1a-e35e674ab9e2)▲スライドの例 (kCat君の発表)
+![slide](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fslide.jpg?alt=media&token=d99a0632-5e1d-4608-8c1a-e35e674ab9e2)<br>▲スライドの例 (kCat君の発表)
 
 
 このリストを見るだけでもめちゃくちゃ面白そうに見えます。ソフトウェア設計からハードウェア、アプリ開発や開発環境、イベント運営だったり、あるいは技術とは全く関係ないロードサイドの話まで、多種多様です。中には、市電に揺られながらその場でエンジニアリングしだす人もいました。さらに、十字街あたりで**飛び乗り参加**する人まで現れます。
@@ -202,7 +201,7 @@ ___
 
 ## 改善すべき点
 
-![conpass](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fconnpass.webp?alt=media&token=53ec55ed-3c95-499e-9687-bda47bc7ff0c)▲connpassの募集枠
+![conpass](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fconnpass.webp?alt=media&token=53ec55ed-3c95-499e-9687-bda47bc7ff0c)<br>▲connpassの募集枠
 
 いろいろと反省点もあります。
 
@@ -214,7 +213,7 @@ ___
 
 やはり重要なのは、スケジュール回りの作業の自動化になってきそうです。ぺるきは本当に怠惰な人間なので、ミーティングの開催を何度も後回しにしては後悔しています。カレンダーアプリもなかなか習慣にならないです。適切なタイミングで声をかけてくれる人がいれば...そうでなくとも、そういうbotがあれば嬉しいです。
 
-![discord](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fdiscord.webp?alt=media&token=05b135f5-b0da-4df8-987b-933016218a9a)▲piroさんが作ってくれたミーティング予告bot
+![discord](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fdiscord.webp?alt=media&token=05b135f5-b0da-4df8-987b-933016218a9a)<br>▲piroさんが作ってくれたミーティング予告bot
 
 これについて最近、動きが出てきています。開催予定のミーティングを設定して、適宜「そろそろ準備しなきゃいけないんじゃない？」と声をかけてくれるbotの構想をつぶやいていたところ、なんと知り合いの高校生のpiroさんがPythonで開発してくれました。本当にありがたい。ちょうど昨日(12/3)から運用を開始しており、早速一つ設定しています。この試みが実を結ぶかどうか、期待が膨らむところです(頑張るのは僕ですが)。
 

@@ -1,5 +1,4 @@
 ---
-id: "1b6d2f97-19f5-4016-96d2-43912786b6d5"
 title: "このサイトについて"
 description: "サイトの目的、および留意事項を説明します"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Fprofile%2Fhakodate.jpeg?alt=media&token=e7cb7931-55bf-4869-961a-c83e5a1a4495"

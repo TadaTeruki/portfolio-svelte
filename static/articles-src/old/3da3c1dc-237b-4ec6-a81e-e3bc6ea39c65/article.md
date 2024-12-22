@@ -1,5 +1,4 @@
 ---
-id: "3da3c1dc-237b-4ec6-a81e-e3bc6ea39c65"
 title: "春の日高旅行2023"
 description: "静内・新冠・三石・浦河・苫小牧を巡りました"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F3da3c1dc-237b-4ec6-a81e-e3bc6ea39c65%2FIMG_0935_resized.png?alt=media&token=f47d3afc-0c16-4740-803d-fac2eebe1731"
@@ -20,9 +19,9 @@ tags: 日記 旅行 attr-old
 
 # ルート
 
-1日目 (5月4日): 函館 -> 苫小牧 -> 鵡川 -> 静内
-2日目 (5月5日): 静内 <-> 新冠
-3日目 (5月4日): 静内 -> 三石 -> 浦河 -> 札幌 -> 函館
+1日目 (5月4日): 函館 -> 苫小牧 -> 鵡川 -> 静内<br>
+2日目 (5月5日): 静内 <-> 新冠<br>
+3日目 (5月4日): 静内 -> 三石 -> 浦河 -> 札幌 -> 函館<br>
 
 # 1日目 (5月4日)
 

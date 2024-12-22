@@ -1,5 +1,4 @@
 ---
-id: "95ebbd04-55e6-44cd-a208-3a497603327c"
 title: "ポートフォリオをアップデートしました"
 description: "v1.2.0"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F95ebbd04-55e6-44cd-a208-3a497603327c%2F1_2_0_home.webp?alt=media&token=88df4e76-08aa-40e8-aa3f-e4416f299258&_gl=1*1f82k1z*_ga*NDUwOTM1NzM2LjE2Njk3Njk4NzE.*_ga_CW55HF8NVT*MTY4NjI0Mzg3Ni40MC4xLjE2ODYyNDQzMTIuMC4wLjA."
@@ -46,16 +45,16 @@ tags: 活動 技術 Web開発 attr-old
 
 技術的な負債となりうる部分を解消しました。
 
- - ファイル構成の見直し
+ - ファイル構成の見直し<br>
 componnentsのなかに無造作に入れてしまっていたコンポーネントをまとめ直しました。
 
- - prettierのセットアップ
+ - prettierのセットアップ<br>
 コードフォーマッタの環境設定が行えていなかったため、新しく行いました。
 
- - パッケージのバージョンのアップデート
+ - パッケージのバージョンのアップデート<br>
 恥ずかしながら、node.jsでは勝手に最新版がインポートされるものだと思っていました。検証すると古いバージョンのものや非推奨のパッケージも多くあった他、すでに使っていないパッケージも多く残っていたため、まとめて一掃しました。大変でした。
 
- - cssのサイズ指定の単位の変更
+ - cssのサイズ指定の単位の変更<br>
 フォントやコンテンツのサイズを指定するのに、なぜか今までmmを使っていました。結果、デバイスによってめちゃめちゃデカく表示されてしまったりしていました。アップデートを通してこれらをemまたはpxのどちらかに変更しました。
 
 この他にも、語るには恥ずかしいたくさんの負債を解消しています。

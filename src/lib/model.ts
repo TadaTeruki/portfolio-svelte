@@ -22,10 +22,16 @@ export function articleFromJson(json: any): Article {
         return true;
     });
 
+    let thumbnail = json.thumbnail;
+    if (!thumbnail.startsWith("http")) {
+        thumbnail = json.path + "/images/" + thumbnail;
+        thumbnail = thumbnail.replace("static", "");
+    }
+
     return {
         id: json.id,
         title: json.title,
-        thumbnail: json.thumbnail,
+        thumbnail,
         description: json.description,
         tags: newTags,
         body: json.body,

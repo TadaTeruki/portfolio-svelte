@@ -1,5 +1,4 @@
 ---
-id: "47bd6ffc-74ae-4f68-9456-b4268cb776f8"
 title: "自分の守ってきた行動指針に限界を感じつつある"
 description: "知識を得るという行為に対する認識が、変わってきています"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F3da3c1dc-237b-4ec6-a81e-e3bc6ea39c65%2FIMG_0972_resized.png?alt=media&token=cc3d163c-c7ab-4d5f-bfea-8dd6fe03836e"
@@ -14,7 +13,7 @@ tags: 日記 attr-old
 
 そういった直後にいうのもなんですが、自分はこの頃、自分の行動指針に関する大きな悩みに直面しています。この記事ではその話をしつつ、いろいろと自分の弱みを語っています。就活や進学など様々な場面で悪く響きそうで怖いですが、逆に吐き出せるのも今のうちですので、許してください。
 
-
+<br>
 
 ## 「アウトプット駆動」の限界
 
@@ -37,24 +36,24 @@ tags: 日記 attr-old
 
 開発者としてまっとうに生きるにはどうすればいいだろう、というのを考え直す時期に入っています。これからも自分なりに、知識習得の習慣づけを必死に模索していくことになりそうです。
 
-
+<br>
 
 ![keshiki](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F47bd6ffc-74ae-4f68-9456-b4268cb776f8%2Funnamed-1.webp?alt=media&token=45641878-260f-4795-b520-7f09266bae8a)
 
 
-
+<br>
 
 
 ## 余談
 
 そういえば、ふと見ていたYourein氏の記事の中で、少し目を引くところがあったので引用します。
 
+<br>
 
-
-> 「言語化出来ないものは認知できない」
+> 「言語化出来ないものは認知できない」<br>
 > &emsp;―「本を読んでいます」https://yourein.github.io/2023-08-14-e7230a/ より
 
-
+<br>
 
 なんだか言い得ています。実際にこの考え方が正しいのかはわからないし、そもそも僕がその良し悪しを判断できる立場ではないけれど、少なくともこういった一貫した信念に基づいて、知識を蓄えようとする姿勢には非常に関心します。
 
