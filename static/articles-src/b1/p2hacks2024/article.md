@@ -144,7 +144,7 @@ LangChainしかり、機械学習に関するフレームワークの使用が�
 
 個人的にPythonにはトラウマがあり、実行時エラーやパッケージの問題で取り乱さないよう仕組み作りが必要でした。そのため、開発ツールやライブラリの選定や調査は入念に行いました。
 
-特に、過去に現地で視聴していたOpen Source Conference 2024 Hokkaidoでのトーク[「Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る」](https://slides.takanory.net/slides/20240629osc24do/)を見直しました。またGIS業界ではPythonがスタンダードのひとつであり、そこに接点のある業務経験も相まって、幸いある程度Pythonのトレンドを把握している状況でした。
+特に、過去に現地で視聴していたOpen Source Conference 2024 Hokkaidoでのtakanory氏のトーク[「Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る」](https://slides.takanory.net/slides/20240629osc24do/)を見直しました。またGIS業界ではPythonがスタンダードのひとつであり、そこに接点のある業務経験も相まって、幸いある程度Pythonのトレンドを把握している状況でした。
 
 結果、特にめぼしいものとして
 
