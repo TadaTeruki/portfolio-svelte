@@ -2,6 +2,7 @@
     import Footer from "$lib/components/footer.svelte";
     import Header from "$lib/components/header.svelte";
     import A from "$lib/markdown-renderers/A.svelte";
+    import Blockquote from "$lib/markdown-renderers/BLOCKQUOTE.svelte";
     import H1 from "$lib/markdown-renderers/H1.svelte";
     import H2 from "$lib/markdown-renderers/H2.svelte";
     import H3 from "$lib/markdown-renderers/H3.svelte";
@@ -31,6 +32,7 @@
                 a: A,
                 p: P,
                 li: Li,
+                blockquote: Blockquote,
             },
         },
     ] as Plugin[];
