@@ -45,11 +45,17 @@
         property="og:url"
         content={`https://peruki.dev/blogs/articles/${article.id}`}
     />
-    <meta property="og:image" content={article.thumbnail} />
+    <meta
+        property="og:image"
+        content={`https://peruki.dev${article.thumbnail}`}
+    />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@PerukiFUN" />
     <meta name="twitter:creator" content="@PerukiFUN" />
-    <meta name="twitter:image" content={article.thumbnail} />
+    <meta
+        name="twitter:image"
+        content={`https://peruki.dev${article.thumbnail}`}
+    />
     <meta name="twitter:title" content={article.title} />
     <meta name="twitter:description" content={article.description} />
     <meta
