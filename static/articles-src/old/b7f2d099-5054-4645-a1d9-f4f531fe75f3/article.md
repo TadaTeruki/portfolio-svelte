@@ -5,7 +5,7 @@ description: "チームfuNGとして参加、LINE Bot「さくっと探訪 は�
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2Fb7f2d099-5054-4645-a1d9-f4f531fe75f3%2Fpanel.jpeg?alt=media&token=015b728d-9f75-4668-9ab6-d535209223f9"
 created_at: "2023-04-19T11:14:17.104216756Z"
 updated_at: "2023-06-08T01:39:04.271030780Z"
-tags: 活動 函館 ハッカソン 
+tags: 活動 函館 ハッカソン  attr-old
 ---
 
 

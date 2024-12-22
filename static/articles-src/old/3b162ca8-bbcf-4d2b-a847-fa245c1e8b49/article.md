@@ -5,7 +5,7 @@ description: "というのを進捗がない言い訳に書いてみました"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F3b162ca8-bbcf-4d2b-a847-fa245c1e8b49%2Fgitgraph.png?alt=media&token=66f000fa-aa62-4eae-9b56-e4bff00eec35"
 created_at: "2023-12-24T06:11:05.576304291Z"
 updated_at: "2023-12-24T09:28:33.167436800Z"
-tags: 日記
+tags: 日記 attr-old
 ---
 
 

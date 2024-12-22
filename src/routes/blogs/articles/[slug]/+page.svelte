@@ -27,12 +27,10 @@
 </script>
 
 <Header backMotif={article.thumbnail}>
-    <h1>Peruki's Blog</h1>
-    <div class="text-sm text-gray-500">技術と生活</div>
-</Header>
-
-<main>
-    <div class="py-20 mb-10 border-b border-gray-200">
+    <div
+        class="w-fit m-auto bg-white bg-opacity-70 backdrop-blur-md shadow-sm rounded-lg px-16 py-12"
+    >
+        <div class="text-sm text-gray-700">Peruki's Blog</div>
         <h1>{article.title}</h1>
         <div class="text-sm text-gray-500">{article.description}</div>
         <div class="text-sm text-gray-500">
@@ -42,16 +40,39 @@
                 ).getFullYear()}年{new Date(article.created_at).getMonth() +
                     1}月{new Date(article.created_at).getDate()}日
             </div>
-            <div>
-                最終更新日: {new Date(
-                    article.updated_at,
-                ).getFullYear()}年{new Date(article.updated_at).getMonth() +
-                    1}月{new Date(article.updated_at).getDate()}日
-            </div>
         </div>
+        {#if article.tags.length > 0}
+            <div class="mt-2">
+                {#each article.tags as tag}
+                    <span class="mr-2 text-xs bg-gray-200 px-2 py-0.5 rounded">
+                        #{tag}
+                    </span>
+                {/each}
+            </div>
+        {/if}
     </div>
+</Header>
+
+<main>
+    {#if article.attributions.includes("old")}
+        <div class="text-sm bg-gray-200 p-2 m-2 rounded-md">
+            注:
+            この記事は旧ブログシステムからの移行であり、読みにくい箇所がある場合があります。
+        </div>
+    {/if}
+
     <Markdown md={article.body} {plugins} />
 </main>
 <div class="h-20"></div>
 
 <Footer />
+
+<style>
+    :global(p img) {
+        @apply max-w-3xl rounded-md mt-4;
+    }
+
+    :global(p a) {
+        @apply underline text-cyan-800;
+    }
+</style>

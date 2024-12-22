@@ -5,7 +5,7 @@ description: "旭川の技術カンファレンス、ラーメンとフルーツ
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2Ff89adf34-dfc6-4a30-84dc-1fe2e2c18321%2Ftwada.webp?alt=media&token=029aaf04-e629-4390-a604-3eb8edc37512"
 created_at: "2024-07-28T12:33:00.258971110Z"
 updated_at: "2024-07-29T03:47:38.054154742Z"
-tags: 活動 LT TechRAMEN
+tags: 活動 LT TechRAMEN attr-old
 ---
 
 

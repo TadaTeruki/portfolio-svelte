@@ -4,11 +4,35 @@ export class Article {
     thumbnail: string = "";
     description: string = "";
     tags: string[] = [];
-    is_public: boolean = false;
     body: string = "";
     created_at: string = "";
-    updated_at: string = "";
     path: string = "";
+    attributions: string[] = [];
+}
+
+export function articleFromJson(json: any): Article {
+    const tags = json.tags.filter((tag: string) => tag !== "");
+
+    const attributions: string[] = [];
+    const newTags = tags.filter((tag: string) => {
+        if (tag.startsWith("attr-")) {
+            attributions.push(tag.substring(5));
+            return false;
+        }
+        return true;
+    });
+
+    return {
+        id: json.id,
+        title: json.title,
+        thumbnail: json.thumbnail,
+        description: json.description,
+        tags: newTags,
+        body: json.body,
+        created_at: json.created_at,
+        attributions: attributions,
+        path: json.path,
+    } as Article;
 }
 
 export class Work {

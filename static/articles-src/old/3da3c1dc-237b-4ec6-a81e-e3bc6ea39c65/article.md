@@ -5,7 +5,7 @@ description: "静内・新冠・三石・浦河・苫小牧を巡りました"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F3da3c1dc-237b-4ec6-a81e-e3bc6ea39c65%2FIMG_0935_resized.png?alt=media&token=f47d3afc-0c16-4740-803d-fac2eebe1731"
 created_at: "2023-05-08T09:14:31.429833941Z"
 updated_at: "2023-06-04T17:12:54.194685117Z"
-tags: 日記 旅行
+tags: 日記 旅行 attr-old
 ---
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1p-UT5lsQD3FUom9wEy59okXLG0e_B0s&ehbc=2E312F" width="100%" height="600"></iframe>

@@ -5,7 +5,7 @@ description: "ゆったり、でも可能な限り有意義に過ごしたいで
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F2a3a2efc-64c9-4af8-a2e2-10bdbe4349bb%2Fmachi.webp?alt=media&token=2c880da1-3899-452c-a728-81e34ae33f7f"
 created_at: "2023-07-27T01:24:38.996774759Z"
 updated_at: "2023-07-27T05:53:05.796500294Z"
-tags: 日記 夏季休業
+tags: 日記 夏季休業 attr-old
 ---
 
 

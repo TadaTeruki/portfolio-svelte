@@ -5,7 +5,7 @@ description: "学内ハッカソン「p2hacks 2023」の振り返り記事"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2Fcaa1a97c-41d2-4d9a-87d2-0601df48f4be%2Fp2hacks.webp?alt=media&token=f353ed49-0783-40fc-9448-86d2a104455b"
 created_at: "2023-12-18T15:22:05.689362571Z"
 updated_at: "2023-12-19T01:58:23.373027191Z"
-tags: 活動 技術 ハッカソン
+tags: 活動 技術 ハッカソン attr-old
 ---
 
 ![p2hacks](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2Fcaa1a97c-41d2-4d9a-87d2-0601df48f4be%2Fp2hacks.webp?alt=media&token=f353ed49-0783-40fc-9448-86d2a104455b) 

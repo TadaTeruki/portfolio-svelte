@@ -5,7 +5,7 @@ description: "とても充実してた1年でした"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F7c0d5214-e085-455c-bfb6-22cf2211ff9b%2F2022.webp?alt=media&token=c5720f4f-02b3-431a-a0ea-7a2befa18bc0&_gl=1*c61z5h*_ga*NDUwOTM1NzM2LjE2Njk3Njk4NzE.*_ga_CW55HF8NVT*MTY4NTg5MDU0Ni4zNC4xLjE2ODU4OTEwODguMC4wLjA."
 created_at: "2022-12-31T10:47:54.424112716Z"
 updated_at: "2023-06-08T01:38:24.555414834Z"
-tags: 日記 活動
+tags: 日記 活動 attr-old
 ---
 
 

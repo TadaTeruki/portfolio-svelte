@@ -5,7 +5,7 @@ description: "動機と経緯をまとめます"
 thumbnail: "https://storage.googleapis.com/misskey-tadateruki-main/misskey-tadateruki-main/e55ccf93-d4f2-422b-aca3-704c107a680d.webp"
 created_at: "2024-01-06T10:21:09.902344092Z"
 updated_at: "2024-01-07T14:09:55.595850291Z"
-tags: 日記
+tags: 日記 attr-old
 ---
 
 こんにちは。

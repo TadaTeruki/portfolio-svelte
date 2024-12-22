@@ -32,6 +32,8 @@ jq -c 'to_entries[]' "$JSON_FILE" | while read -r entry; do
     
     # タグを空白区切りに変換
     tags=$(echo "$entry" | jq -r '.value.tags | join(" ")')
+
+    tags="$tags attr-old"
   
     # 出力ディレクトリを作成
     mkdir -p "$OUTPUT_DIR/$id"

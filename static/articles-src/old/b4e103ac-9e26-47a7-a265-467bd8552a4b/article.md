@@ -5,7 +5,7 @@ description: "悩みも多いですが、恵まれた1年でした"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2Fb4e103ac-9e26-47a7-a265-467bd8552a4b%2Fperulogo.webp?alt=media&token=f264ea79-6e19-4e5a-b617-b7868a859228"
 created_at: "2023-12-31T11:28:34.703810822Z"
 updated_at: "2023-12-31T11:49:42.017121222Z"
-tags: 日記 活動 FUN-Advent-Calendar
+tags: 日記 活動 FUN-Advent-Calendar attr-old
 ---
 
 

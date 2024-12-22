@@ -11,9 +11,7 @@
     <a href="/skills">Skills</a>
     <a href="/map">Map</a>
     <a href="/contact">Contact</a>
-    <a href="https://github.com/TadaTeruki" target="_blank">
-        <div class="i-github"></div>
-    </a>
+    <a href="/blogs">Blog</a>
 </div>
 
 <style>

@@ -5,7 +5,7 @@ description: "#函館市電LTの企画から開催まで、運営視点で振り
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F84f080b0-e53f-4e31-8a2b-4ccf5fcf3417%2Fshiden1.webp?alt=media&token=92883e60-b0e6-4414-ae64-0cd8bdd67058"
 created_at: "2023-12-04T12:38:17.135611477Z"
 updated_at: "2023-12-19T04:22:22.544745223Z"
-tags: 活動 イベント運営 函館市電LT FUN-Advent-Calendar
+tags: 活動 イベント運営 函館市電LT FUN-Advent-Calendar attr-old
 ---
 
 ![shiden](https://media.connpass.com/thumbs/f0/e2/f0e251ec29e7f81ccbe73f163da7a55f.png)

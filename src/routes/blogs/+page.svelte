@@ -19,7 +19,8 @@
 </script>
 
 <Header backMotif="hakodate">
-    <h1>Blog</h1>
+    <h1>Peruki's Blog</h1>
+    <div class="text-sm text-gray-500">技術と生活</div>
 </Header>
 
 <main id="worksMain">

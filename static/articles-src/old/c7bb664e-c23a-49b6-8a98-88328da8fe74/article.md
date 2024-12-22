@@ -5,7 +5,7 @@ description: "1年半ぶりの道東襲来"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2Fc7bb664e-c23a-49b6-8a98-88328da8fe74%2Fkosen.webp?alt=media&token=5df5d0e9-2814-489e-812b-ffa5334af7c1"
 created_at: "2024-07-17T01:54:10.313524153Z"
 updated_at: "2024-07-17T02:52:00.428171601Z"
-tags: 活動 技術 LT ほんわかんふぁ
+tags: 活動 技術 LT ほんわかんふぁ attr-old
 ---
 
 ![kushiro](https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2Fc7bb664e-c23a-49b6-8a98-88328da8fe74%2Fkushiro.webp?alt=media&token=12aca3a5-c698-433c-a797-cef05ac07f48)

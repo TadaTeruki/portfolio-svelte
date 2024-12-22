@@ -5,7 +5,7 @@ description: "知識を得るという行為に対する認識が、変わって
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F3da3c1dc-237b-4ec6-a81e-e3bc6ea39c65%2FIMG_0972_resized.png?alt=media&token=cc3d163c-c7ab-4d5f-bfea-8dd6fe03836e"
 created_at: "2023-08-16T15:35:06.895315686Z"
 updated_at: "2023-08-16T16:38:18.780034942Z"
-tags: 日記
+tags: 日記 attr-old
 ---
 
 

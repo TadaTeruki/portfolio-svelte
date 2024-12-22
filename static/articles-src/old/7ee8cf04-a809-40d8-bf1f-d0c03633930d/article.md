@@ -5,7 +5,7 @@ description: "デジタルアート「深晶」"
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Farticles%2F7ee8cf04-a809-40d8-bf1f-d0c03633930d%2Fdisplayed.jpg?alt=media&token=0af628b3-2b0c-4056-8fde-034c206c8c8a"
 created_at: "2023-04-19T08:37:17.562525546Z"
 updated_at: "2023-06-08T01:38:32.664190576Z"
-tags: 活動 はこだて・冬・アート展
+tags: 活動 はこだて・冬・アート展 attr-old
 ---
 
 
