@@ -14,10 +14,7 @@
     import { gfmPlugin } from "svelte-exmarkdown/gfm";
 
     export let data;
-    let article: Article;
-    $: if (data) {
-        article = data.article;
-    }
+    let article: Article = data.article;
 
     $: plugins = [
         gfmPlugin(),
@@ -33,6 +30,8 @@
             },
         },
     ] as Plugin[];
+
+    export let prerender = true;
 </script>
 
 <svelte:head>

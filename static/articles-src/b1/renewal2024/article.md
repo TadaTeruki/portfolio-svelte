@@ -1,6 +1,6 @@
 ---
 title: "ポートフォリオ兼ブログサイトをリニューアルしました"
-description: "2周年"
+description: "気づけば2周年"
 thumbnail: "asahikawa.webp"
 created_at: "2024-12-22"
 ---
