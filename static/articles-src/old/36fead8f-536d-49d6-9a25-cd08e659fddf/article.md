@@ -15,32 +15,32 @@ tags: 技術 FUN-Advent-Calendar Web開発
 
 ## 昨日の記事
 
- - [Compose for Webで始めるWebアプリ開発](https://qiita.com/kotambourine/items/f9c581c50ee7f241c2f3) by こた先輩<br>
+ - [Compose for Webで始めるWebアプリ開発](https://qiita.com/kotambourine/items/f9c581c50ee7f241c2f3) by こた先輩
 Compose for Webを用いて戦争x美少女x音ゲーを制作したお話でした。僕の最高スコアは63です。ちなみに、以前この方に車でおいしいシロノワールやさんに連れていただきました。
 
- - [一般情報系学生向け就活体験録](https://mochi-mks.hatenablog.com/entry/2022/12/09/090340?_ga=2.34635749.571247334.1670474787-885289335.1667545595) by mochiさん<br>
+ - [一般情報系学生向け就活体験録](https://mochi-mks.hatenablog.com/entry/2022/12/09/090340?_ga=2.34635749.571247334.1670474787-885289335.1667545595) by mochiさん
 未来大生が近く直面するであろうor既にしている、就活に関するお話でした。企業の関わりの持ち方やFUNキャリの活用、準備の仕方(面接練習がない！)など、貴重な情報ばかりでとてもよい知見を得られました。
 
- - [入学前は美少女になろう](https://yourein.github.io/2022-12-09-ilgen/) by Yourein<br>
+ - [入学前は美少女になろう](https://yourein.github.io/2022-12-09-ilgen/) by Yourein
 近頃流行りのstable diffusionを用いた、美少女アイコン制作についてのお話でした。新入生の方、この記事を読んでぜひともstable美少女になりましょう。
 
 # なにをしたか
 
 **デスマーチ**です。
 
-具体的には、**30日**でゼロからWeb開発をしました。<br>
+具体的には、**30日**でゼロからWeb開発をしました。
 **今あなたが見ているサイト**(Peruki's Portfolio) がその成果物です。
 
 
 使った技術は:
 
-**バックエンド** : Rust + tokio + axum + serde<br>
-**フロントエンド** : TypeScript + Next.js + React + axios<br>
-**ホスティング** : render.com, Cloudflare Pages<br>
-**データベース** : Cloud Firestore<br>
+**バックエンド** : Rust + tokio + axum + serde
+**フロントエンド** : TypeScript + Next.js + React + axios
+**ホスティング** : render.com, Cloudflare Pages
+**データベース** : Cloud Firestore
 その他 : Jwt
 
-<br>
+
 
 この中で、ひと月前まで使えていた技術はひとつもありません。デスマーチたる所以です。せめて言うなら、データベースとして使ったCloud Firestoreについては、ハッカソンで使用した経験がありました。ただそれも、Go製のSDKでしか使っていませんでした。またRustも若干使った経験がありますが、2年前のほんのわずかな期間の話であり、もはや言語仕様を覚えていませんでした。つまるところ、なに一つ知らなかったわけです。
 
@@ -113,17 +113,17 @@ React+TypeScript修行を始めました。Reactを採用した理由は特に�
 
 これについて、某有識者に相談したところ
 
-<br>
 
-> 某「今のコードを使ってなんとかするのは難しそう」<br>
 
-> P「え…どうにかならんのか」<br>
+> 某「今のコードを使ってなんとかするのは難しそう」
 
-> 某「表示内容をフロント側にあらかじめレンダリングして常駐させておくといいかもね」<br>
+> P「え…どうにかならんのか」
 
-> P「お、そんなことができるのか、、やります、どうすればいい？」<br>
+> 某「表示内容をフロント側にあらかじめレンダリングして常駐させておくといいかもね」
 
-> 某「**Next.jsを使うといいですよ**」<br>
+> P「お、そんなことができるのか、、やります、どうすればいい？」
+
+> 某「**Next.jsを使うといいですよ**」
 
 > …
 
@@ -148,7 +148,7 @@ React+TypeScript修行を始めました。Reactを採用した理由は特に�
 
 [![portfolio-front-next](https://github-readme-stats.vercel.app/api/pin/?username=TadaTeruki&repo=portfolio-front-next)](https://github.com/TadaTeruki/portfolio-front-next)
 
-**動いた！動いたぞ！**<br>
+**動いた！動いたぞ！**
 偉すぎです。あとはデプロイするだけです。
 
 ## 12月9日
@@ -210,6 +210,6 @@ React+TypeScript修行を始めました。Reactを採用した理由は特に�
 
 [**compass**](https://nitkc-kpc.connpass.com/event/264673/)
 
-きたるこの日、釧路高専の方々とLTをすることになりました。僕も行きます。<br>
+きたるこの日、釧路高専の方々とLTをすることになりました。僕も行きます。
 みなさんも行きましょう。今こそ距離感覚をバグらせる時！
 

@@ -1,34 +1,29 @@
 <script lang="ts">
+    import Footer from "$lib/components/footer.svelte";
     import Header from "$lib/components/header.svelte";
+    import H1 from "$lib/markdown-renderers/H1.svelte";
+    import H2 from "$lib/markdown-renderers/H2.svelte";
+    import H3 from "$lib/markdown-renderers/H3.svelte";
     import type { Article } from "$lib/model";
-    import { marked } from "marked";
-    import { onMount } from "svelte";
+    import Markdown, { type Plugin } from "svelte-exmarkdown";
+    import { gfmPlugin } from "svelte-exmarkdown/gfm";
 
     export let data;
     let article: Article;
     $: if (data) {
         article = data.article;
-        loadMarkdown(article.body);
     }
 
-    let html: string = "";
-    async function loadMarkdown(markdown: string) {
-        const markedResult = marked(markdown);
-        if (markedResult instanceof Promise) {
-            html = await markedResult;
-        } else {
-            html = markedResult;
-        }
-    }
-
-    let markdownElement: HTMLElement | null = null;
-    onMount(() => {
-        markdownElement = document.getElementById("markdown");
-    });
-
-    $: if (markdownElement) {
-        markdownElement.innerHTML = html;
-    }
+    const plugins: Plugin[] = [
+        gfmPlugin(),
+        {
+            renderer: {
+                h1: H1,
+                h2: H2,
+                h3: H3,
+            },
+        },
+    ];
 </script>
 
 <Header backMotif={article.thumbnail}>
@@ -55,5 +50,8 @@
             </div>
         </div>
     </div>
-    <div id="markdown"></div>
+    <Markdown md={article.body} {plugins} />
 </main>
+<div class="h-20"></div>
+
+<Footer />

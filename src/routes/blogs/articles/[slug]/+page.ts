@@ -15,7 +15,7 @@ export const load: PageLoad = async ({ fetch, params }) => {
                     title: art.title,
                     thumbnail: art.thumbnail,
                     description: art.description,
-                    tags: art.tags,
+                    tags: art.tags.filter((tag: string) => tag !== ""),
                     is_public: art.is_public,
                     body: art.body,
                     created_at: art.created_at,
@@ -34,8 +34,8 @@ export const load: PageLoad = async ({ fetch, params }) => {
     // remove the 'static/' from the path
     article.path = path.substring(15);
 
-    let body = await fetch(`/articles${article.path}/article.md`).then(
-        (res) => res.text(),
+    let body = await fetch(`/articles${article.path}/article.md`).then((res) =>
+        res.text(),
     );
 
     /* remove all rows from the first to the second '---' */

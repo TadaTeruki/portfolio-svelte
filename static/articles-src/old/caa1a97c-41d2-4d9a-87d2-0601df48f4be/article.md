@@ -26,7 +26,7 @@ tags: 活動 技術 ハッカソン
 <img alt="sc2" src="https://github.com/p2hacks2023/pre-06/assets/69315285/d77446c0-d8a2-4c64-8993-6315ef9ef148" width="28%"></img>
 <img alt="sc3" src="https://github.com/p2hacks2023/pre-06/assets/69315285/23f789bd-8ec4-48b7-bfa9-3862f22c896f" width="28%"></img>
 
-<br>
+
 
 ___
 
@@ -36,22 +36,22 @@ ___
 
 ___
 
-<br>
+
 
 ### 遊びたい方向け
 
-**リンク: https://p2.jugesuke.net/** <br>
+**リンク: https://p2.jugesuke.net/** 
 (GitHub: https://github.com/p2hacks2023/pre-06)
 
-スマホ縦持ち推奨です。タブレットや横持ちでも一応プレイできます。<br>
-PC非対応 (Responsive Design Modeで遊べるのは秘密)。<br>
-しばらくプレイできますが、予告なく公開を停止する場合があります。<br>
+スマホ縦持ち推奨です。タブレットや横持ちでも一応プレイできます。
+PC非対応 (Responsive Design Modeで遊べるのは秘密)。
+しばらくプレイできますが、予告なく公開を停止する場合があります。
 
-<br>
+
 
 ___
 
-<br>
+
 
 
 ...要旨だけ説明すると「赤いもの (=アンチひんやり) 」を破壊して気持ちよくなるゲームです。ちなみにハッカソンのテーマは「ひんやり」でした。赤いものは熱い、拡大解釈にも程がある。

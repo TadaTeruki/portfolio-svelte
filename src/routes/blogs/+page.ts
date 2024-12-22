@@ -10,7 +10,7 @@ export const load: PageLoad = async ({ fetch }) => {
                 title: art.title,
                 thumbnail: art.thumbnail,
                 description: art.description,
-                tags: art.tags,
+                tags: art.tags.filter((tag: string) => tag !== ""),
                 is_public: art.is_public,
                 body: art.body,
                 created_at: art.created_at,
