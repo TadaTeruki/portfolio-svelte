@@ -22,5 +22,5 @@
     {#if renderable}
         <img {...props} class="rounded-md" alt={props.alt} />
     {/if}
-    <div class="text-md text-gray-500">写真: {props.alt}</div>
+    <div class="text-md text-gray-500">{props.alt}</div>
 </div>

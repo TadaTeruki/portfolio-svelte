@@ -32,6 +32,8 @@
     "maplibre-gl": "^4.7.1",
     "prettier-plugin-svelte": "^3.3.2",
     "rehype-raw": "^7.0.0",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.0",
     "svelte-exmarkdown": "^3.0.5"
   }
 }

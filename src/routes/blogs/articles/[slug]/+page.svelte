@@ -7,9 +7,11 @@
     import H3 from "$lib/markdown-renderers/H3.svelte";
     import Img from "$lib/markdown-renderers/IMG.svelte";
     import Imgold from "$lib/markdown-renderers/IMGOLD.svelte";
+    import Li from "$lib/markdown-renderers/LI.svelte";
     import P from "$lib/markdown-renderers/P.svelte";
     import type { Article } from "$lib/model";
     import rehypeRaw from "rehype-raw";
+    import remarkGfm from "remark-gfm";
     import Markdown, { type Plugin } from "svelte-exmarkdown";
     import { gfmPlugin } from "svelte-exmarkdown/gfm";
 
@@ -18,6 +20,7 @@
 
     $: plugins = [
         gfmPlugin(),
+        { remarkPlugin: remarkGfm },
         { rehypePlugin: rehypeRaw },
         {
             renderer: {
@@ -27,11 +30,12 @@
                 img: article.attributions.includes("old") ? Imgold : Img,
                 a: A,
                 p: P,
+                li: Li,
             },
         },
     ] as Plugin[];
 
-    export let prerender = true;
+    export const prerender = true;
 </script>
 
 <svelte:head>
