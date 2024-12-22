@@ -3,25 +3,6 @@
     import "@unocss/reset/tailwind-compat.css";
 </script>
 
-<svelte:head>
-    <title>Teruki TADA</title>
-    <meta name="description" content="Teruki TADA" />
-    <link rel="icon" href="/icon.jpeg" />
-    <meta property="og:title" content="Teruki TADA" />
-    <meta property="og:description" content="Teruki TADA's Webpage" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://peruki.dev" />
-    <meta property="og:image" content="/icon.jpeg" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@PerukiFUN" />
-    <meta name="twitter:creator" content="@PerukiFUN" />
-    <meta name="twitter:image" content="/icon.jpeg" />
-    <meta name="twitter:title" content="Teruki TADA" />
-    <meta name="twitter:description" content="Teruki TADA's Webpage" />
-    <meta name="twitter:url" content="https://peruki.dev" />
-    <meta name="twitter:domain" content="peruki.dev" />
-</svelte:head>
-
 <slot />
 
 <style>
