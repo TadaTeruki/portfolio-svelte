@@ -304,3 +304,14 @@ DESC LIMIT 10;
 道南地域は鉱山が目立ったことが印象的です。道内には閉山した鉱山が多く所在し、また自動車関連の試験場は昭和50年代以降に設置されたものであることから、仮に過去の土地利用を参照できれば、今と相当異なる結果が得られる可能性があります。
 
 PostGISについては、空間インデックスもしかり、空間的な内包関係による絞り込みを`WHERE`句で処理するといった具合に、空間タスクをSQLにうまく落とし込んでいるのが良い感触でした。
+
+## 参考リンク
+
+- 士別市ホームページ, 「自動車等試験研究のまち・士別市」, https://www.city.shibetsu.lg.jp/soshikikarasagasu/homupejikanrisha/3721.html
+- 北斗市ホームページ, 「北斗市歴史年表」, https://www.city.hokuto.hokkaido.jp/bunkazai/data/sement.htm
+- OpenStreetMap Wiki, 「JA: タグ」, https://wiki.openstreetmap.org/wiki/JA:%E3%82%BF%E3%82%B0
+- OpenStreetMap: https://www.openstreetmap.org/
+- Overpass API: https://wiki.openstreetmap.org/wiki/Overpass_API
+- Overpass Turbo: https://overpass-turbo.eu/
+- PostGIS: https://postgis.net/
+- GDAL/OGR: https://gdal.org/
