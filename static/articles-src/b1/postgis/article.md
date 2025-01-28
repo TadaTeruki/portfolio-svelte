@@ -11,7 +11,7 @@ created_at: "2025-1-28"
 
 ## テーマ
 
-![苫小牧市の工業団地。OpenStreetMapから取得・PostGISで管理した産業施設の位置情報をQGISで可視化したもの](./images/tomakomai.webp)
+![苫小牧市の工業団地。OpenStreetMapから取得・PostGISで管理した産業施設の位置情報をQGISで可視化したもの](articles-src/b1/postgis/images/tomakomai.webp)
 
 北海道の多様な産業施設について、その立地や施設名を管理するDBを作成します。今回はあくまで課題用のデモのため、気軽に利用できるOpenStreetMapの生のデータから抽出したものを利用します。
 
@@ -91,7 +91,7 @@ $ ogr2ogr -f PostgreSQL PG:"dbname=mydb user=postgres" ./resources/industry.geoj
 $ ogr2ogr -f PostgreSQL PG:"dbname=mydb user=postgres" ./resources/subprefecture.geojson -nln subprefectures_raw -nlt PROMOTE_TO_MULTI -lco GEOMETRY_NAME=geom -lco FID=gid
 ```
 
-![直接importしたOSMデータのカラム。多くのタグは実データ上でNULLとなっていることが予想されるので、整理が必要](./images/columns.webp)
+![直接importしたOSMデータのカラム。多くのタグは実データ上でNULLとなっていることが予想されるので、整理が必要](articles-src/b1/postgis/images/columns.webp)
 
 ### PostGISにてデータを整理
 
@@ -189,11 +189,11 @@ CREATE INDEX industries_geom_idx ON industries USING GIST (geom);
 
 ### スナップショット
 
-![北海道全体での産業施設の立地。各境界線は振興局・総合振興局の境界(赤)および市町村境界(緑)。胆振地方に産業施設が集中しているように見える](./images/all.webp)
+![北海道全体での産業施設の立地。各境界線は振興局・総合振興局の境界(赤)および市町村境界(緑)。胆振地方に産業施設が集中しているように見える](articles-src/b1/postgis/images/all.webp)
 
-![室蘭市の産業施設](./images/muroran.webp)
+![室蘭市の産業施設](articles-src/b1/postgis/images/muroran.webp)
 
-![上川地域北部の産業施設。自動車関連の試験場が目立つ](./images/shibetsu_wide.webp)
+![上川地域北部の産業施設。自動車関連の試験場が目立つ](articles-src/b1/postgis/images/shibetsu_wide.webp)
 
 ### 産業施設ごとの所属市町村・振興局・面積 (サンプル)
 
@@ -207,7 +207,7 @@ Where ind.name IS NOT NULL
 LIMIT 10;
 ```
 
-![|(施設名)|(市町村)|(振興局)|(面積, 平方メートル)|](./images/1.webp)
+![|(施設名)|(市町村)|(振興局)|(面積, 平方メートル)|](articles-src/b1/postgis/images/1.webp)
 
 ### 産業施設ごとの面積 (大きい順)
 
@@ -220,7 +220,7 @@ ORDER BY ind.area DESC
 LIMIT 30;
 ```
 
-![|(施設名)|(市町村)|(振興局)|(面積, 平方メートル)|](./images/2.webp)
+![|(施設名)|(市町村)|(振興局)|(面積, 平方メートル)|](articles-src/b1/postgis/images/2.webp)
 
 自動車関連の試験場が多くを占めています。詳しく調べた所、士別市は「自動車等試験研究のまち・士別市」として街をPRしているらしい。
 
@@ -230,7 +230,7 @@ LIMIT 30;
 
 QGISを確認すると、確かに贅沢に土地を使って立地しています。
 
-![士別市の自動車関連の試験場。特に左のトヨタとダイハツの試験場が目立つ。他にマツダが近隣にあるほか、細長いものはヤマハの試験場のよう](./images/shibetsu.webp)
+![士別市の自動車関連の試験場。特に左のトヨタとダイハツの試験場が目立つ。他にマツダが近隣にあるほか、細長いものはヤマハの試験場のよう](articles-src/b1/postgis/images/shibetsu.webp)
 
 > 特に北海道北部の内陸部は、寒冷地で積雪量も多く、広い土地が比較的容易に確保できることから、寒冷地試験の適地として試験場の造成が進められ、現在、道内の自動車関連試験場は28を数えます。
 
@@ -247,11 +247,11 @@ GROUP BY sb.id
 ORDER BY indsum DESC;
 ```
 
-![|(振興局名)|(面積合計, 平方メートル)|](./images/3.webp)
+![|(振興局名)|(面積合計, 平方メートル)|](articles-src/b1/postgis/images/3.webp)
 
 上川地方が面積を広く取っていることがわかります。これも自動車関連の試験場の多さによるものと思われますが、少々想定外の結果ではあります。ただしこの尺度に置いても、苫小牧・室蘭・白老を抱える胆振地方は重工業の影響を強く受け、上川地方と土地利用の傾向の近い十勝地方を上回る二番目に位置しています。
 
-![留萌や檜山地域は控えめだが、風力発電が力強く生きている](./images/rumoi.webp)
+![留萌や檜山地域は控えめだが、風力発電が力強く生きている](articles-src/b1/postgis/images/rumoi.webp)
 
 ### 市町村ごとの産業施設の面積の合計 (大きい順)
 
@@ -272,7 +272,7 @@ ORDER BY indsum DESC
 LIMIT 20;
 ```
 
-![|(市町村名)|(振興局名)|(面積合計, 平方メートル)|(最大の産業施設名)|](./images/4.webp)
+![|(市町村名)|(振興局名)|(面積合計, 平方メートル)|(最大の産業施設名)|](articles-src/b1/postgis/images/4.webp)
 
 自動車関連の試験場の他に特徴的なものとしては、製鉄所(室蘭)や製紙工場(旭川・白老)のある都市が目立ちます。ほかは工業団地や発電所、石油備蓄基地といった施設を抱える都市が多い印象です。
 
@@ -289,11 +289,11 @@ ORDER BY ind.area
 DESC LIMIT 10;
 ```
 
-![|(施設名)|(市町村)|(振興局)|(面積, 平方メートル)|](./images/5.webp)
+![|(施設名)|(市町村)|(振興局)|(面積, 平方メートル)|](articles-src/b1/postgis/images/5.webp)
 
 施設名が`NULL`のものが多いですが、これをOpenStreetMapを参照しつつ見ると、上位にあるものはセメント関連の施設となっています。
 
-![北斗市。西側の峩朗鉱山(石灰石)や海に伸びるベルトコンベアが目立つ](./images/hokuto2.webp)
+![北斗市。西側の峩朗鉱山(石灰石)や海に伸びるベルトコンベアが目立つ](articles-src/b1/postgis/images/hokuto2.webp)
 
 このあたりのセメント産業については「北斗市歴史年表」(https://www.city.hokuto.hokkaido.jp/bunkazai/data/sement.htm 、北斗市のサイトのようですが更新されているかは怪しく、各所に味が出ている)に詳しい話があります。最盛期には専用の電気鉄道もあったようです。
 
