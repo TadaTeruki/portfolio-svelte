@@ -1,7 +1,7 @@
 ---
 title: "PostGISで眺める北海道の産業施設" 
 description: ""
-thumbnail: "muroran.webp"
+thumbnail: "tomakomai.webp"
 created_at: "2025-1-28"
 ---
 
