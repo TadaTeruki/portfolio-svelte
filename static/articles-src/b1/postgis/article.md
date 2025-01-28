@@ -1,5 +1,5 @@
 ---
-title: "PostGISから見る北海道の産業施設の概観" 
+title: "PostGISで観察する北海道の産業施設" 
 description: ""
 thumbnail: "muroran.webp"
 created_at: "2025-1-28"
