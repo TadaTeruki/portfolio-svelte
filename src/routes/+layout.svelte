@@ -15,7 +15,7 @@
     :global(body) {
         @apply font-sans bg-white;
     }
-
+    
     :global(body.dark) {
         @apply bg-gray-900 text-gray-100;
     }
