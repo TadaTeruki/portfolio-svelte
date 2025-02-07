@@ -39,14 +39,14 @@
 
 <Header backMotif="hakodate">
     <h1>Peruki's Blog</h1>
-    <div class="text-sm text-gray-500">技術と生活</div>
+    <div class="text-sm text-gray-600 dark:text-gray-300">技術と生活</div>
 </Header>
 
 <main id="worksMain">
     {#each articles as article}
         <Articlecard {article} />
     {/each}
-    <div class="bg-gray-100 rounded-md bg-opacity-75">
+    <div class="bg-gray-100 rounded-md bg-opacity-75 dark:bg-gray-700">
         <details class="px-4">
             <summary class="py-4 mt-4 text-center">旧ブログの記事を見る</summary
             >

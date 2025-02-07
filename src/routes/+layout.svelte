@@ -1,17 +1,31 @@
 <script lang="ts">
     import "virtual:uno.css";
     import "@unocss/reset/tailwind-compat.css";
+    import { onMount } from "svelte";
+    import { updateDarkMode } from "$lib/dark";
+
+    onMount(() => {
+        updateDarkMode();
+    });
 </script>
 
 <slot />
 
 <style>
     :global(body) {
-        @apply font-sans;
+        @apply font-sans bg-white;
+    }
+
+    :global(body.dark) {
+        @apply bg-gray-900 text-gray-100;
     }
 
     :global(main) {
         @apply px-4 py-12 m-auto max-w-3xl text-gray-700;
+    }
+
+    :global(.dark main) {
+        @apply text-white;
     }
 
     :global(.content) {

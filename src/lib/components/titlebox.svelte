@@ -4,10 +4,14 @@
 
 <div class="flex justify-between p-4 w-fit m-auto md:flex-row flex-col">
     <div class="flex flex-col justify-center">
-        <div class="text-xl mr-2 whitespace-nowrap text-center">
+        <div
+            class="text-xl mr-2 whitespace-nowrap text-center text-gray-700 dark:text-gray-100"
+        >
             Teruki TADA
         </div>
-        <div class="text-sm text-gray-500 whitespace-nowrap text-center">
+        <div
+            class="text-sm text-gray-500 whitespace-nowrap text-center text-gray-500 dark:text-gray-100"
+        >
             多田 瑛貴 / ただ てるき
         </div>
         <div class="h-3"></div>
@@ -43,10 +47,10 @@
 
 <style>
     .linkBox {
-        @apply flex justify-center items-center gap-2 bg-white p-2 rounded-lg bg-opacity-50 transition-colors duration-300 ease-in-out;
+        @apply flex justify-center items-center gap-2 p-2 rounded-lg bg-white bg-opacity-30 transition-colors duration-300 ease-in-out;
     }
 
     .linkBox:hover {
-        @apply bg-opacity-100;
+        @apply bg-opacity-50;
     }
 </style>

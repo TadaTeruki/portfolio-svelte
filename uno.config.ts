@@ -1,9 +1,10 @@
-import { defineConfig, presetIcons, presetUno, presetWebFonts, transformerDirectives } from 'unocss'
+import { defineConfig, presetIcons, presetMini, presetUno, presetWebFonts, transformerDirectives } from 'unocss'
 
 export default defineConfig({
     presets: [
         presetUno(),
         presetIcons(),
+        presetMini(),
         presetWebFonts({
             provider: 'google',
             fonts: {
@@ -28,6 +29,8 @@ export default defineConfig({
         colors: {
             linkColor: '#477',
             linkColorHover: '#6aa',
+            linkColorDark: '#6cd',
+            linkColorDarkHover: '#9ee',
         },
-    }
+    },
 })

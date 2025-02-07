@@ -33,7 +33,7 @@
     <div class="flex flex-col justify-center items-center w-full h-full">
         <div class="h-fit">
             <div
-                class="bg-white bg-opacity-30 backdrop-blur-md shadow-sm rounded-lg px-8 py-2 m-2 w-fit h-max z-20 pointer-events-auto"
+                class="bg-white bg-opacity-30 backdrop-blur-md shadow-sm rounded-lg px-8 py-2 m-2 w-fit h-max z-20 pointer-events-auto dark:bg-gray-800 dark:bg-opacity-40"
             >
                 <Titlebox />
                 <Footer hasFootMargin={false} hasHome={false} />

@@ -30,7 +30,7 @@
     <img
         src={backImage}
         alt="back"
-        class="absolute top-0 left-0 -z-10 object-cover w-full h-full animate-fade-in"
+        class="absolute top-0 left-0 -z-10 object-cover w-full h-full animate-fade-in dark:brightness-70 dark:contrast-150"
     />
 
     <Topnavigator />

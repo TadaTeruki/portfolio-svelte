@@ -73,12 +73,16 @@
 
 <Header backMotif={article.thumbnail}>
     <div
-        class="w-fit m-auto bg-white bg-opacity-70 backdrop-blur-md shadow-sm rounded-lg px-16 py-12"
+        class="w-fit m-auto bg-white bg-opacity-30 backdrop-blur-md shadow-sm rounded-lg px-16 py-12 dark:bg-gray-800 dark:bg-opacity-40"
     >
-        <div class="text-sm text-gray-700">Peruki's Blog</div>
+        <div class="text-sm text-gray-700 dark:text-gray-100">
+            Peruki's Blog
+        </div>
         <h1>{article.title}</h1>
-        <div class="text-sm text-gray-500">{article.description}</div>
-        <div class="text-sm text-gray-500">
+        <div class="text-sm text-gray-500 dark:text-gray-100">
+            {article.description}
+        </div>
+        <div class="text-sm text-gray-500 dark:text-gray-100">
             <div>
                 記事作成日: {new Date(
                     article.created_at,
@@ -89,7 +93,9 @@
         {#if article.tags.length > 0}
             <div class="mt-2">
                 {#each article.tags as tag}
-                    <span class="mr-2 text-xs bg-gray-200 px-2 py-0.5 rounded">
+                    <span
+                        class="mr-2 text-xs bg-gray-200 px-2 py-0.5 rounded text-gray-700 dark:bg-gray-700 dark:text-gray-200"
+                    >
                         #{tag}
                     </span>
                 {/each}
@@ -100,7 +106,9 @@
 
 <main>
     {#if article.attributions.includes("old")}
-        <div class="text-sm bg-gray-200 p-2 m-2 rounded-md">
+        <div
+            class="text-sm bg-gray-200 p-2 m-2 rounded-md dark:bg-gray-700 dark:text-gray-200"
+        >
             注:
             この記事は旧ブログシステムからの移行であり、読みにくい箇所がある場合があります。
         </div>
@@ -110,7 +118,7 @@
     <div class="w-full flex justify-center mt-10">
         <a
             href="/blogs"
-            class="bg-gray-200 px-4 py-2 m-auto rounded-md hover:bg-gray-300 duration-500"
+            class="bg-gray-200 px-4 py-2 m-auto rounded-md hover:bg-gray-300 duration-500 dark:bg-gray-700 dark:text-gray-200 hover:bg-opacity-50"
         >
             リストへ戻る
         </a>
