@@ -295,7 +295,7 @@ DESC LIMIT 10;
 
 ![北斗市。西側の峩朗鉱山(石灰石)や海に伸びるベルトコンベアが目立つ](articles-src/b1/postgis/images/hokuto2.webp)
 
-このあたりのセメント産業については「北斗市歴史年表」(https://www.city.hokuto.hokkaido.jp/bunkazai/data/sement.htm 、北斗市のサイトのようですが更新されているかは怪しく、各所に味が出ている)に詳しい話があります。最盛期には専用の電気鉄道もあったようです。
+このあたりのセメント産業については「[北斗市歴史年表](https://www.city.hokuto.hokkaido.jp/bunkazai/data/sement.htm)」(北斗市のサイトのようですが更新されているかは怪しく、各所に味が出ている)に詳しい話があります。最盛期には専用の電気鉄道もあったようです。
 
 ## おわりに
 
@@ -307,11 +307,11 @@ PostGISについては、空間インデックスもしかり、空間的な内�
 
 ## 参考リンク
 
-- 士別市ホームページ, 「自動車等試験研究のまち・士別市」, https://www.city.shibetsu.lg.jp/soshikikarasagasu/homupejikanrisha/3721.html
-- 北斗市ホームページ, 「北斗市歴史年表」, https://www.city.hokuto.hokkaido.jp/bunkazai/data/sement.htm
-- OpenStreetMap Wiki, 「JA: タグ」, https://wiki.openstreetmap.org/wiki/JA:%E3%82%BF%E3%82%B0
-- OpenStreetMap: https://www.openstreetmap.org/
-- Overpass API: https://wiki.openstreetmap.org/wiki/Overpass_API
-- Overpass Turbo: https://overpass-turbo.eu/
-- PostGIS: https://postgis.net/
-- GDAL/OGR: https://gdal.org/
+- [士別市ホームページ, 「自動車等試験研究のまち・士別市」](https://www.city.shibetsu.lg.jp/soshikikarasagasu/homupejikanrisha/3721.html)
+- [北斗市ホームページ, 「北斗市歴史年表」](https://www.city.hokuto.hokkaido.jp/bunkazai/data/sement.htm)
+- [OpenStreetMap Wiki, 「JA: タグ」](https://wiki.openstreetmap.org/wiki/JA:%E3%82%BF%E3%82%B0)
+- [OpenStreetMap](https://www.openstreetmap.org/)
+- [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API)
+- [Overpass Turbo](https://overpass-turbo.eu/)
+- [PostGIS](https://postgis.net/)
+- [GDAL/OGR](https://gdal.org/)
