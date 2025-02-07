@@ -1,8 +1,6 @@
 import { articleFromJson } from "$lib/model";
 import type { PageLoad } from "./$types";
 
-export const prerender = true;
-
 export const load: PageLoad = async ({ fetch, params }) => {
     const { slug } = params;
 
