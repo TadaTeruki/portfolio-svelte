@@ -10,6 +10,7 @@
     import Imgold from "$lib/markdown-renderers/IMGOLD.svelte";
     import Li from "$lib/markdown-renderers/LI.svelte";
     import P from "$lib/markdown-renderers/P.svelte";
+    import Pre from "$lib/markdown-renderers/PRE.svelte";
     import type { Article } from "$lib/model";
     import rehypeRaw from "rehype-raw";
     import remarkGfm from "remark-gfm";
@@ -33,11 +34,10 @@
                 p: P,
                 li: Li,
                 blockquote: Blockquote,
+                pre: Pre,
             },
         },
     ] as Plugin[];
-
-    export const prerender = true;
 </script>
 
 <svelte:head>
@@ -46,6 +46,7 @@
     <meta property="og:title" content={article.title} />
     <meta property="og:description" content={article.description} />
     <meta property="og:type" content="website" />
+    <link rel="icon" href="/icon.png" />
     <meta
         property="og:url"
         content={`https://peruki.dev/blogs/articles/${article.id}`}

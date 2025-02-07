@@ -8,7 +8,6 @@
     {/if}
     <a href="/profile">Profile</a>
     <a href="/works">Works</a>
-    <a href="/skills">Skills</a>
     <a href="/map">Map</a>
     <a href="/contact">Contact</a>
     <a href="/blogs">Blog</a>

@@ -2,7 +2,7 @@
 title: "PostGISで観察する北海道の産業施設" 
 description: ""
 thumbnail: "muroran.webp"
-created_at: "2025-1-28"
+created_at: "2025-01-28"
 ---
 
 # はじめに

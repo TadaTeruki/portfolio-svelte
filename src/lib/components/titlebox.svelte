@@ -34,7 +34,7 @@
     <div class="w-4"></div>
     <div class="flex justify-center m-4">
         <img
-            src="icon.jpeg"
+            src="icon.png"
             alt="icon"
             class="w-30 h-30 rounded-full min-w-30 min-h-30"
         />

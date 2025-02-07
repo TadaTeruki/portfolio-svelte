@@ -24,7 +24,7 @@
 </script>
 
 <div
-    class={"boxbg shadow-sm text-center relative overflow-hidden bg-white bg-opacity-60 shadow-inner" +
+    class={"boxbg shadow-sm text-center relative overflow-hidden bg-white bg-opacity-40 shadow-inner" +
         (fullscreen ? " h-screen" : "")}
 >
     <img

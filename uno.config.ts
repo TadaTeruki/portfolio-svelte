@@ -12,6 +12,11 @@ export default defineConfig({
                         name: 'Zen Kaku Gothic New',
                         weights: ['500', '700'],
                     }
+                ],
+                mono: [
+                    {
+                        name: 'Ubuntu Mono',
+                    }
                 ]
             },
         }),

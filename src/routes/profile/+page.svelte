@@ -38,8 +38,12 @@
     <div class="content">
         <ul>
             <li>
+                Eukarya Inc. as a freelance developer<br />
+                <span class="attribution">Jan. 2025 - Present</span><br />
+            </li>
+            <li>
                 MIERUNE Inc. as a freelance developer<br />
-                <span class="attribution">Feb. 2024 - Present</span><br />
+                <span class="attribution">Feb. 2024 - Jan. 2025</span><br />
             </li>
             <li>
                 Internship at MIERUNE Inc.<br />
