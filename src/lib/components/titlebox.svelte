@@ -26,13 +26,6 @@
             <a class="linkBox" target="_blank" href="https://x.com/perukifun">
                 <Logo template="x" />
             </a>
-            <a
-                class="linkBox"
-                target="_blank"
-                href="https://slides2.peruki.dev"
-            >
-                <Logo template="slide" />
-            </a>
         </div>
     </div>
     <div class="w-4"></div>
