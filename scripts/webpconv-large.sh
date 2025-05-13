@@ -15,7 +15,15 @@ find "$SOURCE_DIR" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.webp
 
     mkdir -p "$DEST_DIR/$(dirname $basename)"
 
-    convert "$file" -resize 1200x "$DEST_DIR/$basename.webp"
+    width=$(identify -format "%h" $file)
+    resolution=1920
+    if [ $width -le $resolution ]; then
+      echo "Enough resolution, copy file"
+      convert "$file" "$DEST_DIR/$basename.webp"
+      continue
+    fi
+
+    convert "$file" -resize ${resolution}x "$DEST_DIR/$basename.webp"
     
     echo "Converted $file to $DEST_DIR/$basename.webp"
 done

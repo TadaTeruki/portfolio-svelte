@@ -24,13 +24,13 @@
 </script>
 
 <div
-    class={"boxbg shadow-sm text-center relative overflow-hidden bg-white bg-opacity-40 shadow-inner" +
+    class={"boxbg shadow-sm text-center relative overflow-hidden bg-white bg-opacity-30 shadow-inner" +
         (fullscreen ? " h-screen" : "")}
 >
     <img
         src={backImage}
         alt="back"
-        class="absolute top-0 left-0 -z-10 object-cover w-full h-full animate-fade-in dark:brightness-70 dark:contrast-150"
+        class="absolute top-0 left-0 -z-10 object-cover w-full h-full dark:brightness-70 dark:contrast-150"
     />
 
     <Topnavigator />
@@ -51,18 +51,5 @@
             linear-gradient(to right, var(--color-grid) 1px, transparent 0px);
         background-size: 1.2em 1.55em;
         background-position: center;
-    }
-
-    @keyframes fade-in {
-        0% {
-            opacity: 0.7;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-
-    .animate-fade-in {
-        animation: fade-in 0.25s ease-out;
     }
 </style>

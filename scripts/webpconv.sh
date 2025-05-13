@@ -8,7 +8,7 @@ DEST_DIR="static/images"
 mkdir -p "$DEST_DIR"
 
 # Find and process all PNG and JPG files
-find "$SOURCE_DIR" -type f \( -iname "*.png" -o -iname "*.jpg" \) | while read -r file; do
+find "$SOURCE_DIR" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.webp" \) | while read -r file; do
     # Extract the filename after the SOURCE_DIR without extension
     basename="${file#$SOURCE_DIR/}"
     basename="${basename%.*}"

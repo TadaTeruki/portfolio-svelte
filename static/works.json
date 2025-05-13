@@ -135,6 +135,26 @@
             ],
             "thumbnail": "wm.webp",
             "personal": true
+        },
+        {
+            "name": "FlushTune",
+            "description": "P2HACKS 2024 Hackathon project",
+            "urls": [
+                {
+                    "tag": "Blog",
+                    "url": "https://peruki.dev/blogs/articles/p2hacks2024"
+                }
+            ],
+            "category": "Web Applications",
+            "technologies": [
+                "TypeScript",
+                "Svelte",
+                "Maplibre GL JS",
+                "Rust",
+                "WebAssembly"
+            ],
+            "thumbnail": "p2hacks2024.webp",
+            "personal": true
         }
     ]
 }
