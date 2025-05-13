@@ -39,8 +39,7 @@
     <div class="content">
         <ul>
             <li>
-                GIS
-                <span class="text-gray-500 dark:text-gray-200 text-sm">Geospatial Information</span>
+                Geospatial Information
             </li>
             <li>
                 GUI
