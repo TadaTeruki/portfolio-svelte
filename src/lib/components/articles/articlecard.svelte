@@ -20,13 +20,13 @@
         />
     {/if}
     <div class="flex flex-col justify-center ml-4 leading-none">
-        <div class="text-sm text-gray-900 dark:text-gray-100">
+        <div class="text-md">
             {article.title}
         </div>
-        <div class="text-xs text-gray-500 dark:text-gray-400">
+        <div class="text-sm text-gray-500 dark:text-gray-400">
             {article.description}
         </div>
-        <div class="text-xs text-gray-500 dark:text-gray-400">
+        <div class="text-sm text-gray-500 dark:text-gray-400">
             記事作成日: {year}年{month}月{day}日
         </div>
         <div class="flex gap-2 text-xs mt-0.5">

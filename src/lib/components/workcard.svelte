@@ -15,15 +15,15 @@
         class="min-w-40 w-40 object-cover rounded-sm shadow-sm"
     />
     <div class="flex flex-col justify-center ml-4 p-2 leading-none">
-        <div class="text-md">{work.name}
-        <span class="text-xs text-gray-500 dark:text-gray-200">
-            {work.description}
-        </span>
+        <div class="text-lg">{work.name}
+            <span class="text-sm text-gray-500 dark:text-gray-200">
+                {work.description}
+            </span>
         </div>
         <div class="flex gap-2">
             {#each work.urls as url}
                 <a
-                    class="text-sm text-linkColor hover:text-linkColorHover dark:text-linkColorDark dark:hover:text-linkColorDarkHover"
+                    class="text-md text-linkColor hover:text-linkColorHover dark:text-linkColorDark dark:hover:text-linkColorDarkHover"
                     href={url.url}
                     target="_blank">{url.tag}</a
                 >
