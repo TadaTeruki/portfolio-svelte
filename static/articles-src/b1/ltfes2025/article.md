@@ -132,7 +132,7 @@ SNS(X)や高度ICT演習での告知は直接的な効果がありました。
 ![ステッカー。名札に貼ってスタッフの識別にも使いました](articles-src/b1/ltfes2025/images/sticker.webp)
 ![](articles-src/b1/ltfes2025/images/design1.webp)
 ![](articles-src/b1/ltfes2025/images/design2.webp)
-![参考: イベント開催時期の葉桜](articles-src/b1/ltfes2025/images/hazakura.webp)
+![そういえば、イベント開催時期の未来大前もこのような素敵な葉桜でした](articles-src/b1/ltfes2025/images/hazakura.webp)
 
 ## 募集ページ
 
