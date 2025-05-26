@@ -181,7 +181,7 @@ Mariners' Conferenceの知見なども踏まえ、Tomisukeさんにお願いし�
 
 撮影内容: [Google Photos](https://photos.google.com/share/AF1QipNTF05FcRInUYks8P6och1_zapU556BWpnbMnZ0CZjwZZQcQwp7LBIU1Plnwr7Jsg?key=aXlWd0FnSFVqOUZkUy11V09pMUt1UUIyaGVtN293)
 
-撮影および公開 (撮影許可のチェック含む) はissyさんにお願いしました。開催準備中の写真もいくつかあるようです。
+撮影および公開 (撮影許可のチェック含む) はissyさんにお願いしました。素敵な写真をありがとうございました。開催準備中の写真もいくつかあるようです。
 
 今回のイベント実施にあたっては、企画書の作成や広報などで使う写真素材の不足が悩みどころでした。参加者自身による振り返りや、次の開催も含めた今後の広報に活用できるよう、参加者の方々から許可を得て撮影を行い公開しています。
 
