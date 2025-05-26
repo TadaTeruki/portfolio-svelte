@@ -144,7 +144,7 @@ SNS(X)や高度ICT演習での告知は直接的な効果がありました。
 
 ## タイムテーブル
 
-![[タイムテーブル](https://docs.google.com/spreadsheets/d/1YMnueg3gNNqdX4ssdemNV9tLjUdVCztMJJguAJMMthM/edit?usp=sharing)](articles-src/b1/ltfes2025/images/timetable.webp)
+![[タイムテーブル](https://docs.google.com/spreadsheets/d/1YMnueg3gNNqdX4ssdemNV9tLjUdVCztMJJguAJMMthM/edit?usp=sharing)。グラデーションが素敵](articles-src/b1/ltfes2025/images/timetable.webp)
 
 作成・管理・更新はuiroさんにお願いしました。  
 企業エンジニアの方10分、学生5分と、これまでの開催と同様の時間配分で進行しました。
