@@ -81,13 +81,21 @@ created_at: "2025-05-24"
 
 **Discord**: 運営メンバー間の連絡・MTGの開催
 
-## 企画書
-
-![企画書](articles-src/b1/ltfes2025/images/kikaku.webp)
+## 開催要項
 
 [Google Docs](https://docs.google.com/document/d/1eMNlV0PxEAZaZAKbIzj7j3X-hw1Ynr-ryTDO0ni_vDo/edit?usp=sharing)
 
-最初の段階では企画書を作成し、協賛を検討している企業の方々に協賛手続きやスケジュールの説明を行いました。
+協賛を検討している企業の方々にイベントの説明を行うための開催要項を作成し配布しました。内容は主に以下の通りです。
+
+- イベントの概要
+- 場所・日時
+- 想定参加人数
+- 発表時間
+- 懇親会の内容
+- 協賛費用
+- 連絡手段
+- 過去のイベント開催事例
+- イベント責任者
 
 ## 企業誘致
 
