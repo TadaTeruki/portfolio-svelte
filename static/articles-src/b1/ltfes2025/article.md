@@ -1,6 +1,6 @@
 ---
 title: "「はこだて未来大×企業エンジニア 大LT2025」を開催しました"
-description: ""
+description: "#LTFES2025_FUN"
 thumbnail: "top.webp"
 created_at: "2025-05-24"
 ---
@@ -83,7 +83,7 @@ created_at: "2025-05-24"
 
 ## 開催要項
 
-[Google Docs](https://docs.google.com/document/d/1eMNlV0PxEAZaZAKbIzj7j3X-hw1Ynr-ryTDO0ni_vDo/edit?usp=sharing)
+![](articles-src/b1/ltfes2025/images/kikaku.webp)
 
 協賛を検討している企業の方々にイベントの説明を行うための開催要項を作成し配布しました。内容は主に以下の通りです。
 
